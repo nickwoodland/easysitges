@@ -1,0 +1,194 @@
+/*
+    Theme Name: GoodLiving
+    Theme URI: http://colorlabsproject.com/themes/goodliving/
+    Author: Colorlabs & Company
+    Author URI: http://colorlabsproject.com
+    Release Date: 19 April 2013
+    Designer: Andre Septian
+    Designer URI: http://about.me/andreseptian
+    Requirements: WordPress 3.0 or higher, PHP 5
+    Compatibility: WordPress 3.5 and higher
+    Tags: green, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, custom-menu, editor-style, featured-images, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+    Last Update Date: 23 November 2015
+*/
+
+/**** Changelog ****/
+
+2015.11.23 - Version 1.2.3
+- Fix: Overwrite IDXpress Layout Style
+  Files Affected: style.css, sidebar.php, theme-options.php, theme-functions.php
+- Fix: Reset/Change Password
+  File Added: custom-strengthmeter,js
+  Files Affected: theme-js.php, template-profile.php, theme-login.php
+
+2015.09.18 - Version 1.2.2
+- Fix: Featured Option for Property
+  File Affected: theme-custom-type.php
+  
+2015.09.02 - Version 1.2.1
+- Update: Framework
+  Folder Affected: functions/
+- Fix: Deprecated Functions
+  Folder Affected: includes/widgets/
+- Fix: Several Bugs
+  Files Affected: theme-functions.php, content-dashboard-properties.php, template-profile.php, archive.php, taxonomy.php, theme-property.php, theme-custom-fields.php, theme-comments.php, theme-custom-type.php, admin-panel.php, confirm-form.php, theme-js.php
+  
+2015.04.08 - Version 1.2.0
+- Update: Framework
+  Folder Affected: functions/
+- Fix: Payment Gateway
+  Folders Affected: includes/admin/, includes/gateways/
+  Files Affected: template-dashboard.php, template-edit-property.php, template-editprofile.php, template-submit-property.php, includes/theme-custom-fields.php, includes/theme-emails.php, includes/theme-functions.php, includes/theme-gateways.php
+  Files Added: content-dashboard-orders.php, content-dashboard-properties.php
+- Fix: Language Translation
+  Files Affected: template-contact.php, lang/cs_CZ.po, lang/en_US.po, lang/id_ID.po
+
+2015.01.12 - Version 1.1.8
+- Add: Editor Styles to make the editor content match the resulting post output in the theme, for a better user experience
+  File Added: editor-style.css
+  File Affected: includes/theme-functions.php
+- Fix: Make Theme Screenshot larger for supporting HiDPI Displays
+  File Affected: screenshot.png
+- Fix: WordPress deprecated functions
+  Files Affected: template-dashboard.php, template-sitemap.php, includes/theme-emails.php, includes/theme-property.php, includes/theme-sidebar-init.php, includes/forms/property-search.php, includes/orders/orders.class.php
+- Fix: Textdomain (Language Translation) problems
+  Files Affected: header.php, template-edit-property.php, template-profile.php, template-submit-property.php, includes/theme-emails.php, includes/theme-functions.php, includes/theme-login.php, includes/orders/admin-orders.php, lang/cs_CZ.po, lang/en_US.po, lang/id_ID.po
+- Fix: Compatibility with future Framework update
+  Files Affected: header.php, includes/theme-functions.php
+
+2014.12.24 - Version 1.1.7.1
+- Fix: Newly Registered Users can't upload files
+  Files Affected: includes/theme-functions.php, includes/theme-login.php
+
+2014.12.22 - Version 1.1.7
+- Add: Notification to install required pages on first theme activation
+  File Added: includes/theme-install.php
+  File Affected: functions.php
+- Add: Option to enable or disable Rich Text Editor for property description field
+  Files Affected: includes/theme-custom-fields.php, includes/theme-options.php
+- Fix: Missing property type field on Property submission page
+  Files Affected: style.css, template-edit-property.php, template-submit-property.php
+
+2014.12.16 - Version 1.1.6
+- Update: Framework
+  Folder Affected: functions/
+- Fix: Compatibility with plugins that modify the Login or Register page
+  Files Affected: functions.php, includes/theme-login.php
+  Files Removed: includes/forms/forgot-password/forgot-password-form.php, includes/forms/login/login-form.php, includes/forms/login/login-process.php, includes/forms/register/register-form.php, includes/forms/register/register-process.php
+- Fix: Use new version of Google reCaptcha
+  Files Affected: style.css, includes/theme-functions.php, includes/theme-options.php, includes/theme-property.php
+  File Removed: includes/lib/recaptchalib.php
+
+2014.07.23 - Version 1.1.5
+- Fix: Submit and Edit Property Form
+  Files Added: theme-custom-fields.php, custom-form-builder.js
+  Files Affected: template-submit-property.php, template-edit-property.php, functions.php, style.css
+- Change: Responsive Menu
+  File Added: jquery.mmenu.css
+  Files Affected: header.php, footer.php, theme-js.php, plugins.js, scripts.js
+- Fix: Google Map at Single Property Admin
+  File Affected: theme-property.php  
+  
+2014.06.18 - Version 1.1.4
+- Fix: Language Translate
+  Files Affected: property-search.php, footer.php, plugin.js, theme-js.php
+  
+2014.05.14 - Version 1.1.3
+- Update: Framework
+  Folder Affected: functions/
+- Fix: Hide currency symbol when Property price is empty
+  Files Affected: sidebar.php, content-property.php
+- Fix: Use WordPress function to generate Thumbnail for Single Property Page instead of TimThumb
+  File Affected: single-property.php
+- Fix: CSS style of Widget Tabs
+  File Affected: style.css
+- Fix: When Property marked as sold, the Property status on Single Property page not changed
+  File Affected: template-dashboard.php
+- Fix: Property Archive Page when there is sold Property
+  File Affected: content-property.php
+- Fix: Wrong icon for resume Property button on Dashboard page
+  File Affected: template-dashboard.php
+- Fix: Remove unneeded option from Theme Options
+  File Affected: includes/theme-options.php
+- Fix: Show error message if required fields are empty when submitting property
+  Files Affected: style.css, template-submit-property.php
+- Fix: Use proper Header Tag hierarchy on Single Post, Property and Page. It has an impact on both the SEO and usability of site
+  Files Affected: page.php, single.php, single-property.php
+- Fix: WordPress deprecated functions
+  Files Affected: includes/theme-emails.php, includes/theme-options.php, includes/theme-widgets.php, includes/property-search.php
+- Fix: CSS conflict with Plugin that use Twitter Bootstrap
+  File Affected: includes/theme-gateways.php
+
+2014.04.11 - Version 1.1.2
+- Add: Metabox for editing Property Maps on WP Admin
+  File Affected: includes/theme-property.php
+- Fix: Property ordering not work on Property Search page
+  Files Affected: header.php, index.php, includes/theme-functions.php, includes/forms/property-search.php
+- Fix: Some options which untranslatable by WPML
+  File Affected: wpml-config.xml
+- Fix: Some deprecated WordPress functions
+  File Affected: includes/theme-gateways.php
+
+2014.04.02 - Version 1.1.1
+- Update: Framework
+  Folder Affected: functions/
+- Fix: Can't save Payment Gateways options
+  File Affected: includes/theme-gateways.php
+- Fix: Theme Panel color scheme on Payment Gateways options page
+  File Affected: includes/orders/admin-orders.php
+
+2014.03.19 - Version 1.1.0
+- Add: Option to show Advance Search on Header, now you can show Advance Search without DSIDXPress plugin installed
+  Files Affected: header.php, includes/theme-options.php
+- Add: Announcement box will be hidden for 2 days if user click the close button
+  Files Affected: index.php, includes/js/scripts.js, includes/js/plugins.js
+- Fix: 'Sort by' Dropdown on homepage not working properly
+  File Affected: header.php
+- Fix: Error when there is no search result found
+  File Added: content-property-noresult.php
+  File Affected: search.php
+- Fix: Error when using Advance Search without selecting any search filter, now search result will return all Properties
+  File Affected: includes/theme-functions.php
+- Fix: Improve the Advance Search, now search results are more accurate
+  Files Affected: style.css, search.php, includes/theme-functions.php, includes/forms/property-search.php, includes/js/scripts.js
+
+2014.01.22 - Version 1.0.4
+- Update: Framework
+  Folder Affected: functions/
+- Fix: Recurrent scripts (cron job) that make some Web Hosting crash
+  File Affected: includes/theme-cron.php
+- Fix: PHP Code inside custom_functions.php not executed because the file is not found
+  File Affected: functions.php
+- Fix: 'Sort by' Dropdown on homepage, when 'Sort by Latest' selected, page not refreshed
+  File Affected: header.php
+- Fix: Remove PHP and WordPress deprecated functions
+  Files Affected: includes/theme-property.php, includes/orders/order.class.php
+- Fix: Do some PHP variable checking for prevent error
+  File Affected: index.php, includes/theme-custom-type.php
+
+2013.10.01 - Version 1.0.3
+- Fix: Property Sold Status
+  Files Affected: sidebar.php. content-property.php
+- Add: Custom Background
+  Files Affected: style.css, theme-functions.php
+- Fix: Google Maps
+  Files Added: black-dot.png, red-dot.png, blue-dot.png, yellow-dot.png, pink-dot.png, green-dot.png, teal-dot.png, purple-dot.png, white-dot.png
+  Files Affected: theme-options.php, theme-property.php
+  
+2013.09.05 - Version 1.0.2.1
+- Fix: Property Search Tabs on Header not working properly
+  File Affected: header.php
+
+2013.08.23 - Version 1.0.2
+- Fix: Search Form and Register Form
+  Files Affected: searchform.php, register-process.php
+- Integrate with BuddyPress plugin
+  File Affected: style.css
+- Integrate with WPML plugin
+  File Added: wpml-config.xml
+
+2013.06.14 - Version 1.0.1
+- Fix: Twitter widget API
+
+2013.04.19 - Version 1.0.0
+ First release!

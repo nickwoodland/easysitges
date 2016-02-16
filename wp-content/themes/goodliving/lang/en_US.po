@@ -1,0 +1,6074 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Goodliving v1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-04-08 02:36:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: content-post.php:10
+#@ colabsthemes
+msgid "No Comment"
+msgstr ""
+
+#: content-post.php:10
+#: single.php:14
+#@ colabsthemes
+msgid "% Comments"
+msgstr ""
+
+#: functions/admin-backup.php:75
+#@ colabsthemes
+msgid "ColorLabs Import/Export Settings"
+msgstr ""
+
+#: functions/admin-backup.php:75
+#@ colabsthemes
+msgid "Import/Export Settings"
+msgstr ""
+
+#: functions/admin-backup.php:119
+#@ colabsthemes
+msgid "Import Settings"
+msgstr ""
+
+#: functions/admin-backup.php:121
+#@ colabsthemes
+msgid "If you have settings in a backup file on your computer, the ColorLabs Framework can import those into this site. To get started, upload your backup file to import from below."
+msgstr ""
+
+#: functions/admin-backup.php:126
+#: functions/admin-customizer.php:124
+#, php-format
+#@ colabsthemes
+msgid "Upload File: (Maximum Size: %s)"
+msgstr ""
+
+#: functions/admin-backup.php:129
+#: functions/admin-customizer.php:127
+#@ colabsthemes
+msgid "Upload File and Import"
+msgstr ""
+
+#: functions/admin-backup.php:138
+#@ colabsthemes
+msgid "Export Settings"
+msgstr ""
+
+#: functions/admin-backup.php:140
+#@ colabsthemes
+msgid "When you click the button below, the ColorLabs Framework will create a text file for you to save to your computer."
+msgstr ""
+
+#: functions/admin-backup.php:141
+#, php-format
+#@ colabsthemes
+msgid "This text file can be used to restore your settings here on \"%s\", or to easily setup another website with the same settings\"."
+msgstr ""
+
+#: functions/admin-backup.php:145
+#@ colabsthemes
+msgid "All Settings"
+msgstr ""
+
+#: functions/admin-backup.php:146
+#@ colabsthemes
+msgid "This will contain all of the options listed below."
+msgstr ""
+
+#: functions/admin-backup.php:148
+#: functions/admin-interface-functions.php:50
+#: functions/admin-interface.php:166
+#: functions/admin-interface.php:168
+#@ colabsthemes
+msgid "Theme Options"
+msgstr ""
+
+#: functions/admin-backup.php:150
+#: functions/admin-interface-functions.php:60
+#@ colabsthemes
+msgid "SEO Settings"
+msgstr ""
+
+#: functions/admin-backup.php:152
+#@ colabsthemes
+msgid "Sidebar Manager"
+msgstr ""
+
+#: functions/admin-backup.php:152
+#@ colabsthemes
+msgid "This will contain only the custom sidebars themselves and not the widgets within them"
+msgstr ""
+
+#: functions/admin-backup.php:155
+#@ colabsthemes
+msgid "Download Export File"
+msgstr ""
+
+#: functions/admin-backup.php:191
+#@ colabsthemes
+msgid "Welcome to the ColorLabs Import/Export Manager."
+msgstr ""
+
+#: functions/admin-backup.php:192
+#: functions/admin-customizer.php:165
+#@ colabsthemes
+msgid "Here are a few notes on using this screen."
+msgstr ""
+
+#: functions/admin-backup.php:193
+#@ colabsthemes
+msgid "The backup manager allows you to backup or restore your \"Theme Options\" and other settings to or from a text file."
+msgstr ""
+
+#: functions/admin-backup.php:194
+#@ colabsthemes
+msgid "To create a backup, simply select the setting type you'd like to backup (or \"All Settings\") and hit the \"Download Export File\" button."
+msgstr ""
+
+#: functions/admin-backup.php:195
+#@ colabsthemes
+msgid "To restore your settings from a backup, browse your computer for the file (under the \"Import Settings\" heading) and hit the \"Upload File and Import\" button. This will restore only the settings that have changed since the backup."
+msgstr ""
+
+#: functions/admin-backup.php:197
+#@ colabsthemes
+msgid "Please note that only valid backup files generated through the ColorLabs Import/Export Manager should be imported."
+msgstr ""
+
+#: functions/admin-backup.php:199
+#: functions/admin-customizer.php:172
+#@ colabsthemes
+msgid "Looking for assistance?"
+msgstr ""
+
+#: functions/admin-backup.php:200
+#: functions/admin-customizer.php:173
+#, php-format
+#@ colabsthemes
+msgid "Please post your query on the %sColorLabs Support Forums%s where we will do our best to assist you further."
+msgstr ""
+
+#: functions/admin-backup.php:220
+#, php-format
+#@ colabsthemes
+msgid "Please note that this backup manager backs up only your settings and not your content. To backup your content, please use the %sWordPress Export Tool%s."
+msgstr ""
+
+#: functions/admin-backup.php:223
+#: functions/admin-customizer.php:194
+#@ colabsthemes
+msgid "There was a problem importing your settings. Please Try again."
+msgstr ""
+
+#: functions/admin-backup.php:225
+#: functions/admin-customizer.php:196
+#@ colabsthemes
+msgid "There was a problem exporting your settings. Please Try again."
+msgstr ""
+
+#: functions/admin-backup.php:227
+#: functions/admin-customizer.php:198
+#@ colabsthemes
+msgid "The import file you've provided is invalid. Please try again."
+msgstr ""
+
+#: functions/admin-backup.php:229
+#: functions/admin-customizer.php:200
+#, php-format
+#@ colabsthemes
+msgid "Settings successfully imported. | Return to %sTheme Options%s"
+msgstr ""
+
+#: functions/admin-custom.php:139
+#@ colabsthemes
+msgid " Custom Settings"
+msgstr ""
+
+#: functions/admin-dashboard.php:43
+#: includes/admin/admin-statistics.php:39
+#@ colabsthemes
+msgid "Info"
+msgstr ""
+
+#: functions/admin-dashboard.php:47
+#@ colabsthemes
+msgid "Product Version"
+msgstr ""
+
+#: functions/admin-dashboard.php:48
+#@ colabsthemes
+msgid "Framework Version"
+msgstr ""
+
+#: functions/admin-dashboard.php:49
+#@ colabsthemes
+msgid "Product Support"
+msgstr ""
+
+#: functions/admin-backup.php:166
+#: functions/admin-customizer.php:139
+#: functions/admin-dashboard.php:49
+#: functions/admin-editor.php:204
+#: functions/admin-interface.php:360
+#: functions/admin-layout.php:68
+#: functions/admin-readme.php:60
+#: functions/admin-sbm.php:1239
+#: functions/admin-seo.php:334
+#: functions/admin-update.php:75
+#: includes/theme-gateways.php:237
+#@ colabsthemes
+msgid "Submit a Support Ticket"
+msgstr ""
+
+#: functions/admin-dashboard.php:49
+#@ colabsthemes
+msgid "Theme Documentation"
+msgstr ""
+
+#: functions/admin-dashboard.php:57
+#@ colabsthemes
+msgid "ColorLabs News"
+msgstr ""
+
+#: functions/admin-dashboard.php:70
+#@ colabsthemes
+msgid "ColorLabs Tweets"
+msgstr ""
+
+#: functions/admin-editor.php:32
+#: functions/admin-editor.php:34
+#: functions/admin-editor.php:36
+#: functions/admin-editor.php:38
+#: functions/admin-editor.php:40
+#: functions/admin-editor.php:212
+#@ colabsthemes
+msgid "Attention!"
+msgstr ""
+
+#: functions/admin-editor.php:32
+#@ colabsthemes
+msgid "For security reasons, the file you are attempting to edit cannot be modified via this screen."
+msgstr ""
+
+#: functions/admin-editor.php:34
+#@ colabsthemes
+msgid "Your <code>custom/</code> directory does not appear to exist. Have you remembered to rename <code>/custom-sample</code>?"
+msgstr ""
+
+#: functions/admin-editor.php:36
+#@ colabsthemes
+msgid "The file you are attempting does not appear to exist."
+msgstr ""
+
+#: functions/admin-editor.php:38
+#, php-format
+#@ colabsthemes
+msgid "Your <code>/custom/%s</code> file is not writable by the server, and in order to modify the file via the admin panel, Backbone needs to be able to write to this file. All you have to do is set this file&#8217;s permissions to 666, and you&#8217;ll be good to go."
+msgstr ""
+
+#: functions/admin-editor.php:52
+#@ colabsthemes
+msgid "You don&#8217;t have admin privileges to access theme options."
+msgstr ""
+
+#: functions/admin-editor.php:95
+#@ colabsthemes
+msgid "You have attempted to modify an ineligible file. Only files within the ColorLabs <code>/custom</code> folder may be modified via this interface. Thank you."
+msgstr ""
+
+#: functions/admin-editor.php:167
+#, php-format
+#@ colabsthemes
+msgid "Currently editing: <code>%s</code>"
+msgstr ""
+
+#: functions/admin-editor.php:177
+#@ colabsthemes
+msgid "Edit selected file"
+msgstr ""
+
+#: functions/admin-editor.php:182
+#@ colabsthemes
+msgid "<strong>Note:</strong> If you make a mistake in your code while modifying a <acronym title=\"PHP: Hypertext Preprocessor\">PHP</acronym> file, saving this page <em>may</em> result your site becoming temporarily unusable. Prior to editing such files, be sure to have access to the file via <acronym title=\"File Transfer Protocol\">FTP</acronym> or other means so that you can correct the error."
+msgstr ""
+
+#: functions/admin-editor.php:194
+#: functions/admin-editor.php:231
+#@ colabsthemes
+msgid "Color Reference"
+msgstr ""
+
+#: functions/admin-editor.php:212
+#@ colabsthemes
+msgid "In order to edit your custom files, you&#8217;ll need to change the name of your <code>custom-sample</code> folder to <code>custom</code>."
+msgstr ""
+
+#: functions/admin-editor.php:232
+#@ colabsthemes
+msgid "Color reference for custom file editor"
+msgstr ""
+
+#: functions/admin-functions.php:1547
+#@ colabsthemes
+msgid "Search Results"
+msgstr ""
+
+#: functions/admin-functions.php:1548
+#@ colabsthemes
+msgid "Author Archives"
+msgstr ""
+
+#: functions/admin-functions.php:1551
+#@ colabsthemes
+msgid "Category Archive"
+msgstr ""
+
+#: functions/admin-functions.php:1552
+#: functions/admin-functions.php:1557
+#@ colabsthemes
+msgid " Archive"
+msgstr ""
+
+#: functions/admin-functions.php:1553
+#@ colabsthemes
+msgid "Daily Archive"
+msgstr ""
+
+#: functions/admin-functions.php:1554
+#@ colabsthemes
+msgid "Monthly Archive"
+msgstr ""
+
+#: functions/admin-functions.php:1555
+#@ colabsthemes
+msgid "Yearly Archive"
+msgstr ""
+
+#: functions/admin-functions.php:1556
+#@ colabsthemes
+msgid "Tag Archive"
+msgstr ""
+
+#: functions/admin-functions.php:2448
+#: includes/orders/admin-orders.php:172
+#@ colabsthemes
+msgid "&laquo; Previous"
+msgstr ""
+
+#: functions/admin-functions.php:2449
+#: includes/orders/admin-orders.php:173
+#@ colabsthemes
+msgid "Next &raquo;"
+msgstr ""
+
+#: functions/admin-functions.php:2574
+#@ colabsthemes
+msgid "You are here:"
+msgstr ""
+
+#: functions/admin-functions.php:2577
+#@ colabsthemes
+msgid "Home"
+msgstr ""
+
+#: functions/admin-functions.php:2795
+#@ colabsthemes
+msgid "g:i a"
+msgstr ""
+
+#: functions/admin-functions.php:2798
+#, php-format
+#@ colabsthemes
+msgid "Minute %1$s"
+msgstr ""
+
+#: functions/admin-functions.php:2798
+#@ colabsthemes
+msgid "i"
+msgstr ""
+
+#: functions/admin-functions.php:2801
+#@ colabsthemes
+msgid "g a"
+msgstr ""
+
+#: content-dashboard-orders.php:65
+#: functions/admin-functions.php:2812
+#: functions/admin-functions.php:2818
+#: functions/admin-functions.php:2823
+#: functions/admin-functions.php:2828
+#@ colabsthemes
+msgid "Y"
+msgstr ""
+
+#: functions/admin-functions.php:2813
+#: functions/admin-functions.php:2824
+#@ colabsthemes
+msgid "F"
+msgstr ""
+
+#: functions/admin-functions.php:2814
+#@ colabsthemes
+msgid "j"
+msgstr ""
+
+#: functions/admin-functions.php:2819
+#, php-format
+#@ colabsthemes
+msgid "Week %1$s"
+msgstr ""
+
+#: functions/admin-functions.php:2819
+#@ colabsthemes
+msgid "W"
+msgstr ""
+
+#: functions/admin-functions.php:2835
+#, php-format
+#@ colabsthemes
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: functions/admin-functions.php:2839
+#@ colabsthemes
+msgid "404 Not Found"
+msgstr ""
+
+#: functions/admin-interface-functions.php:70
+#@ colabsthemes
+msgid "Layout Settings"
+msgstr ""
+
+#: functions/admin-interface-functions.php:105
+#@ colabsthemes
+msgid "Updates"
+msgstr ""
+
+#: functions/admin-interface.php:194
+#@ colabsthemes
+msgid "Custom File Editor"
+msgstr ""
+
+#: functions/admin-interface.php:203
+#@ colabsthemes
+msgid "Readme"
+msgstr ""
+
+#: functions/admin-interface.php:388
+#@ colabsthemes
+msgid "Framework"
+msgstr ""
+
+#: functions/admin-medialibrary-uploader.php:58
+#@ colabsthemes
+msgid "CoLabsFramework Internal Container"
+msgstr ""
+
+#: functions/admin-medialibrary-uploader.php:170
+#: includes/theme-custom-fields.php:337
+#: includes/theme-js.php:41
+#@ colabsthemes
+msgid "Upload"
+msgstr ""
+
+#: functions/admin-medialibrary-uploader.php:196
+#@ colabsthemes
+msgid "View File"
+msgstr ""
+
+#: functions/admin-medialibrary-uploader.php:322
+#: includes/forms/preview-form.php:26
+#: includes/forms/submit-form.php:175
+#: single-property.php:42
+#@ colabsthemes
+msgid "Gallery"
+msgstr ""
+
+#: functions/admin-medialibrary-uploader.php:322
+#@ colabsthemes
+msgid "Previously Uploaded"
+msgstr ""
+
+#: functions/admin-readme.php:40
+#@ colabsthemes
+msgid " - README.txt Theme File"
+msgstr ""
+
+#: functions/admin-shortcodes.php:444
+#@ colabsthemes
+msgid "No related posts found"
+msgstr ""
+
+#: functions/admin-shortcodes.php:983
+#@ colabsthemes
+msgid "Hide the Content"
+msgstr ""
+
+#: functions/admin-shortcodes.php:984
+#@ colabsthemes
+msgid "Show the Content"
+msgstr ""
+
+#: functions/admin-shortcodes.php:991
+#@ colabsthemes
+msgid "Read More"
+msgstr ""
+
+#: functions/admin-shortcodes.php:992
+#@ colabsthemes
+msgid "Read Less"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1103
+#@ colabsthemes
+msgid "Message via the contact form"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1104
+#: template-contact.php:163
+#@ colabsthemes
+msgid "Submit"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1401
+#@ colabsthemes
+msgid "Please enter your name"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1402
+#@ colabsthemes
+msgid "Please enter your email address (and please make sure it's valid)"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1403
+#@ colabsthemes
+msgid "Please enter your message"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1479
+#: functions/admin-shortcodes.php:1485
+#: template-contact.php:53
+#: template-contact.php:60
+#@ colabsthemes
+msgid "From: "
+msgstr ""
+
+#: functions/admin-shortcodes.php:1479
+#: functions/admin-shortcodes.php:1485
+#: template-contact.php:53
+#@ colabsthemes
+msgid "Reply-To: "
+msgstr ""
+
+#: functions/admin-shortcodes.php:1504
+#@ colabsthemes
+msgid "Your email was successfully sent."
+msgstr ""
+
+#: functions/admin-shortcodes.php:1512
+#@ colabsthemes
+msgid "There were one or more errors while submitting the form."
+msgstr ""
+
+#: functions/admin-shortcodes.php:1519
+#@ colabsthemes
+msgid "E-mail has not been setup properly. Please add your contact e-mail!"
+msgstr ""
+
+#: functions/admin-sbm.php:644
+#: functions/admin-sbm.php:1056
+#: functions/admin-shortcodes.php:1540
+#: includes/theme-custom-type.php:80
+#: sidebar.php:181
+#: sidebar.php:317
+#: template-contact.php:131
+#@ colabsthemes
+msgid "Name"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1551
+#: includes/theme-custom-type.php:81
+#: sidebar.php:188
+#: sidebar.php:324
+#: template-contact.php:139
+#@ colabsthemes
+msgid "Email"
+msgstr ""
+
+#: comments.php:48
+#: functions/admin-shortcodes.php:1562
+#: sidebar.php:203
+#: sidebar.php:338
+#: template-contact.php:147
+#@ colabsthemes
+msgid "Message"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1694
+#: sidebar.php:211
+#: sidebar.php:346
+#: template-contact.php:156
+#@ colabsthemes
+msgid "Send a copy of this email to yourself"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1700
+#: sidebar.php:214
+#: sidebar.php:349
+#: template-contact.php:160
+#@ colabsthemes
+msgid "If you want to submit this form, do not enter anything in this field"
+msgstr ""
+
+#: functions/admin-shortcodes.php:2072
+#: functions/admin-shortcodes.php:2122
+#: functions/admin-shortcodes.php:2138
+#, php-format
+#@ colabsthemes
+msgid "My %s Profile"
+msgstr ""
+
+#: functions/admin-shortcodes.php:2093
+#@ colabsthemes
+msgid "Subscribe to our RSS feed"
+msgstr ""
+
+#: functions/admin-shortcodes.php:2436
+#: includes/widgets/widget-colabs-twitter.php:38
+#@ colabsthemes
+msgid "Follow"
+msgstr ""
+
+#: comments.php:27
+#@ colabsthemes
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:52
+#@ colabsthemes
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:53
+#@ colabsthemes
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:54
+#: content-dashboard-orders.php:100
+#: content-dashboard-properties.php:107
+#: functions/admin-sbm.php:1173
+#: functions/admin-sbm.php:1213
+#@ colabsthemes
+msgid "Cancel"
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:51
+#@ colabsthemes
+msgid "Customize the Shortcode"
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:60
+#: includes/theme-property.php:179
+#@ colabsthemes
+msgid "Preview"
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:74
+#@ colabsthemes
+msgid "Shortcode Generator Error"
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:77
+#, php-format
+#@ colabsthemes
+msgid "Your version of the CoLabsFramework (%s) does not yet support shortcodes. Shortcodes were introduced with version %s of the framework."
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:79
+#: functions/js/shortcode-generator/dialog.php:93
+#@ colabsthemes
+msgid "What to do now?"
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:81
+#@ colabsthemes
+msgid "Upgrading your theme, or rather the CoLabsFramework portion of it, will do the trick."
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:83
+#, php-format
+#@ colabsthemes
+msgid "The framework is a collection of functionality that all CoLabsThemes have in common. In most cases you can update the framework even if you have modified your theme, because the framework resides in a separate location (under %s)."
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:85
+#, php-format
+#@ colabsthemes
+msgid "There's a tutorial on how to do this on colorlabsproject.com: %sHow to upgradeyour theme%s."
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:87
+#@ colabsthemes
+msgid "<strong>Remember:</strong> Always backup your theme before you update it or make changes to it."
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:91
+#@ colabsthemes
+msgid "Looks like your active theme is not from ColorLabs. The shortcode generator only works with themes from ColorLabs."
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:95
+#@ colabsthemes
+msgid "Pick a fight: (1) If you already have a theme from ColorLabs, install and activate it or (2) if you don't yet have one of the awesome ColorLabs theme head over to the <a href=\"http://colorlabsproject.com/themes/\" target=\"_blank\" title=\"ColorLabs Gallery\">ColorLabs Gallery</a> and get one."
+msgstr ""
+
+#: includes/widgets/widget-colabs-tabs.php:260
+#@ colabsthemes
+msgid "on "
+msgstr ""
+
+#: includes/theme-comments.php:13
+#@ colabsthemes
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/widgets/widget-colabs-embed.php:100
+#: includes/widgets/widget-colabs-fbfriends.php:50
+#@ colabsthemes
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-tabs.php:45
+#: includes/widgets/widget-colabs-tabs.php:73
+#: includes/widgets/widget-colabs-tabs.php:160
+#: includes/widgets/widget-colabs-tabs.php:179
+#@ colabsthemes
+msgid "Tags"
+msgstr ""
+
+#: includes/widgets/widget-colabs-twitter.php:38
+#@ colabsthemes
+msgid "on Twitter"
+msgstr ""
+
+#: includes/widgets/widget-colabs-ad-sidebar.php:70
+#: includes/widgets/widget-colabs-flickr.php:50
+#: includes/widgets/widget-colabs-socialnetwork.php:91
+#: includes/widgets/widget-colabs-twitter.php:81
+#@ colabsthemes
+msgid "Title (optional):"
+msgstr ""
+
+#: includes/widgets/widget-colabs-twitter.php:85
+#@ colabsthemes
+msgid "Username:"
+msgstr ""
+
+#: content-dashboard-orders.php:47
+#: content-dashboard-orders.php:65
+#: includes/admin/class-colabs-report-sales-by-date.php:21
+#: includes/theme-custom-type.php:82
+#: includes/theme-custom-type.php:224
+#: includes/theme-orders.php:350
+#@ colabsthemes
+msgid "Date"
+msgstr ""
+
+#: includes/forms/preview-form.php:67
+#: single-property.php:118
+#@ colabsthemes
+msgid "sq ft"
+msgstr ""
+
+#: includes/forms/preview-form.php:68
+#: single-property.php:119
+#@ colabsthemes
+msgid "beds"
+msgstr ""
+
+#: includes/forms/preview-form.php:69
+#: single-property.php:120
+#@ colabsthemes
+msgid "baths"
+msgstr ""
+
+#: comments.php:36
+#@ colabsthemes
+msgid "Your Name (required)"
+msgstr ""
+
+#: comments.php:39
+#@ colabsthemes
+msgid "Your Email (required)"
+msgstr ""
+
+#: comments.php:42
+#: comments.php:43
+#@ colabsthemes
+msgid "Your Website"
+msgstr ""
+
+#: functions/admin-customizer.php:71
+#@ colabsthemes
+msgid "Customizer Importer"
+msgstr ""
+
+#: functions/admin-customizer.php:117
+#@ colabsthemes
+msgid "Import Customizer Settings"
+msgstr ""
+
+#: functions/admin-customizer.php:119
+#, php-format
+#@ colabsthemes
+msgid "If you have tried <a href=\"%s\" target=\"_blank\">ColorLabs Customizer Demo</a> and export the settings into your computer, then you can import the exported file (.json) containing customizer settings to your site here. "
+msgstr ""
+
+#: functions/admin-customizer.php:120
+#, php-format
+#@ colabsthemes
+msgid "Or you can customize your theme by using <a href=\"%s\">Wordpress Customizer</a>."
+msgstr ""
+
+#: functions/admin-customizer.php:164
+#@ colabsthemes
+msgid "Welcome to the ColorLabs Customizer Import Manager."
+msgstr ""
+
+#: functions/admin-customizer.php:166
+#@ colabsthemes
+msgid "You can import your customizer settings that you have created on ColorLabs Customizer Demo Site."
+msgstr ""
+
+#: functions/admin-customizer.php:168
+#@ colabsthemes
+msgid "To restore your customizer settings from a backup, browse your computer for the file (under the \"Import Customizer Settings\" heading) and hit the \"Upload File and Import\" button. This will restore only the settings that have changed since the backup."
+msgstr ""
+
+#: functions/admin-customizer.php:170
+#@ colabsthemes
+msgid "Please note that only valid backup files (.json) generated through the ColorLabs Customizer Demo should be imported."
+msgstr ""
+
+#: functions/admin-dashboard.php:32
+#@ colabsthemes
+msgid "Theme Info"
+msgstr ""
+
+#: functions/admin-editor.php:40
+#@ colabsthemes
+msgid "Wrong file type, please upload css/txt file to add custom css. Thank you."
+msgstr ""
+
+#: includes/theme-gateways.php:216
+#@ colabsthemes
+msgid "Options Updated"
+msgstr ""
+
+#: includes/theme-gateways.php:217
+#@ colabsthemes
+msgid "Options Reset"
+msgstr ""
+
+#: functions/admin-backup.php:165
+#: functions/admin-customizer.php:138
+#: functions/admin-editor.php:203
+#: functions/admin-interface.php:359
+#: functions/admin-layout.php:67
+#: functions/admin-readme.php:59
+#: functions/admin-sbm.php:1238
+#: functions/admin-seo.php:333
+#: functions/admin-update.php:74
+#: includes/theme-gateways.php:236
+#@ colabsthemes
+msgid "View Documentation"
+msgstr ""
+
+#: functions/admin-backup.php:167
+#: functions/admin-customizer.php:140
+#: functions/admin-dashboard.php:49
+#: functions/admin-editor.php:205
+#: functions/admin-interface.php:361
+#: functions/admin-layout.php:69
+#: functions/admin-readme.php:61
+#: functions/admin-sbm.php:1240
+#: functions/admin-seo.php:335
+#: functions/admin-update.php:76
+#: includes/theme-gateways.php:238
+#@ colabsthemes
+msgid "Suggest a Feature"
+msgstr ""
+
+#: functions/admin-functions.php:3561
+#@ colabsthemes
+msgid "Comments Feed"
+msgstr ""
+
+#: functions/admin-interface.php:352
+#@ colabsthemes
+msgid "Drag an icon on the left and drop it here to customize"
+msgstr ""
+
+#: functions/admin-interface.php:382
+#: functions/admin-layout.php:94
+#@ colabsthemes
+msgid "Click OK to reset all options. All settings will be lost!"
+msgstr ""
+
+#: functions/admin-layout.php:60
+#: functions/admin-seo.php:326
+#: includes/theme-gateways.php:230
+#@ colabsthemes
+msgid "Drag icon on the left and Drop it here to customize"
+msgstr ""
+
+#: functions/admin-sbm.php:552
+#@ colabsthemes
+msgid "This sidebar will replace the"
+msgstr ""
+
+#: functions/admin-sbm.php:552
+#@ colabsthemes
+msgid "sidebar on the"
+msgstr ""
+
+#: functions/admin-sbm.php:648
+#: functions/admin-sbm.php:1057
+#: includes/forms/preview-form.php:77
+#: includes/forms/submit-form.php:30
+#: includes/theme-custom-type.php:220
+#: includes/theme-orders.php:348
+#: single-property.php:128
+#@ colabsthemes
+msgid "Type"
+msgstr ""
+
+#: functions/admin-sbm.php:652
+#: functions/admin-sbm.php:1058
+#@ colabsthemes
+msgid "Slug"
+msgstr ""
+
+#: content-dashboard-orders.php:46
+#: functions/admin-sbm.php:656
+#: functions/admin-sbm.php:1059
+#: includes/orders/admin-orders.php:196
+#: includes/theme-orders.php:158
+#@ colabsthemes
+msgid "ID"
+msgstr ""
+
+#: functions/admin-sbm.php:661
+#: functions/admin-sbm.php:665
+#: functions/admin-sbm.php:1060
+#@ colabsthemes
+msgid "URL"
+msgstr ""
+
+#: functions/admin-sbm.php:693
+#@ colabsthemes
+msgid "Please add a Sidebar Name!"
+msgstr ""
+
+#: functions/admin-sbm.php:752
+#@ colabsthemes
+msgid "And error has occured: No ID found."
+msgstr ""
+
+#: functions/admin-sbm.php:849
+#@ colabsthemes
+msgid "Start by selecting a template from the menu on the left for your new sidebar. The new sidebar will be available on the "
+msgstr ""
+
+#: functions/admin-sbm.php:849
+#@ colabsthemes
+msgid "Widgets"
+msgstr ""
+
+#: functions/admin-sbm.php:849
+#@ colabsthemes
+msgid "page"
+msgstr ""
+
+#: functions/admin-sbm.php:1054
+#: functions/admin-sbm.php:1070
+#@ colabsthemes
+msgid "Template Info"
+msgstr ""
+
+#: functions/admin-sbm.php:1066
+#@ colabsthemes
+msgid "Create a new Sidebar"
+msgstr ""
+
+#: functions/admin-sbm.php:1068
+#@ colabsthemes
+msgid "Use Existing Sidebar"
+msgstr ""
+
+#: functions/admin-sbm.php:1075
+#: functions/admin-sbm.php:1153
+#@ colabsthemes
+msgid "Sidebar Name"
+msgstr ""
+
+#: functions/admin-sbm.php:1080
+#@ colabsthemes
+msgid "Sidebar to use"
+msgstr ""
+
+#: functions/admin-sbm.php:1086
+#: functions/admin-sbm.php:1159
+#@ colabsthemes
+msgid "Sidebar to replace"
+msgstr ""
+
+#: functions/admin-sbm.php:1092
+#@ colabsthemes
+msgid "Sidebar description"
+msgstr ""
+
+#: functions/admin-sbm.php:1107
+#@ colabsthemes
+msgid "Custom Sidebars"
+msgstr ""
+
+#: functions/admin-sbm.php:1107
+#@ colabsthemes
+msgid "Newly created sidebars"
+msgstr ""
+
+#: functions/admin-sbm.php:1146
+#: functions/admin-sbm.php:1204
+#: includes/theme-comments.php:60
+#: includes/theme-orders.php:491
+#@ colabsthemes
+msgid "Edit"
+msgstr ""
+
+#: functions/admin-sbm.php:1167
+#: includes/forms/submit-form.php:85
+#: includes/gateways/authorizeaim/authorizeaim.php:43
+#: includes/gateways/bank-transfer/bank-transfer.php:44
+#: includes/gateways/paypal/paypal.php:72
+#: single-property.php:137
+#@ colabsthemes
+msgid "Description"
+msgstr ""
+
+#: functions/admin-sbm.php:1173
+#@ colabsthemes
+msgid "Remove This & All Dependents"
+msgstr ""
+
+#: functions/admin-sbm.php:1173
+#: template-edit-property.php:29
+#@ colabsthemes
+msgid "Save"
+msgstr ""
+
+#: functions/admin-sbm.php:1213
+#@ colabsthemes
+msgid "Are you sure you want to delete this sidebar"
+msgstr ""
+
+#: functions/admin-sbm.php:1213
+#: includes/admin/admin-panel.php:188
+#: includes/theme-orders.php:492
+#@ colabsthemes
+msgid "Delete"
+msgstr ""
+
+#: functions/admin-sbm.php:1227
+#@ colabsthemes
+msgid "No sidebars added yet."
+msgstr ""
+
+#: functions/admin-sbm.php:1248
+#@ colabsthemes
+msgid "Click OK to reset. Any Sidebar Settings settings will be lost!"
+msgstr ""
+
+#: functions/admin-seo.php:38
+#@ colabsthemes
+msgid "Page Title"
+msgstr ""
+
+#: functions/admin-seo.php:42
+#@ colabsthemes
+msgid "Blog Title"
+msgstr ""
+
+#: functions/admin-seo.php:43
+#: functions/admin-seo.php:49
+#@ colabsthemes
+msgid "NOTE: This value corresponds to that in the Settings > General tab in the WordPress Dashboard."
+msgstr ""
+
+#: functions/admin-seo.php:48
+#@ colabsthemes
+msgid "Blog Description"
+msgstr ""
+
+#: functions/admin-seo.php:54
+#@ colabsthemes
+msgid "Separator"
+msgstr ""
+
+#: functions/admin-seo.php:55
+#@ colabsthemes
+msgid "Set a character that separates elements of your page titles ( eg. |, -, or &raquo; )."
+msgstr ""
+
+#: functions/admin-seo.php:60
+#@ colabsthemes
+msgid "Custom Page Titles"
+msgstr ""
+
+#: functions/admin-seo.php:61
+#@ colabsthemes
+msgid "Check this box to gain control over the elements of the page titles (highly recommended)."
+msgstr ""
+
+#: functions/admin-seo.php:67
+#@ colabsthemes
+msgid "Homepage Title Layout"
+msgstr ""
+
+#: functions/admin-seo.php:68
+#: functions/admin-seo.php:81
+#: functions/admin-seo.php:89
+#: functions/admin-seo.php:97
+#@ colabsthemes
+msgid "Define the order of the title elements."
+msgstr ""
+
+#: functions/admin-seo.php:80
+#@ colabsthemes
+msgid "Single Title Layout"
+msgstr ""
+
+#: functions/admin-seo.php:88
+#@ colabsthemes
+msgid "Page Title Layout"
+msgstr ""
+
+#: functions/admin-seo.php:96
+#@ colabsthemes
+msgid "Archive Title Layout"
+msgstr ""
+
+#: functions/admin-seo.php:104
+#@ colabsthemes
+msgid "Page Number"
+msgstr ""
+
+#: functions/admin-seo.php:105
+#@ colabsthemes
+msgid "Define a text string that precedes page number in page titles."
+msgstr ""
+
+#: functions/admin-seo.php:111
+#@ colabsthemes
+msgid "Page Number Position"
+msgstr ""
+
+#: functions/admin-seo.php:112
+#@ colabsthemes
+msgid "Define the position of page number in page titles."
+msgstr ""
+
+#: functions/admin-seo.php:120
+#@ colabsthemes
+msgid "Disable Custom Titles"
+msgstr ""
+
+#: functions/admin-seo.php:121
+#@ colabsthemes
+msgid "If you prefer to have uniform titles across you theme. Alternatively they will be generated from custom fields and/or plugin data."
+msgstr ""
+
+#: functions/admin-seo.php:127
+#@ colabsthemes
+msgid "Description Meta"
+msgstr ""
+
+#: functions/admin-seo.php:131
+#@ colabsthemes
+msgid "Homepage Description"
+msgstr ""
+
+#: functions/admin-seo.php:132
+#@ colabsthemes
+msgid "Choose where to populate the homepage meta description from."
+msgstr ""
+
+#: functions/admin-seo.php:141
+#@ colabsthemes
+msgid "Custom Homepage Description"
+msgstr ""
+
+#: functions/admin-seo.php:142
+#@ colabsthemes
+msgid "Add a custom meta description to your homepage."
+msgstr ""
+
+#: functions/admin-seo.php:148
+#@ colabsthemes
+msgid "Single Page/Post Description"
+msgstr ""
+
+#: functions/admin-seo.php:149
+#@ colabsthemes
+msgid "Choose where to populate the single Page/Post meta description from."
+msgstr ""
+
+#: functions/admin-seo.php:158
+#: functions/admin-seo.php:165
+#@ colabsthemes
+msgid "Global Post/Page Description"
+msgstr ""
+
+#: functions/admin-seo.php:159
+#@ colabsthemes
+msgid "Add a custom meta description to your posts and pages. This will only show if no other data is available from the selection above. This will still be added even if setting above is set to \"Off\"."
+msgstr ""
+
+#: functions/admin-seo.php:166
+#@ colabsthemes
+msgid "Add a global post/page description."
+msgstr ""
+
+#: functions/admin-seo.php:172
+#@ colabsthemes
+msgid "Keyword Meta"
+msgstr ""
+
+#: functions/admin-seo.php:176
+#@ colabsthemes
+msgid "Homepage Keywords"
+msgstr ""
+
+#: functions/admin-seo.php:177
+#@ colabsthemes
+msgid "Choose where to populate the homepage meta keywords from."
+msgstr ""
+
+#: functions/admin-seo.php:185
+#@ colabsthemes
+msgid "Custom Homepage Keywords"
+msgstr ""
+
+#: functions/admin-seo.php:186
+#@ colabsthemes
+msgid "Add a comma-separated list of keywords to your homepage."
+msgstr ""
+
+#: functions/admin-seo.php:192
+#@ colabsthemes
+msgid "Single Page/Post Keywords"
+msgstr ""
+
+#: functions/admin-seo.php:193
+#@ colabsthemes
+msgid "Choose where to populate the single page/post meta keywords from."
+msgstr ""
+
+#: functions/admin-seo.php:201
+#: functions/admin-seo.php:208
+#@ colabsthemes
+msgid "Global Post/Page Keywords"
+msgstr ""
+
+#: functions/admin-seo.php:202
+#@ colabsthemes
+msgid "Add custom meta keywords to your posts and pages. These will only show if no other data is available from the selection above. These will still be added even if setting above is set to \"Off\"."
+msgstr ""
+
+#: functions/admin-seo.php:209
+#@ colabsthemes
+msgid "Add a comma-separated list of keywords to your posts and pages."
+msgstr ""
+
+#: functions/admin-seo.php:215
+#@ colabsthemes
+msgid "Indexing Options"
+msgstr ""
+
+#: functions/admin-seo.php:219
+#@ colabsthemes
+msgid "Archive Pages to Index"
+msgstr ""
+
+#: functions/admin-seo.php:220
+#@ colabsthemes
+msgid "Select which archive pages to be indexed. Indexing archive pages may result in duplicate entries in search engines and cause content dilution."
+msgstr ""
+
+#: functions/admin-seo.php:230
+#@ colabsthemes
+msgid "Add 'follow' Meta to Posts and Pages"
+msgstr ""
+
+#: functions/admin-seo.php:231
+#@ colabsthemes
+msgid "Check this box to add 'follow' meta to all posts and pages. This means that all links on these pages will be crawled by search engines, including those leading away from your site."
+msgstr ""
+
+#: functions/admin-seo.php:236
+#@ colabsthemes
+msgid "Advanced Settings"
+msgstr ""
+
+#: functions/admin-seo.php:240
+#@ colabsthemes
+msgid "Please Read"
+msgstr ""
+
+#: functions/admin-seo.php:244
+#@ colabsthemes
+msgid "Use 3rd Party Plugin Data"
+msgstr ""
+
+#: functions/admin-seo.php:245
+#@ colabsthemes
+msgid "Meta data added to <strong>custom fields in posts and pages</strong> will be extracted and used where applicable. This typically does not include home page and archive pages and only single post/pages."
+msgstr ""
+
+#: functions/admin-seo.php:250
+#@ colabsthemes
+msgid "Hide ColorLabs SEO Settings"
+msgstr ""
+
+#: functions/admin-seo.php:251
+#@ colabsthemes
+msgid "Check this box to hide the ColorLabs SEO Settings box in the post and page editing screens."
+msgstr ""
+
+#: functions/admin-seo.php:358
+#@ colabsthemes
+msgid "Click OK to reset all options. All settings will be lost"
+msgstr ""
+
+#: functions/admin-shortcodes.php:2555
+#@ colabsthemes
+msgid "Pin It"
+msgstr ""
+
+#: functions/admin-update.php:58
+#@ colabsthemes
+msgid "Framework Update"
+msgstr ""
+
+#: functions/admin-update.php:65
+#@ colabsthemes
+msgid "Themes Update"
+msgstr ""
+
+#: functions/admin-update.php:100
+#@ colabsthemes
+msgid "A new version of ColorLabs Framework is available."
+msgstr ""
+
+#: functions/admin-update.php:101
+#@ colabsthemes
+msgid "This updater will download and extract the latest ColorLabs Framework files to your current theme's functions folder. "
+msgstr ""
+
+#: functions/admin-update.php:102
+#@ colabsthemes
+msgid "We recommend backing up your theme files before updating."
+msgstr ""
+
+#: functions/admin-update.php:103
+#: functions/admin-update.php:110
+#@ colabsthemes
+msgid "Your version:"
+msgstr ""
+
+#: functions/admin-update.php:104
+#@ colabsthemes
+msgid "New Version:"
+msgstr ""
+
+#: functions/admin-update.php:109
+#@ colabsthemes
+msgid "You have the latest version of ColorLabs Framework"
+msgstr ""
+
+#: functions/admin-update.php:418
+#@ colabsthemes
+msgid "<div id=\"colabs-no-archive-warning\" class=\"updated fade\" style=\"display:block;\"><p><strong><i>The user name or password is incorrect</i></strong></p></div>"
+msgstr ""
+
+#: functions/admin-update.php:143
+#@ colabsthemes
+msgid "Password:"
+msgstr ""
+
+#: functions/admin-update.php:150
+#@ colabsthemes
+msgid "<a href=\"http://colorlabsproject.com/member/member/#am-forgot-block\" target=\"_blank\">Forgot Password?</a>"
+msgstr ""
+
+#: functions/admin-update.php:126
+#, php-format
+#@ colabsthemes
+msgid "<h3>An updated version of %1$s is available.</h3>"
+msgstr ""
+
+#: functions/admin-update.php:156
+#, php-format
+#@ colabsthemes
+msgid "<h3>You have the latest version of %1$s.</h3><p>&rarr; <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s details</a></p>"
+msgstr ""
+
+#: functions/admin-update.php:196
+#@ colabsthemes
+msgid "Failed: Invalid URL Provided"
+msgstr ""
+
+#: functions/admin-update.php:198
+#@ colabsthemes
+msgid "Failed: Upload"
+msgstr ""
+
+#: functions/admin-update.php:212
+#@ colabsthemes
+msgid "Failed: Incompatible archive"
+msgstr ""
+
+#: functions/admin-update.php:215
+#: functions/admin-update.php:405
+#: functions/admin-update.php:436
+#@ colabsthemes
+msgid "Failed: Empty Archive"
+msgstr ""
+
+#: functions/admin-update.php:218
+#: functions/admin-update.php:408
+#: functions/admin-update.php:439
+#@ colabsthemes
+msgid "Failed: mkdir Failure"
+msgstr ""
+
+#: functions/admin-update.php:221
+#: functions/admin-update.php:411
+#: functions/admin-update.php:442
+#@ colabsthemes
+msgid "Failed: Copy Failed"
+msgstr ""
+
+#: functions/admin-update.php:28
+#: functions/admin-update.php:226
+#@ colabsthemes
+msgid "New framework successfully downloaded, extracted and updated."
+msgstr ""
+
+#: functions/admin-update.php:318
+#, php-format
+#@ default
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s details</a> or <a href=\"%4$s\" >update now</a>."
+msgstr ""
+
+#: functions/admin-update.php:415
+#@ colabsthemes
+msgid "Update process sucessfully"
+msgstr ""
+
+#: functions/admin-update.php:431
+#@ colabsthemes
+msgid "Backup process sucessfully"
+msgstr ""
+
+#: includes/forms/property-search.php:205
+#@ colabsthemes
+msgid "Property Type"
+msgstr ""
+
+#: includes/forms/property-search.php:218
+#@ colabsthemes
+msgid "MLS #"
+msgstr ""
+
+#: includes/forms/property-search.php:221
+#@ colabsthemes
+msgid "City"
+msgstr ""
+
+#: includes/forms/property-search.php:232
+#@ colabsthemes
+msgid "Community"
+msgstr ""
+
+#: includes/forms/property-search.php:246
+#@ colabsthemes
+msgid "Tract"
+msgstr ""
+
+#: includes/forms/property-search.php:257
+#@ colabsthemes
+msgid "Zip"
+msgstr ""
+
+#: includes/theme-comments.php:22
+#, php-format
+#@ colabsthemes
+msgid "%1$s"
+msgstr ""
+
+#: includes/theme-comments.php:29
+#@ colabsthemes
+msgid "Reply"
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:109
+#: includes/orders/admin-orders.php:198
+#: includes/theme-custom-type.php:219
+#: includes/theme-custom-type.php:854
+#: template-bookmark.php:37
+#@ colabsthemes
+msgid "Property"
+msgstr ""
+
+#: includes/forms/preview-form.php:78
+#: includes/forms/submit-form.php:134
+#: includes/theme-custom-type.php:221
+#: single-property.php:129
+#@ colabsthemes
+msgid "Location"
+msgstr ""
+
+#: includes/forms/preview-form.php:76
+#: includes/forms/submit-form.php:99
+#: includes/theme-custom-type.php:222
+#: single-property.php:127
+#@ colabsthemes
+msgid "Features"
+msgstr ""
+
+#: content-dashboard-orders.php:80
+#: content-property.php:10
+#: includes/admin/order-class.php:120
+#: includes/orders/admin-orders.php:199
+#@ colabsthemes
+msgid "Featured"
+msgstr ""
+
+#: includes/theme-custom-type.php:268
+#@ colabsthemes
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/theme-custom-type.php:270
+#@ colabsthemes
+msgid "You have taken too long. Please go back and retry."
+msgstr ""
+
+#: includes/theme-functions.php:67
+#@ colabsthemes
+msgid "Main Menu"
+msgstr ""
+
+#: includes/forms/property-search.php:156
+#: includes/forms/property-search.php:287
+#: searchform.php:10
+#: searchform.php:12
+#@ colabsthemes
+msgid "Search"
+msgstr ""
+
+#: includes/theme-options.php:91
+#@ colabsthemes
+msgid "Logo"
+msgstr ""
+
+#: includes/theme-options.php:671
+#@ colabsthemes
+msgid "Footer Settings"
+msgstr ""
+
+#: includes/theme-options.php:682
+#@ colabsthemes
+msgid "Footer Credit"
+msgstr ""
+
+#: includes/theme-options.php:82
+#@ colabsthemes
+msgid "General Settings"
+msgstr ""
+
+#: includes/theme-options.php:86
+#@ colabsthemes
+msgid "Use for blog title/logo"
+msgstr ""
+
+#: includes/theme-options.php:87
+#@ colabsthemes
+msgid "Select title or logo for your blog."
+msgstr ""
+
+#: content-dashboard-properties.php:15
+#: content-dashboard-properties.php:133
+#: includes/forms/submit-form.php:22
+#: includes/theme-options.php:91
+#@ colabsthemes
+msgid "Title"
+msgstr ""
+
+#: includes/theme-options.php:93
+#@ colabsthemes
+msgid "Header Custom Logo"
+msgstr ""
+
+#: includes/theme-options.php:94
+#@ colabsthemes
+msgid "Upload a logo for your theme, or specify an image URL directly. Best image size in 219x48 px"
+msgstr ""
+
+#: includes/theme-options.php:99
+#@ colabsthemes
+msgid "Custom Favicon"
+msgstr ""
+
+#: includes/theme-options.php:100
+#@ colabsthemes
+msgid "Upload a 16x16px ico image that will represent your website's favicon. Favicon/bookmark icon will be shown at the left of your blog's address in visitor's internet browsers."
+msgstr ""
+
+#: includes/theme-options.php:249
+#@ colabsthemes
+msgid "Currency Symbol"
+msgstr ""
+
+#: includes/theme-options.php:250
+#@ colabsthemes
+msgid "Specify the currency that your properties price will be shown in."
+msgstr ""
+
+#: includes/theme-options.php:255
+#@ colabsthemes
+msgid "Unit of Measure Label"
+msgstr ""
+
+#: includes/theme-options.php:256
+#@ colabsthemes
+msgid "Specify the text that will be displayed on the frontend for the Unit of Measure."
+msgstr ""
+
+#: includes/theme-options.php:317
+#@ colabsthemes
+msgid "Property Search"
+msgstr ""
+
+#: includes/theme-options.php:434
+#@ colabsthemes
+msgid "Search box Title"
+msgstr ""
+
+#: includes/theme-options.php:424
+#@ colabsthemes
+msgid "dsIDXpress Plugin Integration"
+msgstr ""
+
+#: includes/theme-options.php:428
+#@ colabsthemes
+msgid "Enable the IDX Plugin Search"
+msgstr ""
+
+#: includes/theme-options.php:429
+#@ colabsthemes
+msgid "Enable if you want the searchbox to show the option to search the MLS database."
+msgstr ""
+
+#: includes/theme-options.php:435
+#@ colabsthemes
+msgid "Include a short title for the search box on the home page, e.g. Search the MLS."
+msgstr ""
+
+#: includes/theme-options.php:440
+#@ colabsthemes
+msgid "Cities"
+msgstr ""
+
+#: includes/theme-options.php:446
+#@ colabsthemes
+msgid "Communities"
+msgstr ""
+
+#: includes/theme-options.php:452
+#@ colabsthemes
+msgid "Tracts"
+msgstr ""
+
+#: includes/theme-options.php:458
+#@ colabsthemes
+msgid "Zips"
+msgstr ""
+
+#: includes/theme-options.php:472
+#@ colabsthemes
+msgid "Maps"
+msgstr ""
+
+#: includes/theme-options.php:476
+#@ colabsthemes
+msgid "Google Maps API Key"
+msgstr ""
+
+#: includes/theme-options.php:477
+#@ colabsthemes
+msgid "Enter your Google Maps API key before using any of Postcard's mapping functionality. <a href='http://code.google.com/apis/maps/signup.html'>Signup for an API key here</a>."
+msgstr ""
+
+#: includes/theme-options.php:483
+#@ colabsthemes
+msgid "Disable Mousescroll"
+msgstr ""
+
+#: includes/theme-options.php:484
+#@ colabsthemes
+msgid "Turn off the mouse scroll action for all the Google Maps on the site. This could improve usability on your site."
+msgstr ""
+
+#: includes/theme-options.php:489
+#@ colabsthemes
+msgid "Single Page Map Height"
+msgstr ""
+
+#: includes/theme-options.php:490
+#@ colabsthemes
+msgid "Height in pixels for the maps displayed on Single property pages."
+msgstr ""
+
+#: includes/theme-options.php:495
+#@ colabsthemes
+msgid "Default Map Zoom Level"
+msgstr ""
+
+#: includes/theme-options.php:496
+#@ colabsthemes
+msgid "Set this to adjust the default in the post & page edit backend."
+msgstr ""
+
+#: includes/theme-options.php:502
+#@ colabsthemes
+msgid "Default Map Type"
+msgstr ""
+
+#: includes/theme-options.php:503
+#@ colabsthemes
+msgid "Set this to the default rendered in the post backend."
+msgstr ""
+
+#: includes/theme-options.php:517
+#@ colabsthemes
+msgid "Social Networking"
+msgstr ""
+
+#: includes/theme-options.php:521
+#@ colabsthemes
+msgid "Enable/Disable Social Share Button"
+msgstr ""
+
+#: includes/theme-options.php:522
+#@ colabsthemes
+msgid "Select which social share button you would like to enable."
+msgstr ""
+
+#: includes/theme-options.php:538
+#@ colabsthemes
+msgid "Open Graph Settings"
+msgstr ""
+
+#: includes/theme-options.php:542
+#@ colabsthemes
+msgid "Open Graph"
+msgstr ""
+
+#: includes/theme-options.php:543
+#@ colabsthemes
+msgid "Enable or disable Open Graph Meta tags."
+msgstr ""
+
+#: includes/theme-options.php:550
+#@ colabsthemes
+msgid "Site Name"
+msgstr ""
+
+#: includes/theme-options.php:551
+#@ colabsthemes
+msgid "Open Graph Site Name ( og:site_name )."
+msgstr ""
+
+#: includes/theme-options.php:557
+#@ colabsthemes
+msgid "Admin"
+msgstr ""
+
+#: includes/theme-options.php:558
+#@ colabsthemes
+msgid "Open Graph Admin ( fb:admins )."
+msgstr ""
+
+#: includes/theme-options.php:564
+#@ colabsthemes
+msgid "Image"
+msgstr ""
+
+#: includes/theme-options.php:565
+#@ colabsthemes
+msgid "You can put the url for your Open Graph Image ( og:image )."
+msgstr ""
+
+#: includes/theme-options.php:572
+#@ colabsthemes
+msgid "Thumbnail Settings"
+msgstr ""
+
+#: includes/theme-options.php:576
+#@ colabsthemes
+msgid "WordPress Featured Image"
+msgstr ""
+
+#: includes/theme-options.php:577
+#@ colabsthemes
+msgid "Use WordPress Featured Image for post thumbnail."
+msgstr ""
+
+#: includes/theme-options.php:583
+#@ colabsthemes
+msgid "WordPress Featured Image - Dynamic Resize"
+msgstr ""
+
+#: includes/theme-options.php:584
+#@ colabsthemes
+msgid "Resize post thumbnail dynamically using WordPress native functions (requires PHP 5.2+)."
+msgstr ""
+
+#: includes/theme-options.php:590
+#@ colabsthemes
+msgid "WordPress Featured Image - Hard Crop"
+msgstr ""
+
+#: includes/theme-options.php:591
+#@ colabsthemes
+msgid "Original image will be cropped to match the target aspect ratio."
+msgstr ""
+
+#: includes/theme-options.php:597
+#@ colabsthemes
+msgid "TimThumb Image Resizer"
+msgstr ""
+
+#: includes/theme-options.php:598
+#@ colabsthemes
+msgid "Enable timthumb.php script which dynamically resizes images added thorugh post custom field."
+msgstr ""
+
+#: includes/theme-options.php:603
+#@ colabsthemes
+msgid "Automatic Thumbnail"
+msgstr ""
+
+#: includes/theme-options.php:604
+#@ colabsthemes
+msgid "Generate post thumbnail from the first image uploaded in post (if there is no image specified through post custom field or WordPress Featured Image feature)."
+msgstr ""
+
+#: includes/theme-options.php:609
+#@ colabsthemes
+msgid "Thumbnail Image in RSS Feed"
+msgstr ""
+
+#: includes/theme-options.php:610
+#@ colabsthemes
+msgid "Add post thumbnail to RSS feed article."
+msgstr ""
+
+#: includes/theme-options.php:615
+#@ colabsthemes
+msgid "Thumbnail Image Dimensions"
+msgstr ""
+
+#: includes/theme-options.php:616
+#@ colabsthemes
+msgid "Enter an integer value i.e. 250 for the desired size which will be used when dynamically creating the images."
+msgstr ""
+
+#: includes/theme-options.php:630
+#@ colabsthemes
+msgid "Custom Field Image"
+msgstr ""
+
+#: includes/theme-options.php:631
+#@ colabsthemes
+msgid "Enter your custom field image name to change the default name (default name: image)."
+msgstr ""
+
+#: includes/theme-options.php:637
+#@ colabsthemes
+msgid "Analytics ID, RSS feed"
+msgstr ""
+
+#: includes/theme-options.php:641
+#@ colabsthemes
+msgid "GoSquared Token"
+msgstr ""
+
+#: includes/theme-options.php:642
+#@ colabsthemes
+msgid "You can use <a href='http://www.gosquared.com/livestats/?ref=11674'>GoSquared</a> real-time web analytics. Enter your <strong>GoSquared Token</strong> here (ex. GSN-893821-D)."
+msgstr ""
+
+#: includes/theme-options.php:647
+#@ colabsthemes
+msgid "Google Analytics"
+msgstr ""
+
+#: includes/theme-options.php:648
+#@ colabsthemes
+msgid "Manage your website statistics with Google Analytics, put your Analytics Code here. "
+msgstr ""
+
+#: includes/theme-options.php:653
+#@ colabsthemes
+msgid "Feedburner URL"
+msgstr ""
+
+#: includes/theme-options.php:654
+#@ colabsthemes
+msgid "Feedburner URL. This will replace RSS feed link. Start with http://."
+msgstr ""
+
+#: includes/theme-options.php:659
+#@ colabsthemes
+msgid "Feedburner Comments URL"
+msgstr ""
+
+#: includes/theme-options.php:660
+#@ colabsthemes
+msgid "Feedburner URL. This will replace RSS comment feed link. Start with http://."
+msgstr ""
+
+#: includes/theme-options.php:665
+#@ colabsthemes
+msgid "Enable PressTrends Tracking"
+msgstr ""
+
+#: includes/theme-options.php:666
+#@ colabsthemes
+msgid "PressTrends is a simple usage tracker that allows us to see how our customers are using our themes, so that we can help improve them for you. <strong>None</strong> of your personal data is sent to PressTrends."
+msgstr ""
+
+#: includes/theme-options.php:675
+#@ colabsthemes
+msgid "Enable / Disable Custom Footer Credit"
+msgstr ""
+
+#: includes/theme-options.php:676
+#@ colabsthemes
+msgid "Activate to add custom credit on footer area."
+msgstr ""
+
+#: includes/theme-options.php:683
+#@ colabsthemes
+msgid "You can customize footer credit on footer area here."
+msgstr ""
+
+#: includes/theme-options.php:694
+#@ colabsthemes
+msgid "Contact Form Email Address"
+msgstr ""
+
+#: includes/theme-options.php:695
+#@ colabsthemes
+msgid "All inquiries made by your visitors through the Contact Form page will be sent to this email address."
+msgstr ""
+
+#: includes/theme-options.php:762
+#@ colabsthemes
+msgid " Image/Video Settings"
+msgstr ""
+
+#: includes/theme-gateways.php:194
+#: includes/theme-options.php:772
+#@ colabsthemes
+msgid "Settings"
+msgstr ""
+
+#: includes/theme-options.php:782
+#@ colabsthemes
+msgid " Property Detail Settings"
+msgstr ""
+
+#: includes/theme-options.php:792
+#@ colabsthemes
+msgid " Agent Detail Settings"
+msgstr ""
+
+#: includes/theme-options.php:803
+#@ colabsthemes
+msgid "Item to Show"
+msgstr ""
+
+#: includes/theme-options.php:805
+#@ colabsthemes
+msgid "Choose Image/Embed Code to appear at the single top."
+msgstr ""
+
+#: includes/theme-options.php:810
+#@ colabsthemes
+msgid "Post Custom Image"
+msgstr ""
+
+#: includes/theme-options.php:813
+#: includes/theme-options.php:853
+#@ colabsthemes
+msgid "Upload an image or enter an URL."
+msgstr ""
+
+#: includes/theme-options.php:817
+#: includes/theme-options.php:857
+#@ colabsthemes
+msgid "Video Embed Code"
+msgstr ""
+
+#: includes/theme-options.php:820
+#: includes/theme-options.php:859
+#@ colabsthemes
+msgid "Enter the video embed code for your video (YouTube, Vimeo or similar)"
+msgstr ""
+
+#: includes/admin/admin-panel.php:16
+#@ colabsthemes
+msgid "Hover Title"
+msgstr ""
+
+#: includes/admin/admin-panel.php:18
+#@ colabsthemes
+msgid "Enter the text for image hover"
+msgstr ""
+
+#: includes/admin/admin-panel.php:22
+#: includes/forms/submit-form.php:71
+#@ colabsthemes
+msgid "Address"
+msgstr ""
+
+#: includes/admin/admin-panel.php:24
+#@ colabsthemes
+msgid "Enter the address for the listing. For example, 1223 Main Street"
+msgstr ""
+
+#: includes/admin/admin-panel.php:28
+#: includes/forms/submit-form.php:78
+#@ colabsthemes
+msgid "City and State"
+msgstr ""
+
+#: includes/admin/admin-panel.php:30
+#@ colabsthemes
+msgid "Enter the City and State in one line.  You can include the zip/postal code, but we think it looks better without.  This will <strong>NOT</strong> be used as search criteria. "
+msgstr ""
+
+#: includes/admin/admin-panel.php:33
+#@ colabsthemes
+msgid "Choose an Agent"
+msgstr ""
+
+#: includes/admin/admin-panel.php:36
+#@ colabsthemes
+msgid "If this property has a specific agent, choose one. Leave blank if there is not a specific agent for the property. If you leave it blank, then the property details contact form will not be specific to a single agent. (You create Agents by going to Agent -> Add New Agent)"
+msgstr ""
+
+#: content-dashboard-orders.php:49
+#: content-dashboard-orders.php:84
+#: includes/admin/admin-panel.php:40
+#: includes/admin/order-class.php:484
+#: includes/forms/submit-form.php:46
+#: template-bookmark.php:38
+#@ colabsthemes
+msgid "Price"
+msgstr ""
+
+#: includes/admin/admin-panel.php:42
+#@ colabsthemes
+msgid "How much is this property? Enter '0' if you want 'Price on Request' labeled instead of the price."
+msgstr ""
+
+#: includes/admin/admin-panel.php:46
+#: includes/forms/submit-form.php:106
+#@ colabsthemes
+msgid "Bedrooms"
+msgstr ""
+
+#: includes/admin/admin-panel.php:49
+#@ colabsthemes
+msgid "How many bedrooms does this property have? This is used when visitors search by number of bedrooms."
+msgstr ""
+
+#: includes/admin/admin-panel.php:53
+#: includes/forms/submit-form.php:113
+#@ colabsthemes
+msgid "Bathrooms"
+msgstr ""
+
+#: includes/admin/admin-panel.php:56
+#@ colabsthemes
+msgid "How many bathrooms does this property have? This is used when visitors search by number of bathrooms."
+msgstr ""
+
+#: includes/admin/admin-panel.php:60
+#: includes/forms/submit-form.php:64
+#@ colabsthemes
+msgid "Size"
+msgstr ""
+
+#: includes/admin/admin-panel.php:62
+#@ colabsthemes
+msgid "The home/building size.  For example: 5255 sq ft."
+msgstr ""
+
+#: includes/admin/admin-panel.php:66
+#: includes/forms/submit-form.php:120
+#@ colabsthemes
+msgid "Garages"
+msgstr ""
+
+#: includes/admin/admin-panel.php:69
+#@ colabsthemes
+msgid "How many garage is this property? (Leave blank to ignore)."
+msgstr ""
+
+#: includes/admin/admin-panel.php:73
+#: includes/forms/submit-form.php:148
+#@ colabsthemes
+msgid "Fully Furnished"
+msgstr ""
+
+#: includes/admin/admin-panel.php:76
+#@ colabsthemes
+msgid "Are this property is fully furnished?"
+msgstr ""
+
+#: includes/admin/admin-panel.php:80
+#: includes/forms/preview-form.php:71
+#: includes/forms/submit-form.php:155
+#: single-property.php:122
+#@ colabsthemes
+msgid "Mortgage"
+msgstr ""
+
+#: includes/admin/admin-panel.php:83
+#@ colabsthemes
+msgid "Are this property is mortgage?"
+msgstr ""
+
+#: includes/theme-options.php:877
+#@ colabsthemes
+msgid "Email Agent"
+msgstr ""
+
+#: includes/theme-options.php:879
+#@ colabsthemes
+msgid "Enter your email agent."
+msgstr ""
+
+#: includes/widgets/widget-colabs-ad-sidebar.php:74
+#@ colabsthemes
+msgid "Ad Code:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-ad-sidebar.php:79
+#@ colabsthemes
+msgid "Image Url:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-ad-sidebar.php:89
+#@ colabsthemes
+msgid "Link URL:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-ad-sidebar.php:93
+#@ colabsthemes
+msgid "Alt text:"
+msgstr ""
+
+#: includes/forms/property-search.php:271
+#@ colabsthemes
+msgid "Beds"
+msgstr ""
+
+#: includes/forms/property-search.php:268
+#@ colabsthemes
+msgid "Baths"
+msgstr ""
+
+#: includes/forms/property-search.php:147
+#: includes/forms/property-search.php:284
+#@ colabsthemes
+msgid "Min Size"
+msgstr ""
+
+#: includes/widgets/widget-colabs-embed.php:11
+#@ colabsthemes
+msgid "ColorLabs - Embed/Video"
+msgstr ""
+
+#: includes/widgets/widget-colabs-ad-sidebar.php:83
+#: includes/widgets/widget-colabs-embed.php:122
+#: includes/widgets/widget-colabs-flickr.php:80
+#@ colabsthemes
+msgid "Size:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-embed.php:129
+#@ colabsthemes
+msgid "Limit (optional):"
+msgstr ""
+
+#: includes/widgets/widget-colabs-fbfriends.php:6
+#@ colabsthemes
+msgid "This places a Facebook page Like Box in your sidebar to attract and gain Likes from visitors."
+msgstr ""
+
+#: includes/widgets/widget-colabs-fbfriends.php:7
+#@ colabsthemes
+msgid "ColorLabs - Facebook Like Box"
+msgstr ""
+
+#: includes/widgets/widget-colabs-fbfriends.php:45
+#@ colabsthemes
+msgid "Facebook Friends"
+msgstr ""
+
+#: includes/widgets/widget-colabs-fbfriends.php:55
+#@ colabsthemes
+msgid "Facebook ID:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-fbfriends.php:61
+#@ colabsthemes
+msgid "Connections"
+msgstr ""
+
+#: includes/widgets/widget-colabs-fbfriends.php:66
+#@ colabsthemes
+msgid "Width"
+msgstr ""
+
+#: includes/widgets/widget-colabs-fbfriends.php:71
+#@ colabsthemes
+msgid "Height"
+msgstr ""
+
+#: includes/widgets/widget-colabs-flickr.php:10
+#@ colabsthemes
+msgid "ColorLabs - Flickr"
+msgstr ""
+
+#: includes/widgets/widget-colabs-flickr.php:54
+#@ colabsthemes
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">idGettr</a>):"
+msgstr ""
+
+#: includes/widgets/widget-colabs-flickr.php:58
+#@ colabsthemes
+msgid "Number:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-tabs.php:147
+#@ colabsthemes
+msgid "Number of posts:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-socialnetwork.php:9
+#@ colabsthemes
+msgid "ColorLabs - Social"
+msgstr ""
+
+#: includes/widgets/widget-colabs-tabs.php:10
+#@ colabsthemes
+msgid "ColorLabs - Tabs"
+msgstr ""
+
+#: includes/widgets/widget-colabs-flickr.php:75
+#: includes/widgets/widget-colabs-tabs.php:35
+#: includes/widgets/widget-colabs-tabs.php:59
+#: includes/widgets/widget-colabs-tabs.php:158
+#: includes/widgets/widget-colabs-tabs.php:171
+#@ colabsthemes
+msgid "Latest"
+msgstr ""
+
+#: includes/widgets/widget-colabs-tabs.php:40
+#: includes/widgets/widget-colabs-tabs.php:66
+#: includes/widgets/widget-colabs-tabs.php:159
+#: includes/widgets/widget-colabs-tabs.php:175
+#@ colabsthemes
+msgid "Comments"
+msgstr ""
+
+#: includes/widgets/widget-colabs-tabs.php:52
+#: includes/widgets/widget-colabs-tabs.php:157
+#: includes/widgets/widget-colabs-tabs.php:167
+#@ colabsthemes
+msgid "Popular"
+msgstr ""
+
+#: includes/widgets/widget-colabs-tabs.php:155
+#@ colabsthemes
+msgid "First Visible Tab:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-twitter.php:16
+#@ colabsthemes
+msgid "ColorLabs - Twitter Stream"
+msgstr ""
+
+#: sidebar.php:195
+#@ colabsthemes
+msgid "I want to"
+msgstr ""
+
+#: sidebar.php:197
+#@ colabsthemes
+msgid "Request more information"
+msgstr ""
+
+#: sidebar.php:198
+#@ colabsthemes
+msgid "Arrange a viewing"
+msgstr ""
+
+#: sidebar.php:219
+#: sidebar.php:354
+#@ colabsthemes
+msgid "Email Us"
+msgstr ""
+
+#: sidebar.php:310
+#@ colabsthemes
+msgid "Email To"
+msgstr ""
+
+#: sidebar.php:331
+#@ colabsthemes
+msgid "Subject"
+msgstr ""
+
+#: includes/forms/preview-form.php:70
+#: single-property.php:121
+#@ colabsthemes
+msgid "garage"
+msgstr ""
+
+#: content-post.php:10
+#: single.php:14
+#@ colabsthemes
+msgid "1 Comment"
+msgstr ""
+
+#: template-contact.php:17
+#@ colabsthemes
+msgid "You forgot to enter your name."
+msgstr ""
+
+#: template-contact.php:25
+#@ colabsthemes
+msgid "You forgot to enter your email address."
+msgstr ""
+
+#: template-contact.php:28
+#@ colabsthemes
+msgid "You entered an invalid email address."
+msgstr ""
+
+#: template-contact.php:36
+#@ colabsthemes
+msgid "You forgot to enter your comments."
+msgstr ""
+
+#: template-contact.php:50
+#@ colabsthemes
+msgid "Contact Form Submission from "
+msgstr ""
+
+#: template-contact.php:59
+#@ colabsthemes
+msgid "You emailed "
+msgstr ""
+
+#: template-contact.php:79
+#@ colabsthemes
+msgid "You forgot to enter your"
+msgstr ""
+
+#: template-contact.php:87
+#@ colabsthemes
+msgid "You entered an invalid"
+msgstr ""
+
+#: template-contact.php:97
+#@ colabsthemes
+msgid "<strong>Thanks!</strong> Your email was successfully sent."
+msgstr ""
+
+#: template-contact.php:124
+#@ colabsthemes
+msgid "There was an error submitting the form."
+msgstr ""
+
+#: template-contact.php:127
+#@ colabsthemes
+msgid "E-mail has not been setup properly. Please add your contact e-mail."
+msgstr ""
+
+#: includes/forms/submit-form.php:141
+#: includes/theme-install.php:117
+#@ colabsthemes
+msgid "Agent"
+msgstr ""
+
+#: includes/forms/login-form.php:68
+#: includes/theme-login.php:761
+#: includes/theme-login.php:762
+#: template-profile.php:93
+#@ colabsthemes
+msgid "Username"
+msgstr ""
+
+#: includes/forms/login-form.php:23
+#: includes/forms/login-form.php:24
+#: includes/forms/login-form.php:75
+#: includes/forms/login-form.php:76
+#: includes/theme-login.php:639
+#: includes/theme-login.php:640
+#: includes/theme-login.php:773
+#: includes/theme-login.php:774
+#: includes/theme-login.php:779
+#: includes/theme-login.php:780
+#@ colabsthemes
+#@ woocommerce
+msgid "Password"
+msgstr ""
+
+#: footer.php:44
+#@ colabsthemes
+msgid "Login"
+msgstr ""
+
+#: footer.php:46
+#: includes/forms/login-form.php:107
+#: includes/theme-login.php:801
+#: sidebar-user.php:85
+#@ colabsthemes
+msgid "Register"
+msgstr ""
+
+#: archive-property.php:41
+#: archive.php:17
+#: author.php:12
+#: index.php:65
+#: search.php:23
+#: taxonomy.php:12
+#: template-agent.php:27
+#: template-blog.php:20
+#: template-featured.php:28
+#@ colabsthemes
+msgid "Load More"
+msgstr ""
+
+#: comments.php:5
+#, php-format
+#@ colabsthemes
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:17
+#@ colabsthemes
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:18
+#@ colabsthemes
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:37
+#@ colabsthemes
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:40
+#@ colabsthemes
+msgid "Your Email"
+msgstr ""
+
+#: content-nopost.php:5
+#@ colabsthemes
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: content-nopost.php:11
+#@ colabsthemes
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-property.php:5
+#: includes/forms/submit-form.php:149
+#: includes/forms/submit-form.php:156
+#@ colabsthemes
+msgid "Not Available"
+msgstr ""
+
+#: functions/admin-interface.php:367
+#: functions/admin-seo.php:341
+#@ colabsthemes
+msgid "Reset Options"
+msgstr ""
+
+#: functions/admin-update.php:127
+#, php-format
+#@ default
+msgid "<p>You can update to <a href=\"%3$s\" title=\"%1$s\" class=\"thickbox\">%1$s %2$s</a> automatically.</p><p> To use the automatic update and backup feature, cURL must be enabled on your hosting. If cURL is disabled, please contact your hosting.</p><p>Updating this theme will lose any customizations you have made. We recommend backing up your theme files before updating.</p><p>Please backup your theme by clicking the Backup button before updating your theme. Backup (.zip) will be stored in <code>wp-content/themes/</code>.</p>"
+msgstr ""
+
+#: functions/admin-update.php:157
+#@ colabsthemes
+msgid "<p>Click the Backup button to back up your theme files. Backup (.zip) will be stored in <code>wp-content/themes/</code></p>"
+msgstr ""
+
+#: functions/admin-update.php:401
+#, php-format
+#@ colabsthemes
+msgid "This account is ineligible for the update. Please <a href='http://colorlabsproject.com/member/signup' target='_blank'>renew your subscription</a> or <a href='%s'>sign in</a> with a different account."
+msgstr ""
+
+#: header.php:27
+#@ colabsthemes
+msgid "Submit Listing"
+msgstr ""
+
+#: header.php:97
+#@ colabsthemes
+msgid "Sort by Latest"
+msgstr ""
+
+#: header.php:100
+#@ colabsthemes
+msgid "Sort by Title"
+msgstr ""
+
+#: header.php:101
+#@ colabsthemes
+msgid "Sort by Popular"
+msgstr ""
+
+#: includes/forms/login-form.php:139
+#: includes/theme-login.php:701
+#@ colabsthemes
+msgid "Get New Password"
+msgstr ""
+
+#: includes/forms/property-search.php:129
+#: includes/forms/property-search.php:278
+#@ colabsthemes
+msgid "Min Price"
+msgstr ""
+
+#: includes/forms/property-search.php:130
+#: includes/forms/property-search.php:281
+#@ colabsthemes
+msgid "Max Price"
+msgstr ""
+
+#: includes/orders/admin-orders.php:6
+#@ colabsthemes
+msgid "Property Orders"
+msgstr ""
+
+#: includes/orders/admin-orders.php:49
+#: includes/orders/admin-orders.php:245
+#@ colabsthemes
+msgid "Yes"
+msgstr ""
+
+#: includes/orders/admin-orders.php:49
+#: includes/orders/admin-orders.php:245
+#@ colabsthemes
+msgid "No"
+msgstr ""
+
+#: includes/orders/admin-orders.php:51
+#: includes/orders/admin-orders.php:246
+#@ colabsthemes
+msgid "Free"
+msgstr ""
+
+#: includes/orders/admin-orders.php:92
+#@ colabsthemes
+msgid "Manual"
+msgstr ""
+
+#: includes/orders/admin-orders.php:94
+#@ colabsthemes
+msgid "Order complete."
+msgstr ""
+
+#: includes/orders/admin-orders.php:110
+#@ colabsthemes
+msgid "Order cancelled."
+msgstr ""
+
+#: includes/orders/admin-orders.php:118
+#: includes/theme-orders.php:12
+#: includes/theme-reports.php:332
+#: template-dashboard.php:34
+#@ colabsthemes
+msgid "Orders"
+msgstr ""
+
+#: includes/admin/class-colabs-report-sales-by-date.php:25
+#: includes/orders/admin-orders.php:118
+#@ colabsthemes
+msgid "Export CSV"
+msgstr ""
+
+#: content-dashboard-orders.php:21
+#: includes/admin/order-class.php:263
+#: includes/orders/admin-orders.php:184
+#: includes/theme-orders.php:763
+#@ colabsthemes
+msgid "Pending"
+msgstr ""
+
+#: content-dashboard-orders.php:23
+#: includes/admin/order-class.php:265
+#: includes/orders/admin-orders.php:185
+#@ colabsthemes
+msgid "Completed"
+msgstr ""
+
+#: includes/orders/admin-orders.php:186
+#@ colabsthemes
+msgid "Cancelled"
+msgstr ""
+
+#: includes/orders/admin-orders.php:197
+#: includes/widgets/widget-colabs-flickr.php:68
+#@ colabsthemes
+msgid "User"
+msgstr ""
+
+#: includes/orders/admin-orders.php:200
+#@ colabsthemes
+msgid "Total Cost"
+msgstr ""
+
+#: includes/orders/admin-orders.php:201
+#@ colabsthemes
+msgid "Order Date"
+msgstr ""
+
+#: includes/orders/admin-orders.php:204
+#@ colabsthemes
+msgid "Payment Date"
+msgstr ""
+
+#: includes/orders/admin-orders.php:205
+#@ colabsthemes
+msgid "Payer"
+msgstr ""
+
+#: includes/orders/admin-orders.php:206
+#@ colabsthemes
+msgid "Payment type"
+msgstr ""
+
+#: includes/orders/admin-orders.php:207
+#@ colabsthemes
+msgid "Txn ID"
+msgstr ""
+
+#: includes/orders/admin-orders.php:208
+#@ colabsthemes
+msgid "Approval Method"
+msgstr ""
+
+#: content-dashboard-orders.php:51
+#: content-dashboard-orders.php:86
+#: content-dashboard-properties.php:18
+#: content-dashboard-properties.php:136
+#: includes/orders/admin-orders.php:211
+#@ colabsthemes
+msgid "Actions"
+msgstr ""
+
+#: includes/orders/admin-orders.php:241
+#: includes/orders/admin-orders.php:251
+#: includes/orders/admin-orders.php:252
+#: includes/orders/admin-orders.php:253
+#: includes/orders/admin-orders.php:254
+#: includes/orders/admin-orders.php:256
+#: includes/orders/admin-orders.php:265
+#: includes/theme-upgrade.php:246
+#@ colabsthemes
+msgid "N/A"
+msgstr ""
+
+#: includes/orders/admin-orders.php:274
+#@ colabsthemes
+msgid "No orders found."
+msgstr ""
+
+#: includes/orders/admin-orders.php:281
+#@ colabsthemes
+msgid "Are you sure you want to cancel this order? The order will be cancelled and the Property Post will be deleted from the system."
+msgstr ""
+
+#: includes/orders/orders.class.php:193
+#@ colabsthemes
+msgid "Click here to publish your property on"
+msgstr ""
+
+#: includes/theme-bookmark-ajax.php:10
+#@ colabsthemes
+msgid "Successfully added "
+msgstr ""
+
+#: includes/theme-bookmark-ajax.php:12
+#@ colabsthemes
+msgid "Already Exists "
+msgstr ""
+
+#: includes/theme-comments.php:22
+#@ colabsthemes
+msgid "on"
+msgstr ""
+
+#: includes/theme-comments.php:56
+#, php-format
+#@ colabsthemes
+msgid "By %1$s on %2$s at %3$s"
+msgstr ""
+
+#: includes/theme-comments.php:61
+#@ colabsthemes
+msgid "\\t\\t\\t\\t\\t<span class=\"unapproved\">Your trackback is awaiting moderation.</span>\n"
+msgstr ""
+
+#: content-dashboard-properties.php:16
+#: content-dashboard-properties.php:45
+#: content-dashboard-properties.php:134
+#: includes/admin/admin-panel.php:134
+#: includes/forms/preview-form.php:79
+#: includes/forms/submit-form.php:38
+#: includes/theme-custom-type.php:223
+#: includes/theme-orders.php:162
+#: includes/theme-orders.php:345
+#: single-property.php:130
+#: template-bookmark.php:39
+#@ colabsthemes
+msgid "Status"
+msgstr ""
+
+#: includes/theme-custom-type.php:855
+#@ colabsthemes
+msgid "Registered"
+msgstr ""
+
+#: includes/theme-custom-type.php:874
+#@ colabsthemes
+msgid "View property by this author"
+msgstr ""
+
+#: includes/theme-emails.php:120
+#: includes/theme-emails.php:278
+#: includes/theme-emails.php:321
+#: includes/theme-emails.php:416
+#@ colabsthemes
+msgid "Dear Admin,"
+msgstr ""
+
+#: includes/admin/admin-panel.php:98
+#: includes/theme-emails.php:122
+#: includes/theme-emails.php:164
+#: includes/theme-emails.php:280
+#: includes/theme-emails.php:484
+#@ colabsthemes
+msgid "Property Details"
+msgstr ""
+
+#: includes/theme-emails.php:124
+#: includes/theme-emails.php:166
+#: includes/theme-emails.php:282
+#: includes/theme-emails.php:486
+#@ colabsthemes
+msgid "Title: "
+msgstr ""
+
+#: includes/theme-emails.php:125
+#: includes/theme-emails.php:167
+#: includes/theme-emails.php:283
+#: includes/theme-emails.php:487
+#@ colabsthemes
+msgid "Author: "
+msgstr ""
+
+#: includes/theme-emails.php:285
+#@ colabsthemes
+msgid "Preview Property: "
+msgstr ""
+
+#: includes/theme-emails.php:128
+#: includes/theme-emails.php:286
+#, php-format
+#@ colabsthemes
+msgid "Edit Property: %s"
+msgstr ""
+
+#: includes/theme-emails.php:66
+#@ colabsthemes
+msgid "Regards,"
+msgstr ""
+
+#: includes/theme-emails.php:121
+#, php-format
+#@ colabsthemes
+msgid "The following property listing has just been submitted on your %s website."
+msgstr ""
+
+#: includes/theme-emails.php:279
+#, php-format
+#@ colabsthemes
+msgid "The following property listing has just been edited on your %s website."
+msgstr ""
+
+#: includes/theme-emails.php:127
+#@ colabsthemes
+msgid "View Property: "
+msgstr ""
+
+#: includes/theme-emails.php:154
+#: includes/theme-emails.php:212
+#: includes/theme-emails.php:482
+#: includes/theme-emails.php:521
+#: includes/theme-emails.php:529
+#, php-format
+#@ colabsthemes
+msgid "Hi %s,"
+msgstr ""
+
+#: includes/theme-emails.php:213
+#, php-format
+#@ colabsthemes
+msgid "Your property listing, \"%s\" has been approved and is now live on our site."
+msgstr ""
+
+#: includes/theme-emails.php:171
+#: includes/theme-emails.php:215
+#@ colabsthemes
+msgid "You can view your property by clicking on the following link:"
+msgstr ""
+
+#: includes/theme-emails.php:530
+#, php-format
+#@ colabsthemes
+msgid "Your property listing, \"%s\" has expired."
+msgstr ""
+
+#: includes/forms/login-form-process.php:258
+#: includes/theme-login.php:516
+#, php-format
+#@ colabsthemes
+msgid "New user registration on your site %s:"
+msgstr ""
+
+#: includes/forms/login-form-process.php:259
+#: includes/forms/login-form-process.php:267
+#: includes/theme-login.php:517
+#: includes/theme-login.php:523
+#, php-format
+#@ colabsthemes
+msgid "Username: %s"
+msgstr ""
+
+#: includes/forms/login-form-process.php:260
+#: includes/theme-login.php:518
+#, php-format
+#@ colabsthemes
+msgid "E-mail: %s"
+msgstr ""
+
+#: includes/forms/login-form-process.php:262
+#: includes/theme-login.php:520
+#, php-format
+#@ colabsthemes
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: includes/forms/login-form-process.php:268
+#: includes/theme-login.php:526
+#, php-format
+#@ colabsthemes
+msgid "Password: %s"
+msgstr ""
+
+#: includes/forms/login-form-process.php:271
+#: includes/theme-login.php:530
+#, php-format
+#@ colabsthemes
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: includes/gateways/bank-transfer/bank-transfer.php:98
+#@ colabsthemes
+msgid "Bank Transfer Instructions"
+msgstr ""
+
+#: includes/gateways/bank-transfer/bank-transfer.php:102
+#@ colabsthemes
+msgid "For questions or problems, please contact us directly at"
+msgstr ""
+
+#: includes/theme-functions.php:54
+#@ colabsthemes
+msgid "Read more"
+msgstr ""
+
+#: includes/theme-functions.php:66
+#@ colabsthemes
+msgid "Top Menu"
+msgstr ""
+
+#: includes/theme-functions.php:282
+#@ colabsthemes
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: includes/theme-functions.php:283
+#@ colabsthemes
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: includes/theme-functions.php:314
+#@ colabsthemes
+msgid "Upload Logo"
+msgstr ""
+
+#: includes/theme-functions.php:323
+#: includes/theme-options.php:824
+#: includes/theme-options.php:837
+#: includes/theme-options.php:862
+#@ colabsthemes
+msgid "Layout"
+msgstr ""
+
+#: includes/theme-functions.php:334
+#@ colabsthemes
+msgid "Fullwidth"
+msgstr ""
+
+#: includes/theme-functions.php:335
+#@ colabsthemes
+msgid "Content on left"
+msgstr ""
+
+#: includes/theme-functions.php:336
+#@ colabsthemes
+msgid "Content on right"
+msgstr ""
+
+#: includes/theme-functions.php:340
+#@ colabsthemes
+msgid "Select main content and sidebar alignment. Choose between left or right sidebar layout or fullwidth"
+msgstr ""
+
+#: includes/theme-functions.php:353
+#@ colabsthemes
+msgid "Footer"
+msgstr ""
+
+#: includes/theme-functions.php:364
+#@ colabsthemes
+msgid "Enable / Disable Custom Credit"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:59
+#@ colabsthemes
+msgid "PayPal Options"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:64
+#@ colabsthemes
+msgid "Enable PayPal"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:65
+#, php-format
+#@ colabsthemes
+msgid "You must have a <a target='_new' href='%s'>PayPal</a> account setup before using this feature."
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:80
+#@ colabsthemes
+msgid "PayPal Email"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:81
+#@ colabsthemes
+msgid "Enter your PayPal account email address. This is where your money gets sent."
+msgstr ""
+
+#: includes/theme-gateways.php:48
+#@ colabsthemes
+msgid "Czech Koruna"
+msgstr ""
+
+#: includes/theme-gateways.php:52
+#@ colabsthemes
+msgid "Danish Krone"
+msgstr ""
+
+#: includes/theme-gateways.php:60
+#@ colabsthemes
+msgid "Hungarian Forint"
+msgstr ""
+
+#: includes/theme-gateways.php:64
+#@ colabsthemes
+msgid "Israeli Shekel"
+msgstr ""
+
+#: includes/theme-gateways.php:72
+#@ colabsthemes
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: includes/theme-gateways.php:84
+#@ colabsthemes
+msgid "Norwegian Krone"
+msgstr ""
+
+#: includes/theme-gateways.php:88
+#@ colabsthemes
+msgid "Philippine Pesos"
+msgstr ""
+
+#: includes/theme-gateways.php:100
+#@ colabsthemes
+msgid "Swedish Krona"
+msgstr ""
+
+#: includes/theme-gateways.php:104
+#@ colabsthemes
+msgid "Swiss Franc"
+msgstr ""
+
+#: includes/theme-gateways.php:112
+#@ colabsthemes
+msgid "Thai Baht"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:94
+#@ colabsthemes
+msgid "Enable PayPal IPN"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:95
+#@ colabsthemes
+msgid "Your web host must support fsockopen otherwise this feature will not work. You must also enable IPN within your PayPal account."
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:65
+#: includes/gateways/paypal/paypal.php:87
+#@ colabsthemes
+msgid "Sandbox Mode"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:88
+#, php-format
+#@ colabsthemes
+msgid "You must have a <a target='_new' href='%s'>PayPal Sandbox</a> account setup before using this feature."
+msgstr ""
+
+#: includes/gateways/bank-transfer/bank-transfer.php:31
+#@ colabsthemes
+msgid "Bank Transfer Options"
+msgstr ""
+
+#: includes/gateways/bank-transfer/bank-transfer.php:36
+#@ colabsthemes
+msgid "Enable Bank Transfer"
+msgstr ""
+
+#: includes/gateways/bank-transfer/bank-transfer.php:52
+#@ colabsthemes
+msgid "Wire Instructions"
+msgstr ""
+
+#: includes/gateways/bank-transfer/bank-transfer.php:53
+#@ colabsthemes
+msgid "Enter your specific bank wire instructions here. HTML can be used."
+msgstr ""
+
+#: includes/theme-login.php:227
+#@ colabsthemes
+msgid "You are now logged out."
+msgstr ""
+
+#: includes/theme-login.php:229
+#@ colabsthemes
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: includes/theme-login.php:235
+#@ colabsthemes
+msgid "Registration complete. Please check your e-mail."
+msgstr ""
+
+#: includes/theme-options.php:117
+#@ colabsthemes
+msgid "Enable / Disable reCaptcha"
+msgstr ""
+
+#: includes/theme-options.php:118
+#, php-format
+#@ colabsthemes
+msgid "%2$s. reCaptcha is a free anti-spam service provided by Google. Learn more about <a target=\"_new\" href=\"%1$s\">reCaptcha</a>."
+msgstr ""
+
+#: includes/theme-options.php:118
+#@ colabsthemes
+msgid "Set this option to yes to enable the reCaptcha service that will protect your site against spam registrations. It will show a verification box on your registration page that requires a human to read and enter the words"
+msgstr ""
+
+#: includes/theme-options.php:124
+#@ colabsthemes
+msgid "reCaptcha Public Key"
+msgstr ""
+
+#: includes/theme-options.php:125
+#: includes/theme-options.php:132
+#, php-format
+#@ colabsthemes
+msgid "Sign up for a free <a target=\"_new\" href=\"%2$s\">Google reCaptcha</a> account."
+msgstr ""
+
+#: includes/theme-options.php:125
+#@ colabsthemes
+msgid "Enter your public key here to enable an anti-spam service on your new user registration page (requires a free Google reCaptcha account). Leave it blank if you do not wish to use this anti-spam feature"
+msgstr ""
+
+#: includes/theme-options.php:131
+#@ colabsthemes
+msgid "reCaptcha Private Key"
+msgstr ""
+
+#: includes/theme-options.php:132
+#@ colabsthemes
+msgid "Enter your private key here to enable an anti-spam service on your new user registration page (requires a free Google reCaptcha account). Leave it blank if you do not wish to use this anti-spam feature"
+msgstr ""
+
+#: includes/theme-options.php:138
+#@ colabsthemes
+msgid "Choose Theme for reCaptcha"
+msgstr ""
+
+#: includes/theme-options.php:139
+#@ colabsthemes
+msgid "Select the color scheme you wish to use for reCaptcha."
+msgstr ""
+
+#: includes/theme-options.php:147
+#@ colabsthemes
+msgid "Single Main Layout"
+msgstr ""
+
+#: includes/theme-options.php:148
+#@ colabsthemes
+msgid "Select main content and sidebar alignment. Choose between left or right sidebar layout."
+msgstr ""
+
+#: includes/theme-options.php:159
+#@ colabsthemes
+msgid "Announcement Settings"
+msgstr ""
+
+#: includes/theme-options.php:163
+#@ colabsthemes
+msgid "Announcement Enable"
+msgstr ""
+
+#: includes/theme-options.php:164
+#@ colabsthemes
+msgid "Display announcement on frontpage"
+msgstr ""
+
+#: includes/theme-options.php:170
+#@ colabsthemes
+msgid "Announcement Title"
+msgstr ""
+
+#: includes/theme-options.php:171
+#@ colabsthemes
+msgid "Enter the announcement title"
+msgstr ""
+
+#: includes/theme-options.php:177
+#@ colabsthemes
+msgid "Announcement Content"
+msgstr ""
+
+#: includes/theme-options.php:178
+#@ colabsthemes
+msgid "Enter the announcement content"
+msgstr ""
+
+#: includes/theme-options.php:185
+#@ colabsthemes
+msgid "Page Settings"
+msgstr ""
+
+#: includes/theme-options.php:189
+#@ colabsthemes
+msgid "Dashboard Page"
+msgstr ""
+
+#: includes/theme-options.php:190
+#@ colabsthemes
+msgid "This is the page to your customers dashboard page. Do not change unless you know what you are doing."
+msgstr ""
+
+#: includes/theme-options.php:196
+#@ colabsthemes
+msgid "Profile Page"
+msgstr ""
+
+#: includes/theme-options.php:197
+#@ colabsthemes
+msgid "This is the page to your customers profile page. Do not change unless you know what you are doing."
+msgstr ""
+
+#: includes/theme-options.php:203
+#@ colabsthemes
+msgid "Edit Property Page"
+msgstr ""
+
+#: includes/theme-options.php:204
+#@ colabsthemes
+msgid "This is the page to your customers edit property page. Do not change unless you know what you are doing."
+msgstr ""
+
+#: includes/theme-options.php:210
+#@ colabsthemes
+msgid "Submit Property Page"
+msgstr ""
+
+#: includes/theme-options.php:211
+#@ colabsthemes
+msgid "This is the page to your customers submit property page. Do not change unless you know what you are doing."
+msgstr ""
+
+#: includes/theme-options.php:217
+#@ colabsthemes
+msgid "Bookmark Property Page"
+msgstr ""
+
+#: includes/theme-options.php:218
+#@ colabsthemes
+msgid "This is the page to your customers bookmark property page. Do not change unless you know what you are doing."
+msgstr ""
+
+#: includes/theme-options.php:224
+#@ colabsthemes
+msgid "Property by Agent Page"
+msgstr ""
+
+#: includes/theme-options.php:225
+#@ colabsthemes
+msgid "This is the page to your property list by agent page. Do not change unless you know what you are doing."
+msgstr ""
+
+#: includes/theme-options.php:232
+#@ colabsthemes
+msgid "Property Settings"
+msgstr ""
+
+#: includes/theme-options.php:236
+#@ colabsthemes
+msgid "Property Requires Approval"
+msgstr ""
+
+#: includes/theme-options.php:237
+#@ colabsthemes
+msgid "This options allows you to define whether or not you want to moderate submit property. The property will be marked as 'pending' and admin will be notified via email."
+msgstr ""
+
+#: includes/theme-options.php:242
+#@ colabsthemes
+msgid "Allow Property Editing"
+msgstr ""
+
+#: includes/theme-options.php:243
+#@ colabsthemes
+msgid "This options allows you to control if property listings can be edited by the user."
+msgstr ""
+
+#: includes/theme-options.php:262
+#@ colabsthemes
+msgid "Property Listing Fee"
+msgstr ""
+
+#: includes/theme-options.php:263
+#@ colabsthemes
+msgid "Enter a numeric value, do not include currency symbols. Leave blank to enable free listings."
+msgstr ""
+
+#: includes/theme-options.php:263
+#@ colabsthemes
+msgid "Default property listing fee."
+msgstr ""
+
+#: includes/theme-options.php:268
+#@ colabsthemes
+msgid "Featured Property Price"
+msgstr ""
+
+#: includes/theme-options.php:269
+#@ colabsthemes
+msgid "Only enter numeric values or decimal points. Do not include a currency symbol or commas."
+msgstr ""
+
+#: includes/theme-options.php:269
+#@ colabsthemes
+msgid "This is the additional amount you will charge visitors to post a featured property on your site. A featured property appears at the top of the homepage and at the bottom on other page. Leave this blank if you do not want to offer featured."
+msgstr ""
+
+#: includes/theme-options.php:274
+#@ colabsthemes
+msgid "Allow Property Relisting"
+msgstr ""
+
+#: includes/theme-options.php:275
+#@ colabsthemes
+msgid "This enables an option for your customers to relist their property posting when it has expired."
+msgstr ""
+
+#: includes/theme-options.php:280
+#@ colabsthemes
+msgid "Re-Listing Fee"
+msgstr ""
+
+#: includes/theme-options.php:281
+#@ colabsthemes
+msgid "Enter a numeric value, do not include currency symbols. Leave blank to enable free re-listings."
+msgstr ""
+
+#: includes/theme-options.php:281
+#@ colabsthemes
+msgid "Default re-listing fee."
+msgstr ""
+
+#: includes/theme-options.php:286
+#@ colabsthemes
+msgid "Property Listing Period"
+msgstr ""
+
+#: includes/theme-options.php:287
+#@ colabsthemes
+msgid "Number of days each property will be listed on your site. This option is overridden by property if you are charging for property and using the Fixed Price Per property option. "
+msgstr ""
+
+#: includes/theme-options.php:292
+#@ colabsthemes
+msgid "Enable Reminder Emails"
+msgstr ""
+
+#: includes/theme-options.php:293
+#@ colabsthemes
+msgid "Send the property owner an email 5/1 days before their property expires, and another email once their property has expired (post status changes from published to draft)."
+msgstr ""
+
+#: includes/theme-options.php:298
+#@ colabsthemes
+msgid "Expired Property Action"
+msgstr ""
+
+#: includes/theme-options.php:299
+#@ colabsthemes
+msgid "Choose what to do with expired property. Selecting 'display message' will keep the property visible and display a 'property not available' notice on it. Selecting 'hide' will change the property post to private so only the property poster may view it.."
+msgstr ""
+
+#: includes/theme-options.php:303
+#@ colabsthemes
+msgid "Display Message"
+msgstr ""
+
+#: includes/theme-options.php:304
+#@ colabsthemes
+msgid "Hide"
+msgstr ""
+
+#: includes/theme-options.php:441
+#, php-format
+#@ colabsthemes
+msgid "Add the cities that you want to show up in the search options. <strong>ONE city per line</strong>.<br /><a target='_blank' href='%s/locations.php?type=city'>Click here for a list of cities</a>."
+msgstr ""
+
+#: includes/theme-options.php:447
+#, php-format
+#@ colabsthemes
+msgid "Add the communities that you want to show up in the search options. <strong>ONE community per line</strong>.<br /><a target='_blank' href='%s/locations.php?type=community'>Click here for a list of communities</a>."
+msgstr ""
+
+#: includes/theme-options.php:453
+#, php-format
+#@ colabsthemes
+msgid "Add the tracts that you want to show up in the search options. <strong>ONE tract per line</strong>.<br /><a target='_blank' href='%s/locations.php?type=tract'>Click here for a list of tracts</a>."
+msgstr ""
+
+#: includes/theme-options.php:459
+#, php-format
+#@ colabsthemes
+msgid "Add the zips that you want to show up in the search options. <strong>ONE zip per line</strong>.<br /><a target='_blank' href='%s/locations.php?type=zip'>Click here for a list of zips</a>."
+msgstr ""
+
+#: includes/theme-options.php:690
+#@ colabsthemes
+msgid "Contact Settings"
+msgstr ""
+
+#: includes/theme-options.php:701
+#@ colabsthemes
+msgid "Subscribe Settings"
+msgstr ""
+
+#: includes/theme-options.php:705
+#@ colabsthemes
+msgid "Enable / Disable Subscribe Form"
+msgstr ""
+
+#: includes/theme-options.php:706
+#@ colabsthemes
+msgid "Activate to add subscribe form on footer area."
+msgstr ""
+
+#: includes/theme-options.php:712
+#@ colabsthemes
+msgid "Subscribe Form Action"
+msgstr ""
+
+#: includes/theme-options.php:713
+#@ colabsthemes
+msgid "Enter your subscribe action on footer area. To get MailChimp action you can read this <a href='http://colorlabsproject.com/documentations/goodliving/'>documentation</a>"
+msgstr ""
+
+#: includes/theme-options.php:719
+#@ colabsthemes
+msgid "Subscribe Form Title"
+msgstr ""
+
+#: includes/theme-options.php:720
+#@ colabsthemes
+msgid "Enter your subscribe form on footer area."
+msgstr ""
+
+#: includes/theme-options.php:726
+#@ colabsthemes
+msgid "Subscribe Button Title"
+msgstr ""
+
+#: includes/theme-options.php:727
+#@ colabsthemes
+msgid "Enter your subscribe button title on footer area."
+msgstr ""
+
+#: includes/theme-options.php:733
+#@ colabsthemes
+msgid "Subscribe Form Description"
+msgstr ""
+
+#: includes/theme-options.php:734
+#@ colabsthemes
+msgid "Enter your subscribe form description on footer area."
+msgstr ""
+
+#: includes/theme-options.php:827
+#: includes/theme-options.php:840
+#: includes/theme-options.php:865
+#@ colabsthemes
+msgid "Select a specific layout for this post/page. Overrides default site layout."
+msgstr ""
+
+#: includes/theme-options.php:883
+#@ colabsthemes
+msgid "Number Agent"
+msgstr ""
+
+#: includes/theme-options.php:885
+#@ colabsthemes
+msgid "Enter your number agent."
+msgstr ""
+
+#: includes/theme-options.php:889
+#@ colabsthemes
+msgid "Address Agent"
+msgstr ""
+
+#: includes/theme-options.php:891
+#@ colabsthemes
+msgid "Enter your address agent."
+msgstr ""
+
+#: includes/widgets/widget-colabs-ad-sidebar.php:10
+#@ colabsthemes
+msgid "ColorLabs - Ads Widget"
+msgstr ""
+
+#: includes/widgets/widget-colabs-embed.php:16
+#@ colabsthemes
+msgid "Video Posts"
+msgstr ""
+
+#: includes/widgets/widget-colabs-embed.php:59
+#@ colabsthemes
+msgid "Read Article"
+msgstr ""
+
+#: includes/widgets/widget-colabs-embed.php:104
+#@ colabsthemes
+msgid "Category:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-embed.php:117
+#@ colabsthemes
+msgid "Tag:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-flickr.php:24
+#@ colabsthemes
+msgid "Photos on <span>flick<span>r</span></span>"
+msgstr ""
+
+#: includes/widgets/widget-colabs-flickr.php:66
+#@ colabsthemes
+msgid "Type:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-flickr.php:69
+#@ colabsthemes
+msgid "Group"
+msgstr ""
+
+#: includes/widgets/widget-colabs-flickr.php:73
+#@ colabsthemes
+msgid "Sorting:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-flickr.php:76
+#@ colabsthemes
+msgid "Random"
+msgstr ""
+
+#: includes/widgets/widget-colabs-flickr.php:82
+#@ colabsthemes
+msgid "Square"
+msgstr ""
+
+#: includes/widgets/widget-colabs-flickr.php:83
+#: template-profile.php:66
+#@ colabsthemes
+msgid "Medium"
+msgstr ""
+
+#: includes/widgets/widget-colabs-flickr.php:84
+#@ colabsthemes
+msgid "Thumbnail"
+msgstr ""
+
+#: sidebar-user.php:39
+#@ colabsthemes
+msgid "Join Now"
+msgstr ""
+
+#: sidebar-user.php:41
+#@ colabsthemes
+msgid "Log In"
+msgstr ""
+
+#: sidebar-user.php:44
+#@ colabsthemes
+msgid "Your Profile"
+msgstr ""
+
+#: sidebar-user.php:50
+#: sidebar-user.php:84
+#@ colabsthemes
+msgid "Welcome,"
+msgstr ""
+
+#: sidebar-user.php:52
+#@ colabsthemes
+msgid "Member Since:"
+msgstr ""
+
+#: sidebar-user.php:53
+#@ colabsthemes
+msgid "Live Property:"
+msgstr ""
+
+#: sidebar-user.php:54
+#@ colabsthemes
+msgid "Pending Property:"
+msgstr ""
+
+#: sidebar-user.php:55
+#@ colabsthemes
+msgid "Offline Property:"
+msgstr ""
+
+#: sidebar-user.php:56
+#@ colabsthemes
+msgid "Total Property:"
+msgstr ""
+
+#: includes/theme-install.php:101
+#: sidebar-user.php:59
+#@ colabsthemes
+msgid "Submit Property"
+msgstr ""
+
+#: sidebar-user.php:64
+#@ colabsthemes
+msgid "My Bookmarks"
+msgstr ""
+
+#: sidebar-user.php:73
+#@ colabsthemes
+msgid "User Options"
+msgstr ""
+
+#: sidebar-user.php:78
+#@ colabsthemes
+msgid "My Dashboard"
+msgstr ""
+
+#: sidebar-user.php:79
+#@ colabsthemes
+msgid "Edit Profile"
+msgstr ""
+
+#: sidebar-user.php:80
+#@ colabsthemes
+msgid "WordPress Admin"
+msgstr ""
+
+#: sidebar-user.php:81
+#@ colabsthemes
+msgid "Log Out"
+msgstr ""
+
+#: sidebar-user.php:84
+#@ colabsthemes
+msgid "visitor!"
+msgstr ""
+
+#: includes/theme-login.php:358
+#: sidebar-user.php:86
+#@ colabsthemes
+msgid "Log in"
+msgstr ""
+
+#: sidebar.php:34
+#@ colabsthemes
+msgid "Bookmark This Listing"
+msgstr ""
+
+#: sidebar.php:36
+#@ colabsthemes
+msgid "Browse Bookmark"
+msgstr ""
+
+#: sidebar.php:39
+#@ colabsthemes
+msgid "Email To Friends"
+msgstr ""
+
+#: sidebar.php:44
+#@ colabsthemes
+msgid "Listed By"
+msgstr ""
+
+#: sidebar.php:45
+#@ colabsthemes
+msgid "To arrange a viewing or request more details about this property, contact"
+msgstr ""
+
+#: sidebar.php:74
+#@ colabsthemes
+msgid "Send Email"
+msgstr ""
+
+#: sidebar.php:76
+#: sidebar.php:78
+#@ colabsthemes
+msgid "More listing (s)"
+msgstr ""
+
+#: sidebar.php:86
+#@ colabsthemes
+msgid "Categories"
+msgstr ""
+
+#: includes/forms/preview-form.php:29
+#: single-property.php:46
+#@ colabsthemes
+msgid "Google Maps"
+msgstr ""
+
+#: includes/forms/preview-form.php:32
+#: single-property.php:49
+#@ colabsthemes
+msgid "Facilities"
+msgstr ""
+
+#: includes/forms/preview-form.php:72
+#: single-property.php:123
+#@ colabsthemes
+msgid "Furnished"
+msgstr ""
+
+#: single-property.php:138
+#@ colabsthemes
+msgid "Reviews"
+msgstr ""
+
+#: single-property.php:138
+#@ colabsthemes
+msgid "(0)"
+msgstr ""
+
+#: single-property.php:138
+#@ colabsthemes
+msgid "(1)"
+msgstr ""
+
+#: single-property.php:138
+#@ colabsthemes
+msgid "(%)"
+msgstr ""
+
+#: single.php:14
+#@ colabsthemes
+msgid "0 Comment"
+msgstr ""
+
+#: single.php:39
+#: template-sitemap.php:14
+#@ colabsthemes
+msgid "Pages:"
+msgstr ""
+
+#: template-bookmark.php:13
+#@ colabsthemes
+msgid "Successfully Removed"
+msgstr ""
+
+#: template-bookmark.php:50
+#@ colabsthemes
+msgid "Remove this item"
+msgstr ""
+
+#: template-bookmark.php:62
+#@ colabsthemes
+msgid "No property were added to bookmark list"
+msgstr ""
+
+#: template-dashboard.php:26
+#, php-format
+#@ colabsthemes
+msgid "%s's Property"
+msgstr ""
+
+#: content-dashboard-properties.php:70
+#@ colabsthemes
+msgid "Delete Property"
+msgstr ""
+
+#: content-dashboard-properties.php:68
+#: includes/theme-install.php:93
+#@ colabsthemes
+msgid "Edit Property"
+msgstr ""
+
+#: content-dashboard-properties.php:78
+#@ colabsthemes
+msgid "Mark Sold"
+msgstr ""
+
+#: content-dashboard-properties.php:80
+#@ colabsthemes
+msgid "Unmark Sold"
+msgstr ""
+
+#: content-dashboard-properties.php:146
+#@ colabsthemes
+msgid "Are you sure you want to delete this property?"
+msgstr ""
+
+#: content-dashboard-properties.php:141
+#@ colabsthemes
+msgid "You currently have no property."
+msgstr ""
+
+#: includes/theme-login.php:728
+#: template-profile.php:66
+#: template-profile.php:167
+#@ colabsthemes
+msgid "Strength indicator"
+msgstr ""
+
+#: template-profile.php:66
+#@ colabsthemes
+msgid "Very weak"
+msgstr ""
+
+#: template-profile.php:66
+#@ colabsthemes
+msgid "Weak"
+msgstr ""
+
+#: template-profile.php:66
+#@ colabsthemes
+msgid "Strong"
+msgstr ""
+
+#: template-profile.php:75
+#, php-format
+#@ colabsthemes
+msgid "%s's Profile"
+msgstr ""
+
+#: template-profile.php:82
+#@ colabsthemes
+msgid "Your profile has been updated."
+msgstr ""
+
+#: template-profile.php:98
+#@ colabsthemes
+msgid "First Name:"
+msgstr ""
+
+#: template-profile.php:103
+#@ colabsthemes
+msgid "Last Name:"
+msgstr ""
+
+#: template-profile.php:108
+#@ colabsthemes
+msgid "Nickname:"
+msgstr ""
+
+#: template-profile.php:113
+#@ colabsthemes
+msgid "Display name publicly as:"
+msgstr ""
+
+#: template-profile.php:134
+#@ colabsthemes
+msgid "Email:"
+msgstr ""
+
+#: template-profile.php:139
+#@ colabsthemes
+msgid "Website:"
+msgstr ""
+
+#: template-profile.php:144
+#@ colabsthemes
+msgid "About Yourself:"
+msgstr ""
+
+#: template-profile.php:154
+#@ colabsthemes
+msgid "New Password:"
+msgstr ""
+
+#: template-profile.php:156
+#@ colabsthemes
+msgid "If you would like to change the password type a new one. Otherwise leave this blank."
+msgstr ""
+
+#: template-profile.php:160
+#@ colabsthemes
+msgid "Re-Type Password:"
+msgstr ""
+
+#: template-profile.php:162
+#@ colabsthemes
+msgid "Type your new password again."
+msgstr ""
+
+#: template-profile.php:168
+#@ colabsthemes
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ & )."
+msgstr ""
+
+#: template-profile.php:194
+#@ colabsthemes
+msgid "Update Profile "
+msgstr ""
+
+#: template-sitemap.php:18
+#@ colabsthemes
+msgid "Categories:"
+msgstr ""
+
+#: template-sitemap.php:22
+#@ colabsthemes
+msgid "Monthly Archives:"
+msgstr ""
+
+#: template-sitemap.php:26
+#@ colabsthemes
+msgid "RSS Feed:"
+msgstr ""
+
+#: template-sitemap.php:33
+#@ colabsthemes
+msgid "Property Features:"
+msgstr ""
+
+#: template-sitemap.php:35
+#@ colabsthemes
+msgid "Property Type:"
+msgstr ""
+
+#: template-sitemap.php:49
+#@ colabsthemes
+msgid "Property Location:"
+msgstr ""
+
+#: includes/theme-emails.php:174
+#: includes/theme-emails.php:489
+#@ colabsthemes
+msgid "You may check the status of your property(s) at anytime by logging into the \"Dashboard\" page."
+msgstr ""
+
+#: includes/forms/submit-form.php:149
+#: includes/forms/submit-form.php:156
+#@ colabsthemes
+msgid "Available"
+msgstr ""
+
+#: includes/forms/submit-form.php:197
+#@ colabsthemes
+msgid "Feature your listing for "
+msgstr ""
+
+#: includes/forms/submit-form.php:197
+#@ colabsthemes
+msgid "?"
+msgstr ""
+
+#: includes/forms/submit-form.php:199
+#@ colabsthemes
+msgid "Featured listings are displayed on the homepage and are also listed in all other listing pages."
+msgstr ""
+
+#: includes/forms/submit-form.php:201
+#@ colabsthemes
+msgid "Yes please, feature my listing."
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:29
+#: includes/gateways/paypal/paypal.php:30
+#@ colabsthemes
+msgid "PayPal"
+msgstr ""
+
+#: includes/gateways/bank-transfer/bank-transfer.php:14
+#: includes/gateways/bank-transfer/bank-transfer.php:15
+#@ colabsthemes
+msgid "Bank Transfer"
+msgstr ""
+
+#: content-property-noresult.php:5
+#@ colabsthemes
+msgid "No Result Found"
+msgstr ""
+
+#: content-property-noresult.php:11
+#@ colabsthemes
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps refining search criteria can help."
+msgstr ""
+
+#: content-property.php:8
+#: sidebar.php:24
+#@ colabsthemes
+msgid "Sold"
+msgstr ""
+
+#: footer.php:11
+#@ colabsthemes
+msgid "Sign up newsletter"
+msgstr ""
+
+#: footer.php:48
+#@ colabsthemes
+msgid "Hello"
+msgstr ""
+
+#: footer.php:58
+#@ colabsthemes
+msgid "Sign Out"
+msgstr ""
+
+#: functions/admin-dashboard.php:91
+#@ colabsthemes
+msgid "ColorLabs Latest Themes"
+msgstr ""
+
+#: functions/admin-editor.php:251
+#@ colabsthemes
+msgid "File Updated"
+msgstr ""
+
+#: functions/admin-editor.php:153
+#@ colabsthemes
+msgid "Upload Custom CSS File"
+msgstr ""
+
+#: functions/admin-editor.php:164
+#@ colabsthemes
+msgid "File Editor"
+msgstr ""
+
+#: functions/admin-functions.php:3098
+#, php-format
+#@ woothemes
+msgid "View %s"
+msgstr ""
+
+#: functions/admin-interface.php:301
+#@ colabsthemes
+msgid "News On Twitter:"
+msgstr ""
+
+#: functions/admin-interface.php:826
+#@ colabsthemes
+msgid "Saving Options please wait &hellip;"
+msgstr ""
+
+#: functions/admin-interface.php:841
+#@ colabsthemes
+msgid "Saved"
+msgstr ""
+
+#: functions/admin-seo.php:256
+#@ colabsthemes
+msgid "Social Settings"
+msgstr ""
+
+#: functions/admin-seo.php:260
+#@ colabsthemes
+msgid "Facebook Page URL"
+msgstr ""
+
+#: functions/admin-seo.php:266
+#@ colabsthemes
+msgid "Google Publisher Page"
+msgstr ""
+
+#: functions/admin-seo.php:267
+#@ colabsthemes
+msgid "If you have a Google+ page for your business, add that URL here and link it on your Google+ page's about page."
+msgstr ""
+
+#: functions/admin-seo.php:272
+#@ colabsthemes
+msgid "Site Twitter Username"
+msgstr ""
+
+#: functions/admin-seo.php:273
+#@ colabsthemes
+msgid "Add Twitter card meta data to your site's"
+msgstr ""
+
+#: functions/admin-seo.php:278
+#@ colabsthemes
+msgid "The default card type to use"
+msgstr ""
+
+#: functions/admin-seo.php:282
+#@ colabsthemes
+msgid "Summary"
+msgstr ""
+
+#: functions/admin-seo.php:282
+#@ colabsthemes
+msgid "Summary with large image"
+msgstr ""
+
+#: functions/admin-update.php:136
+#@ colabsthemes
+msgid "Please login with your ColorLabs account to updating your theme."
+msgstr ""
+
+#: functions/admin-update.php:139
+#@ colabsthemes
+msgid "E-Mail Address:"
+msgstr ""
+
+#: header.php:98
+#@ colabsthemes
+msgid "Sort by Price - Low to High"
+msgstr ""
+
+#: header.php:99
+#@ colabsthemes
+msgid "Sort by Price - High to Low"
+msgstr ""
+
+#: includes/forms/property-search.php:148
+#@ colabsthemes
+msgid "Max Size"
+msgstr ""
+
+#: includes/forms/property-search.php:207
+#@ colabsthemes
+msgid "- All property types -"
+msgstr ""
+
+#: includes/forms/property-search.php:223
+#: includes/forms/property-search.php:234
+#: includes/forms/property-search.php:248
+#: includes/forms/property-search.php:259
+#@ colabsthemes
+msgid "- Any -"
+msgstr ""
+
+#: includes/theme-custom-fields.php:126
+#: includes/theme-custom-fields.php:259
+#@ colabsthemes
+msgid "Select One"
+msgstr ""
+
+#: includes/theme-custom-fields.php:200
+#@ colabsthemes
+msgid "None"
+msgstr ""
+
+#: includes/theme-custom-fields.php:311
+#@ colabsthemes
+msgid "Add Gallery"
+msgstr ""
+
+#: includes/theme-custom-fields.php:357
+#@ colabsthemes
+msgid "File paths/URLs, one per line"
+msgstr ""
+
+#: includes/theme-custom-fields.php:358
+#@ colabsthemes
+msgid "Choose a file"
+msgstr ""
+
+#: includes/theme-custom-fields.php:372
+#: includes/theme-custom-fields.php:391
+#@ colabsthemes
+msgid "Remove"
+msgstr ""
+
+#: includes/theme-install.php:29
+#@ colabsthemes
+msgid "<strong>Thank you for using GoodLiving</strong> &#8211; You're almost ready :)"
+msgstr ""
+
+#: includes/theme-install.php:31
+#@ colabsthemes
+msgid "Install goodliving Pages"
+msgstr ""
+
+#: includes/theme-install.php:32
+#@ colabsthemes
+msgid "Skip"
+msgstr ""
+
+#: includes/theme-install.php:77
+#@ colabsthemes
+msgid "Dashboard"
+msgstr ""
+
+#: includes/theme-install.php:85
+#@ colabsthemes
+msgid "Profile"
+msgstr ""
+
+#: includes/theme-install.php:109
+#@ colabsthemes
+msgid "Bookmark"
+msgstr ""
+
+#: includes/theme-js.php:35
+#@ colabsthemes
+msgid "No More Post"
+msgstr ""
+
+#: includes/theme-js.php:42
+#@ colabsthemes
+msgid "Use this file"
+msgstr ""
+
+#: includes/theme-js.php:45
+#@ colabsthemes
+msgid "Add Images to Gallery"
+msgstr ""
+
+#: includes/admin/admin-panel.php:188
+#: includes/admin/admin-panel.php:264
+#: includes/theme-js.php:46
+#@ colabsthemes
+msgid "Add to gallery"
+msgstr ""
+
+#: includes/theme-js.php:49
+#@ colabsthemes
+msgid "Choose a File"
+msgstr ""
+
+#: includes/theme-js.php:50
+#@ colabsthemes
+msgid "Insert file URL"
+msgstr ""
+
+#: includes/theme-js.php:53
+#@ colabsthemes
+msgid "This field is required"
+msgstr ""
+
+#: includes/theme-js.php:54
+#@ colabsthemes
+msgid "You need to aggree with our terms"
+msgstr ""
+
+#: includes/theme-login.php:110
+#@ colabsthemes
+msgid "Retrieve your lost password? "
+msgstr ""
+
+#: includes/theme-login.php:115
+#@ colabsthemes
+msgid "Sign In/Register"
+msgstr ""
+
+#: includes/theme-login.php:172
+#, php-format
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
+msgstr ""
+
+#: includes/theme-login.php:176
+#, php-format
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
+msgstr ""
+
+#: includes/theme-login.php:196
+#@ colabsthemes
+msgid "You have logged in successfully."
+msgstr ""
+
+#: includes/theme-login.php:223
+#@ colabsthemes
+msgid "Session expired. Please log in again. You will not move away from this page."
+msgstr ""
+
+#: includes/theme-login.php:231
+#@ colabsthemes
+msgid "Check your e-mail for the confirmation link."
+msgstr ""
+
+#: includes/theme-login.php:233
+#@ colabsthemes
+msgid "Check your e-mail for your new password."
+msgstr ""
+
+#: includes/theme-login.php:237
+#@ colabsthemes
+msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
+msgstr ""
+
+#: includes/theme-login.php:279
+#@ colabsthemes
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: includes/theme-login.php:281
+#@ colabsthemes
+msgid "Sorry, that key has expired. Please try again."
+msgstr ""
+
+#: includes/theme-login.php:343
+#@ colabsthemes
+msgid "The passwords do not match."
+msgstr ""
+
+#: includes/theme-login.php:358
+#@ colabsthemes
+msgid "Your password has been reset."
+msgstr ""
+
+#: includes/theme-login.php:571
+#@ colabsthemes
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: includes/theme-login.php:575
+#@ colabsthemes
+msgid "Sign In or Create An Account"
+msgstr ""
+
+#: includes/theme-login.php:580
+#@ colabsthemes
+msgid "Enter your new password"
+msgstr ""
+
+#: includes/theme-login.php:584
+#@ colabsthemes
+msgid "Create An Account"
+msgstr ""
+
+#: includes/theme-login.php:634
+#: includes/theme-login.php:635
+#@ colabsthemes
+#@ woocommerce
+msgid "Email Address/Username"
+msgstr ""
+
+#: includes/theme-login.php:653
+#@ colabsthemes
+msgid "Remember Me"
+msgstr ""
+
+#: includes/forms/login-form.php:30
+#: includes/theme-login.php:657
+#@ colabsthemes
+msgid "Sign In"
+msgstr ""
+
+#: includes/forms/login-form.php:31
+#: includes/theme-login.php:668
+#@ colabsthemes
+msgid "Forgot your password?"
+msgstr ""
+
+#: includes/forms/login-form.php:127
+#: includes/theme-login.php:683
+#@ colabsthemes
+msgid "Please enter your email address below. You will receive a link to reset your password."
+msgstr ""
+
+#: includes/theme-login.php:687
+#@ colabsthemes
+msgid "Username or E-mail:"
+msgstr ""
+
+#: includes/theme-login.php:688
+#@ woocommerce
+msgid "Username or Email Address"
+msgstr ""
+
+#: includes/theme-login.php:716
+#@ colabsthemes
+msgid "Please enter your new password below"
+msgstr ""
+
+#: includes/theme-login.php:719
+#: includes/theme-login.php:720
+#@ colabsthemes
+msgid "New password"
+msgstr ""
+
+#: includes/theme-login.php:724
+#: includes/theme-login.php:725
+#@ colabsthemes
+msgid "Confirm new password"
+msgstr ""
+
+#: includes/theme-login.php:731
+#@ default
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! \" ? $ % ^ &amp; )."
+msgstr ""
+
+#: includes/theme-login.php:746
+#@ default
+msgid "Reset Password"
+msgstr ""
+
+#: includes/forms/login-form.php:17
+#: includes/forms/login-form.php:18
+#: includes/forms/login-form.php:63
+#: includes/forms/login-form.php:64
+#: includes/forms/login-form.php:132
+#: includes/forms/login-form.php:133
+#: includes/theme-login.php:766
+#: includes/theme-login.php:767
+#@ colabsthemes
+#@ woocommerce
+msgid "Email Address"
+msgstr ""
+
+#: includes/forms/login-form-process.php:142
+#: includes/theme-login.php:837
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: includes/forms/login-form-process.php:144
+#: includes/theme-login.php:839
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: includes/forms/login-form-process.php:147
+#: includes/theme-login.php:842
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr ""
+
+#: includes/theme-login.php:846
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: includes/theme-login.php:848
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+msgstr ""
+
+#: includes/theme-login.php:851
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr ""
+
+#: includes/forms/login-form-process.php:165
+#: includes/theme-login.php:861
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: Please enter a password."
+msgstr ""
+
+#: includes/theme-login.php:863
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: Please enter password twice."
+msgstr ""
+
+#: includes/theme-login.php:865
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: Passwords do not match."
+msgstr ""
+
+#: includes/theme-login.php:876
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: You are a bot"
+msgstr ""
+
+#: includes/forms/login-form-process.php:181
+#: includes/theme-login.php:882
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: You are spam, not human! Shoo!."
+msgstr ""
+
+#: includes/forms/login-form-process.php:192
+#: includes/theme-login.php:894
+#, php-format
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: includes/theme-options.php:144
+#@ colabsthemes
+msgid "Light"
+msgstr ""
+
+#: includes/theme-options.php:144
+#@ colabsthemes
+msgid "Dark"
+msgstr ""
+
+#: includes/theme-options.php:308
+#@ colabsthemes
+msgid "Rich Text Editor"
+msgstr ""
+
+#: includes/theme-options.php:309
+#@ colabsthemes
+msgid "Use Rich text editor for property submission"
+msgstr ""
+
+#: includes/theme-options.php:321
+#@ colabsthemes
+msgid "Advance Search"
+msgstr ""
+
+#: includes/theme-options.php:322
+#@ colabsthemes
+msgid "Show advance search on header"
+msgstr ""
+
+#: includes/theme-options.php:510
+#@ colabsthemes
+msgid "Choose from a preset colored pin."
+msgstr ""
+
+#: includes/widgets/widget-colabs-twitter.php:89
+#@ colabsthemes
+msgid "Number of tweet:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-twitter.php:138
+#: includes/widgets/widget-colabs-twitter.php:145
+#@ colabsthemes
+msgid "There is problem fetching twitter timeline"
+msgstr ""
+
+#: searchform.php:9
+#@ colabsthemes
+msgid "Search for:"
+msgstr ""
+
+#: includes/forms/submit-form.php:168
+#@ colabsthemes
+msgid "Featured Image"
+msgstr ""
+
+#: content-dashboard-orders.php:15
+#@ colabsthemes
+msgid "Below is your Order history. You can use the available filter to filter the results."
+msgstr ""
+
+#: content-dashboard-orders.php:22
+#: includes/admin/order-class.php:264
+#@ colabsthemes
+msgid "Failed"
+msgstr ""
+
+#: content-dashboard-orders.php:24
+#: includes/admin/order-class.php:266
+#@ colabsthemes
+msgid "Activated"
+msgstr ""
+
+#: content-dashboard-orders.php:36
+#@ colabsthemes
+msgid "Filter"
+msgstr ""
+
+#: content-dashboard-orders.php:39
+#@ colabsthemes
+msgid "Remove Filters"
+msgstr ""
+
+#: content-dashboard-orders.php:48
+#: content-dashboard-orders.php:66
+#: includes/admin/order-class.php:483
+#: includes/theme-emails.php:233
+#: includes/theme-orders.php:335
+#@ colabsthemes
+msgid "Order Summary"
+msgstr ""
+
+#: content-dashboard-orders.php:50
+#: content-dashboard-orders.php:85
+#@ colabsthemes
+msgid "Payment/Status"
+msgstr ""
+
+#: content-dashboard-orders.php:65
+#@ colabsthemes
+msgid "j M"
+msgstr ""
+
+#: content-dashboard-orders.php:92
+#: content-dashboard-properties.php:93
+#@ colabsthemes
+msgid "Pay"
+msgstr ""
+
+#: content-dashboard-orders.php:112
+#@ colabsthemes
+msgid "No Orders found."
+msgstr ""
+
+#: content-dashboard-orders.php:120
+#@ colabsthemes
+msgid "You don't have any Orders, yet."
+msgstr ""
+
+#: content-dashboard-properties.php:17
+#: content-dashboard-properties.php:135
+#: includes/theme-orders.php:773
+#: includes/theme-property.php:54
+#: includes/theme-property.php:59
+#: includes/theme-property.php:796
+#: includes/theme-property.php:799
+#@ colabsthemes
+msgid "Expired"
+msgstr ""
+
+#: content-dashboard-properties.php:71
+#@ colabsthemes
+msgid "Stop list this property"
+msgstr ""
+
+#: content-dashboard-properties.php:89
+#: content-dashboard-properties.php:96
+#: content-dashboard-properties.php:116
+#: includes/forms/confirm-form-charge.php:51
+#@ colabsthemes
+msgid "Continue"
+msgstr ""
+
+#: content-dashboard-properties.php:121
+#@ colabsthemes
+msgid "Relist"
+msgstr ""
+
+#: includes/admin/admin-panel.php:93
+#@ colabsthemes
+msgid "Property Duration"
+msgstr ""
+
+#: includes/admin/admin-panel.php:95
+#@ colabsthemes
+msgid "days"
+msgstr ""
+
+#: includes/admin/admin-panel.php:100
+#@ colabsthemes
+msgid "Property Gallery"
+msgstr ""
+
+#: includes/admin/admin-panel.php:117
+#@ colabsthemes
+msgid "For Sale"
+msgstr ""
+
+#: includes/admin/admin-panel.php:118
+#@ colabsthemes
+msgid "For Rent"
+msgstr ""
+
+#: includes/admin/admin-panel.php:119
+#@ colabsthemes
+msgid "Recently Sold"
+msgstr ""
+
+#: includes/admin/admin-panel.php:120
+#@ colabsthemes
+msgid "Not for Sale"
+msgstr ""
+
+#: includes/admin/admin-panel.php:138
+#@ colabsthemes
+msgid "Price Period"
+msgstr ""
+
+#: includes/admin/admin-panel.php:142
+#: includes/theme-property.php:996
+#@ colabsthemes
+msgid "Month"
+msgstr ""
+
+#: includes/admin/admin-panel.php:143
+#: includes/admin/class-colabs-report-sales-by-date.php:491
+#: includes/theme-property.php:993
+#@ colabsthemes
+msgid "Year"
+msgstr ""
+
+#: includes/admin/admin-panel.php:145
+#@ colabsthemes
+msgid "Property price periode only for rent status."
+msgstr ""
+
+#: includes/admin/admin-panel.php:177
+#: includes/admin/admin-panel.php:188
+#: includes/admin/admin-panel.php:282
+#@ colabsthemes
+msgid "Delete image"
+msgstr ""
+
+#: includes/admin/admin-panel.php:188
+#@ colabsthemes
+msgid "Add Images to Property Gallery"
+msgstr ""
+
+#: includes/admin/admin-panel.php:188
+#@ colabsthemes
+msgid "Add property gallery images"
+msgstr ""
+
+#: includes/admin/admin-panel.php:259
+#@ colabsthemes
+msgid " Add Images to Property Gallery "
+msgstr ""
+
+#: includes/admin/admin-panel.php:422
+#@ colabsthemes
+msgid "Find"
+msgstr ""
+
+#: includes/admin/admin-panel.php:431
+#@ colabsthemes
+msgid "Current location:"
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:24
+#@ colabsthemes
+msgid "Property permalink base"
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:29
+#@ colabsthemes
+msgid "Property type base"
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:36
+#@ colabsthemes
+msgid "Property feature base"
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:43
+#@ colabsthemes
+msgid "Property status base"
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:56
+#@ colabsthemes
+msgctxt "slug"
+msgid "property-type"
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:66
+#@ colabsthemes
+msgctxt "slug"
+msgid "property-feature"
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:76
+#@ colabsthemes
+msgctxt "slug"
+msgid "property-status"
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:84
+#@ colabsthemes
+msgid "These settings control the permalinks used for property. These settings only apply when <strong>not using \"default\" permalinks above</strong>."
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:92
+#@ colabsthemes
+msgctxt "default-slug"
+msgid "properties"
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:93
+#@ colabsthemes
+msgctxt "default-slug"
+msgid "property"
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:105
+#@ colabsthemes
+msgid "Default"
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:114
+#@ colabsthemes
+msgid "Properties base"
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:118
+#@ colabsthemes
+msgid "Properties base with type"
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:124
+#@ colabsthemes
+msgid "Custom Base"
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:126
+#@ colabsthemes
+msgid "Enter a custom base to use. A base <strong>must</strong> be set or WordPress will use default instead."
+msgstr ""
+
+#: includes/admin/admin-permalink-settings.php:176
+#@ colabsthemes
+msgctxt "slug"
+msgid "property"
+msgstr ""
+
+#: includes/admin/admin-statistics.php:8
+#@ colabsthemes
+msgid "Total Properties"
+msgstr ""
+
+#: includes/admin/admin-statistics.php:15
+#@ colabsthemes
+msgid "New Properties (last 7 days)"
+msgstr ""
+
+#: includes/admin/admin-statistics.php:17
+#: includes/admin/admin-statistics.php:22
+#@ colabsthemes
+msgid "Total Live Properties"
+msgstr ""
+
+#: includes/admin/admin-statistics.php:25
+#: includes/admin/admin-statistics.php:30
+#@ colabsthemes
+msgid "Total Pending Properties"
+msgstr ""
+
+#: includes/admin/admin-statistics.php:34
+#@ colabsthemes
+msgid "Revenue (7 days)"
+msgstr ""
+
+#: includes/admin/class-colabs-report-sales-by-date.php:66
+#, php-format
+#@ colabsthemes
+msgid "%s average daily sales"
+msgstr ""
+
+#: includes/admin/class-colabs-report-sales-by-date.php:70
+#, php-format
+#@ colabsthemes
+msgid "%s average monthly sales"
+msgstr ""
+
+#: includes/admin/class-colabs-report-sales-by-date.php:75
+#, php-format
+#@ colabsthemes
+msgid "%s sales in this period"
+msgstr ""
+
+#: includes/admin/class-colabs-report-sales-by-date.php:87
+#, php-format
+#@ colabsthemes
+msgid "%s orders placed"
+msgstr ""
+
+#: includes/admin/class-colabs-report-sales-by-date.php:147
+#@ colabsthemes
+msgid "Number of orders"
+msgstr ""
+
+#: includes/admin/class-colabs-report-sales-by-date.php:155
+#@ colabsthemes
+msgid "Average sales amount"
+msgstr ""
+
+#: includes/admin/class-colabs-report-sales-by-date.php:165
+#@ colabsthemes
+msgid "Sales amount"
+msgstr ""
+
+#: includes/admin/class-colabs-report-sales-by-date.php:492
+#@ colabsthemes
+msgid "Last Month"
+msgstr ""
+
+#: includes/admin/class-colabs-report-sales-by-date.php:493
+#@ colabsthemes
+msgid "This Month"
+msgstr ""
+
+#: includes/admin/class-colabs-report-sales-by-date.php:494
+#@ colabsthemes
+msgid "Last 7 Days"
+msgstr ""
+
+#: includes/admin/class-colabs-report-sales-by-date.php:523
+#@ colabsthemes
+msgid "Custom:"
+msgstr ""
+
+#: includes/admin/class-colabs-report-sales-by-date.php:538
+#@ colabsthemes
+msgid "Go"
+msgstr ""
+
+#: includes/admin/order-class.php:63
+#@ colabsthemes
+msgid "Transaction ID "
+msgstr ""
+
+#: includes/admin/order-class.php:67
+#@ colabsthemes
+msgid "Transaction Data"
+msgstr ""
+
+#: includes/admin/order-class.php:456
+#: includes/admin/order-class.php:495
+#: includes/theme-orders.php:349
+#@ colabsthemes
+msgid "Total"
+msgstr ""
+
+#: includes/admin/order-class.php:485
+#@ colabsthemes
+msgid "Affects"
+msgstr ""
+
+#: includes/forms/confirm-form-charge.php:36
+#@ colabsthemes
+msgid "Please select a method for processing your payment:"
+msgstr ""
+
+#: includes/forms/confirm-form-charge.php:42
+#@ colabsthemes
+msgid "Continue to Pay"
+msgstr ""
+
+#: includes/forms/confirm-form-charge.php:48
+#: includes/forms/confirm-form-nocharge.php:2
+#@ colabsthemes
+msgid "Thank You"
+msgstr ""
+
+#: includes/forms/confirm-form-charge.php:49
+#@ colabsthemes
+msgid "Your order has been completed."
+msgstr ""
+
+#: includes/forms/confirm-form-nocharge.php:3
+#@ colabsthemes
+msgid "Your property is ready to be submitted, please confirm the details are correct and click the \"Confirm\" button to submit your property."
+msgstr ""
+
+#: includes/forms/confirm-form-nocharge.php:9
+#: includes/forms/preview-form.php:90
+#@ colabsthemes
+msgid "Go Back"
+msgstr ""
+
+#: includes/forms/login-form-process.php:133
+#@ colabsthemes
+msgid "<strong>NOTICE</strong>: You must accept our terms and conditions in order to register."
+msgstr ""
+
+#: includes/forms/login-form-process.php:138
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: Please enter your First name."
+msgstr ""
+
+#: includes/forms/login-form-process.php:175
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: The reCaptcha anti-spam response was incorrect."
+msgstr ""
+
+#: includes/forms/login-form.php:47
+#@ colabsthemes
+msgid "By creating an account, you will be able to post property listing."
+msgstr ""
+
+#: includes/forms/login-form.php:51
+#: includes/forms/login-form.php:52
+#@ colabsthemes
+msgid "First name"
+msgstr ""
+
+#: includes/forms/login-form.php:56
+#: includes/forms/login-form.php:57
+#@ colabsthemes
+msgid "Last name"
+msgstr ""
+
+#: includes/forms/login-form.php:92
+#, php-format
+#@ colabsthemes
+msgid "I have read and accept the <a href=\"%s\" target=\"_blank\">terms & conditions</a>"
+msgstr ""
+
+#: includes/forms/login-form.php:98
+#@ colabsthemes
+msgid "Do Not Fill this field if you are human"
+msgstr ""
+
+#: includes/forms/login-form.php:106
+#: includes/forms/login-form.php:138
+#@ colabsthemes
+msgid "Back"
+msgstr ""
+
+#: includes/forms/login-form.php:116
+#@ colabsthemes
+msgid "Registration is disabled on this site"
+msgstr ""
+
+#: includes/forms/login-form.php:133
+#@ colabsthemes
+msgid "Username/Email"
+msgstr ""
+
+#: includes/forms/preview-form.php:3
+#@ colabsthemes
+msgid "Below is a preview of what your listing will look like when published:"
+msgstr ""
+
+#: includes/forms/preview-form.php:5
+#@ colabsthemes
+msgid "The listings page will contain this following information:"
+msgstr ""
+
+#: includes/forms/preview-form.php:91
+#: template-submit-property.php:27
+#@ colabsthemes
+msgid "Next"
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:14
+#: includes/gateways/authorizeaim/authorizeaim.php:15
+#@ colabsthemes
+msgid "Authorize.net AIM"
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:31
+#@ colabsthemes
+msgid "Authorize.net AIM Options"
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:35
+#@ colabsthemes
+msgid "Enable Authorize.net AIM"
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:36
+#@ colabsthemes
+msgid "Enable Authorize.net AIM Payment Module."
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:44
+#: includes/gateways/bank-transfer/bank-transfer.php:45
+#: includes/gateways/paypal/paypal.php:73
+#@ colabsthemes
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:47
+#@ colabsthemes
+msgid "Pay securely by Credit or Debit Card through Authorize.net AIM Secure Servers."
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:51
+#@ colabsthemes
+msgid "API Login ID"
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:52
+#@ colabsthemes
+msgid "Enter your Authorize.net API Login ID. This is where your money gets sent."
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:58
+#@ colabsthemes
+msgid "Transaction Key"
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:59
+#@ colabsthemes
+msgid "Enter your Authorize.net transaction key. This is where your money gets sent."
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:66
+#@ colabsthemes
+msgid "By default Authorize.net is set to live mode. If you would like to test and see if payments are being processed correctly, check this box to switch to sandbox mode."
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:94
+#@ colabsthemes
+msgid "(Credit Card Number) is not valid."
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:98
+#@ colabsthemes
+msgid "(Card Expiry Date) is not valid."
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:101
+#@ colabsthemes
+msgid "(Card Verification Number) is not valid."
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:239
+#: includes/gateways/bank-transfer/bank-transfer.php:90
+#@ colabsthemes
+msgid "Your Transaction Details"
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:242
+#: includes/gateways/bank-transfer/bank-transfer.php:93
+#@ colabsthemes
+msgid "Transaction ID:"
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:243
+#: includes/gateways/bank-transfer/bank-transfer.php:94
+#@ colabsthemes
+msgid "Reference #:"
+msgstr ""
+
+#: includes/gateways/authorizeaim/authorizeaim.php:244
+#: includes/gateways/bank-transfer/bank-transfer.php:95
+#@ colabsthemes
+msgid "Total Amount:"
+msgstr ""
+
+#: includes/gateways/bank-transfer/bank-transfer.php:37
+#@ colabsthemes
+msgid "Set this to yes if you want to offer cash payments via bank transfer as a payment option on your site."
+msgstr ""
+
+#: includes/gateways/bank-transfer/bank-transfer.php:48
+#@ colabsthemes
+msgid "Make your payment directly into our bank account. Please use your Order ID as the payment reference."
+msgstr ""
+
+#: includes/gateways/bank-transfer/bank-transfer.php:82
+#@ colabsthemes
+msgid "Please include the following details when sending the bank transfer. Once your transfer has been verified, we will then approve your order."
+msgstr ""
+
+#: includes/gateways/gateway-class.php:81
+#@ colabsthemes
+msgid "This gateway has not implemented a recurring order processor."
+msgstr ""
+
+#: includes/gateways/gateway-class.php:181
+#@ colabsthemes
+msgid "Please select payment method"
+msgstr ""
+
+#: includes/gateways/paypal/paypal-form.php:60
+#, php-format
+#@ colabsthemes
+msgid "Continue to %s"
+msgstr ""
+
+#: includes/gateways/paypal/paypal-form.php:108
+#@ colabsthemes
+msgid "Your Order is strill being processed. Please wait a few seconds..."
+msgstr ""
+
+#: includes/gateways/paypal/paypal-form.php:109
+#, php-format
+#@ colabsthemes
+msgid "If your Order does not complete soon, please contact us and refer to your Order ID - #%d."
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:76
+#@ colabsthemes
+msgid "Pay via PayPal you can pay with your credit card if you dont have a PayPal account."
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:134
+#@ colabsthemes
+msgid "Thank you - your order is now pending payment. You should be automatically redirected to PayPal to make payment."
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:163
+#@ colabsthemes
+msgid "You are now being redirected."
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:239
+#@ colabsthemes
+msgid "Last transaction has been reversed. Reason: Payment has been refunded"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:244
+#@ colabsthemes
+msgid "Last transaction has been reversed. Reason: Payment has been reversed (charge back)"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:249
+#@ colabsthemes
+msgid "Last transaction has been reversed. Reason: Payment Denied"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:256
+#@ colabsthemes
+msgid "Customer did not include a confirmed shipping address"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:257
+#@ colabsthemes
+msgid "Funds not captured yet"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:258
+#@ colabsthemes
+msgid "eCheck that has not cleared yet"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:259
+#@ colabsthemes
+msgid "Payment waiting for approval by service provider"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:260
+#@ colabsthemes
+msgid "Payment waiting for service provider to handle multi-currency process"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:261
+#@ colabsthemes
+msgid "Customer did not register or confirm his/her email yet"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:262
+#@ colabsthemes
+msgid "Waiting for service provider to upgrade the PayPal account"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:263
+#@ colabsthemes
+msgid "Waiting for service provider to verify his/her PayPal account"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:264
+#@ colabsthemes
+msgid "Paypal is currently reviewing the payment and will approve or reject within 24 hours"
+msgstr ""
+
+#: includes/gateways/paypal/paypal.php:268
+#@ colabsthemes
+msgid "Last transaction is pending. Reason: "
+msgstr ""
+
+#: includes/theme-emails.php:114
+#, php-format
+#@ colabsthemes
+msgid "[%s] New Property Submitted"
+msgstr ""
+
+#: includes/theme-emails.php:116
+#, php-format
+#@ colabsthemes
+msgid "[%s] New Property Pending Approval"
+msgstr ""
+
+#: includes/theme-emails.php:151
+#, php-format
+#@ colabsthemes
+msgid "[%s] Your Property Submission"
+msgstr ""
+
+#: includes/theme-emails.php:155
+#@ colabsthemes
+msgid "Thank you for your recent submission! "
+msgstr ""
+
+#: includes/theme-emails.php:158
+#@ colabsthemes
+msgid "Your property listing has been approved and is now live on our site ."
+msgstr ""
+
+#: includes/theme-emails.php:160
+#@ colabsthemes
+msgid "Your property listing has been submitted for review and will not appear live on our site until it has been approved."
+msgstr ""
+
+#: includes/theme-emails.php:162
+#, php-format
+#@ colabsthemes
+msgid "Below you will find a summary of your property listing on the %s website."
+msgstr ""
+
+#: includes/theme-emails.php:210
+#, php-format
+#@ colabsthemes
+msgid "[%s] Your Property Has Been Approved"
+msgstr ""
+
+#: includes/theme-emails.php:231
+#@ colabsthemes
+msgid "A new order is waiting to be processed. Once you recieve payment, you should mark the order as completed."
+msgstr ""
+
+#: includes/theme-emails.php:238
+#@ colabsthemes
+msgid "Order:"
+msgstr ""
+
+#: includes/theme-emails.php:239
+#@ colabsthemes
+msgid "Property Name:"
+msgstr ""
+
+#: includes/theme-emails.php:240
+#@ colabsthemes
+msgid "Amount:"
+msgstr ""
+
+#: includes/theme-emails.php:241
+#@ colabsthemes
+msgid "Payment:"
+msgstr ""
+
+#: includes/theme-emails.php:244
+#@ colabsthemes
+msgid "Review this order"
+msgstr ""
+
+#: includes/theme-emails.php:246
+#@ colabsthemes
+msgid "review all pending orders"
+msgstr ""
+
+#: includes/theme-emails.php:249
+#, php-format
+#@ colabsthemes
+msgid "%1$s or %2$s"
+msgstr ""
+
+#: includes/theme-emails.php:251
+#, php-format
+#@ colabsthemes
+msgid "[%1$s] Pending Order #%2$d"
+msgstr ""
+
+#: includes/theme-emails.php:274
+#, php-format
+#@ colabsthemes
+msgid "[%s] Edited Property Pending Approval"
+msgstr ""
+
+#: includes/theme-emails.php:322
+#, php-format
+#@ colabsthemes
+msgid "A new Order #%d has just been submitted on your %s website."
+msgstr ""
+
+#: includes/theme-emails.php:324
+#: includes/theme-emails.php:365
+#: includes/theme-emails.php:398
+#: includes/theme-emails.php:450
+#@ colabsthemes
+msgid "Order Summary:"
+msgstr ""
+
+#: includes/theme-emails.php:327
+#, php-format
+#@ colabsthemes
+msgid "<a href=\"%s\">View all pending Orders</a>"
+msgstr ""
+
+#: includes/theme-emails.php:332
+#, php-format
+#@ colabsthemes
+msgid "[%s] New Order #%d"
+msgstr ""
+
+#: includes/theme-emails.php:362
+#: includes/theme-emails.php:395
+#: includes/theme-emails.php:446
+#, php-format
+#@ colabsthemes
+msgid "Hello %s,"
+msgstr ""
+
+#: includes/theme-emails.php:363
+#@ colabsthemes
+msgid "Your order has been submitted with success and will be available as soon as the payment clears."
+msgstr ""
+
+#: includes/theme-emails.php:371
+#, php-format
+#@ colabsthemes
+msgid "[%s] Pending Order #%d"
+msgstr ""
+
+#: includes/theme-emails.php:396
+#@ colabsthemes
+msgid "This email confirms that you have purchased the following items:"
+msgstr ""
+
+#: includes/theme-emails.php:404
+#, php-format
+#@ colabsthemes
+msgid "[%s] Receipt for Your Order #%d"
+msgstr ""
+
+#: includes/theme-emails.php:417
+#, php-format
+#@ colabsthemes
+msgid "Order number #%d has just been canceled on your %s website."
+msgstr ""
+
+#: includes/theme-emails.php:418
+#, php-format
+#@ colabsthemes
+msgid "<a href=\"%s\">View all canceled Orders</a>"
+msgstr ""
+
+#: includes/theme-emails.php:423
+#: includes/theme-emails.php:456
+#, php-format
+#@ colabsthemes
+msgid "[%s] Order canceled #%d"
+msgstr ""
+
+#: includes/theme-emails.php:447
+#, php-format
+#@ colabsthemes
+msgid "Your Order #%d has just been canceled."
+msgstr ""
+
+#: includes/theme-emails.php:466
+#@ default
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/theme-emails.php:479
+#, php-format
+#@ colabsthemes
+msgid "[%s] Your Property Submission expires in %s"
+msgstr ""
+
+#: includes/theme-emails.php:483
+#, php-format
+#@ colabsthemes
+msgid "Your property listing is set to expire in %s"
+msgstr ""
+
+#: includes/theme-emails.php:519
+#, php-format
+#@ colabsthemes
+msgid "[%s] Your Property was Canceled"
+msgstr ""
+
+#: includes/theme-emails.php:522
+#, php-format
+#@ colabsthemes
+msgid "Your property listing, \"%s\" was canceled."
+msgstr ""
+
+#: includes/theme-emails.php:523
+#@ colabsthemes
+msgid "You can still access your property on your dashboard and submit it again, if you wish."
+msgstr ""
+
+#: includes/theme-emails.php:527
+#, php-format
+#@ colabsthemes
+msgid "[%s] Your Property Has Expired"
+msgstr ""
+
+#: includes/theme-emails.php:533
+#@ colabsthemes
+msgid "If you would like to relist your property please go to your Dashboard, click the \"relist\" link."
+msgstr ""
+
+#: includes/theme-functions.php:688
+#@ colabsthemes
+msgid "Page Not Found"
+msgstr ""
+
+#: includes/theme-gateways.php:24
+#@ colabsthemes
+msgid "US Dollars"
+msgstr ""
+
+#: includes/theme-gateways.php:28
+#@ colabsthemes
+msgid "Euros"
+msgstr ""
+
+#: includes/theme-gateways.php:32
+#@ colabsthemes
+msgid "Pounds Sterling"
+msgstr ""
+
+#: includes/theme-gateways.php:36
+#@ colabsthemes
+msgid "Australian Dollars"
+msgstr ""
+
+#: includes/theme-gateways.php:40
+#@ colabsthemes
+msgid "Brazilian Real"
+msgstr ""
+
+#: includes/theme-gateways.php:44
+#@ colabsthemes
+msgid "Canadian Dollars"
+msgstr ""
+
+#: includes/theme-gateways.php:56
+#@ colabsthemes
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: includes/theme-gateways.php:68
+#@ colabsthemes
+msgid "Japanese Yen"
+msgstr ""
+
+#: includes/theme-gateways.php:76
+#@ colabsthemes
+msgid "Mexican Peso"
+msgstr ""
+
+#: includes/theme-gateways.php:80
+#@ colabsthemes
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: includes/theme-gateways.php:92
+#@ colabsthemes
+msgid "Polish Zloty"
+msgstr ""
+
+#: includes/theme-gateways.php:96
+#@ colabsthemes
+msgid "Singapore Dollar"
+msgstr ""
+
+#: includes/theme-gateways.php:108
+#@ colabsthemes
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: includes/theme-gateways.php:116
+#@ colabsthemes
+msgid "Turkish Lira"
+msgstr ""
+
+#: includes/theme-gateways.php:158
+#@ colabsthemes
+msgid "Payments General"
+msgstr ""
+
+#: includes/theme-gateways.php:163
+#: includes/theme-orders.php:185
+#@ colabsthemes
+msgid "Currency"
+msgstr ""
+
+#: includes/theme-gateways.php:164
+#, php-format
+#@ colabsthemes
+msgid "This is the currency you want to collect payments in. It applies mainly to PayPal payments since other payment gateways accept more currencies. If your currency is not listed then PayPal currently does not support it. See the list of supported <a target='_new' href='%s'>PayPal currencies</a>."
+msgstr ""
+
+#: includes/theme-gateways.php:170
+#@ colabsthemes
+msgid "Symbol Position"
+msgstr ""
+
+#: includes/theme-gateways.php:171
+#@ colabsthemes
+msgid "Some currencies place the symbol on the right side vs the left. Select how you would like your currency symbol to be displayed."
+msgstr ""
+
+#: includes/theme-gateways.php:175
+#, php-format
+#@ colabsthemes
+msgid "Left of Currency (%s100)"
+msgstr ""
+
+#: includes/theme-gateways.php:176
+#, php-format
+#@ colabsthemes
+msgid "Left of Currency with Space (%s 100)"
+msgstr ""
+
+#: includes/theme-gateways.php:177
+#, php-format
+#@ colabsthemes
+msgid "Right of Currency (100%s)"
+msgstr ""
+
+#: includes/theme-gateways.php:178
+#, php-format
+#@ colabsthemes
+msgid "Right of Currency with Space (100 %s)"
+msgstr ""
+
+#: includes/theme-gateways.php:299
+#@ colabsthemes
+msgid "No Gateways are currently available"
+msgstr ""
+
+#: includes/theme-geolocation.php:377
+#: includes/theme-orders.php:176
+#: includes/theme-orders.php:439
+#: includes/theme-orders.php:795
+#@ colabsthemes
+msgid "Unknown"
+msgstr ""
+
+#: includes/theme-geolocation.php:464
+#@ colabsthemes
+msgid "Neighborhood Info"
+msgstr ""
+
+#: includes/theme-geolocation.php:470
+#@ colabsthemes
+msgid "Found"
+msgstr ""
+
+#: includes/theme-js.php:56
+#@ colabsthemes
+msgid "Are your sure you want to delete this? It can't be undone."
+msgstr ""
+
+#: includes/theme-js.php:57
+#@ colabsthemes
+msgid "Are you sure you want to cancel this order? It can't be undone."
+msgstr ""
+
+#: includes/theme-orders.php:8
+#@ colabsthemes
+msgctxt "Post Type General Name"
+msgid "Orders"
+msgstr ""
+
+#: includes/theme-orders.php:9
+#@ colabsthemes
+msgctxt "Post Type Singular Name"
+msgid "Order"
+msgstr ""
+
+#: includes/theme-orders.php:10
+#@ colabsthemes
+msgid "Payments"
+msgstr ""
+
+#: includes/theme-orders.php:11
+#@ colabsthemes
+msgid "Parent Order:"
+msgstr ""
+
+#: includes/theme-orders.php:13
+#@ colabsthemes
+msgid "View Order"
+msgstr ""
+
+#: includes/theme-orders.php:14
+#@ colabsthemes
+msgid "Add New Order"
+msgstr ""
+
+#: includes/theme-orders.php:15
+#@ colabsthemes
+msgid "Add New"
+msgstr ""
+
+#: includes/theme-orders.php:16
+#@ colabsthemes
+msgid "Edit Order"
+msgstr ""
+
+#: includes/theme-orders.php:17
+#@ colabsthemes
+msgid "Update Order"
+msgstr ""
+
+#: includes/theme-orders.php:18
+#@ colabsthemes
+msgid "Search Order"
+msgstr ""
+
+#: includes/theme-orders.php:19
+#@ colabsthemes
+msgid "Not found"
+msgstr ""
+
+#: includes/theme-orders.php:20
+#@ colabsthemes
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/theme-orders.php:23
+#: includes/theme-orders.php:24
+#@ colabsthemes
+msgid "Transaction Order"
+msgstr ""
+
+#: includes/theme-orders.php:59
+#, php-format
+#@ colabsthemes
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/theme-orders.php:60
+#, php-format
+#@ colabsthemes
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/theme-orders.php:61
+#, php-format
+#@ colabsthemes
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/theme-orders.php:62
+#, php-format
+#@ colabsthemes
+msgid "Activated <span class=\"count\">(%s)</span>"
+msgid_plural "Activated <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/theme-orders.php:74
+#@ colabsthemes
+msgid "Order Actions"
+msgstr ""
+
+#: includes/theme-orders.php:75
+#@ colabsthemes
+msgid "Order Status"
+msgstr ""
+
+#: includes/theme-orders.php:76
+#@ colabsthemes
+msgid "Order Author"
+msgstr ""
+
+#: includes/theme-orders.php:97
+#@ colabsthemes
+msgid "Mark as Completed"
+msgstr ""
+
+#: includes/theme-orders.php:98
+#@ colabsthemes
+msgid "Mark as Failed"
+msgstr ""
+
+#: includes/theme-orders.php:102
+#@ colabsthemes
+msgid "Reset Order"
+msgstr ""
+
+#: includes/theme-orders.php:105
+#@ colabsthemes
+msgid "Activate Order"
+msgstr ""
+
+#: includes/theme-orders.php:108
+#@ colabsthemes
+msgid "No actions available"
+msgstr ""
+
+#: includes/theme-orders.php:126
+#: includes/theme-orders.php:133
+#: includes/theme-orders.php:139
+#: includes/theme-orders.php:145
+#@ colabsthemes
+msgid "Manual Action"
+msgstr ""
+
+#: includes/theme-orders.php:166
+#@ colabsthemes
+msgid "Gateway"
+msgstr ""
+
+#: includes/theme-orders.php:179
+#: includes/theme-orders.php:442
+#: includes/theme-orders.php:457
+#: includes/theme-orders.php:798
+#@ colabsthemes
+msgid "Undecided"
+msgstr ""
+
+#: includes/theme-orders.php:346
+#@ colabsthemes
+msgid "Order"
+msgstr ""
+
+#: includes/theme-orders.php:347
+#@ colabsthemes
+msgid "Purchased"
+msgstr ""
+
+#: includes/theme-orders.php:351
+#@ colabsthemes
+msgid "Action"
+msgstr ""
+
+#: includes/theme-orders.php:389
+#, php-format
+#@ colabsthemes
+msgid "%s by %s"
+msgstr ""
+
+#: includes/theme-orders.php:414
+#, php-format
+#@ colabsthems
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/theme-orders.php:444
+#@ colabsthemes
+msgid "Via "
+msgstr ""
+
+#: includes/theme-orders.php:474
+#@ colabsthemes
+msgid "Unpublished"
+msgstr ""
+
+#: includes/theme-orders.php:477
+#@ colabsthemes
+msgctxt "Order Date Format"
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: includes/theme-orders.php:482
+#, php-format
+#@ colabsthemes
+msgid "%s ago"
+msgstr ""
+
+#: includes/theme-orders.php:484
+#@ colabsthemes
+msgctxt "Order Date Format"
+msgid "Y/m/d"
+msgstr ""
+
+#: includes/theme-orders.php:743
+#@ colabsthemes
+msgid "Payment Failed"
+msgstr ""
+
+#: includes/theme-orders.php:745
+#@ colabsthemes
+msgid "Active"
+msgstr ""
+
+#: includes/theme-orders.php:747
+#@ colabsthemes
+msgid "Pending Payment"
+msgstr ""
+
+#: includes/theme-orders.php:749
+#: includes/theme-orders.php:761
+#@ colabsthemes
+msgid "Pending Approval"
+msgstr ""
+
+#: includes/theme-orders.php:766
+#@ colabsthemes
+msgid "Incomplete Draft"
+msgstr ""
+
+#: includes/theme-orders.php:771
+#@ colabsthemes
+msgid "Canceled"
+msgstr ""
+
+#: includes/theme-orders.php:776
+#@ colabsthemes
+msgid "Publish"
+msgstr ""
+
+#: includes/theme-property.php:37
+#@ colabsthemes
+msgctxt "post"
+msgid "Expired"
+msgstr ""
+
+#: includes/theme-property.php:42
+#, php-format
+#@ colabsthemes
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Expired <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/theme-property.php:159
+#@ colabsthemes
+msgid "Pay/Thank You"
+msgstr ""
+
+#: includes/theme-property.php:161
+#@ colabsthemes
+msgid "Confirm"
+msgstr ""
+
+#: includes/theme-property.php:174
+#@ colabsthemes
+msgid "Enter Property Details"
+msgstr ""
+
+#: includes/theme-property.php:244
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: Sorry, your nonce did not verify."
+msgstr ""
+
+#: includes/theme-property.php:401
+#@ colabsthemes
+msgid "Property relisted successfully"
+msgstr ""
+
+#: includes/theme-property.php:404
+#@ colabsthemes
+msgid "Property edited successfully"
+msgstr ""
+
+#: includes/theme-property.php:407
+#@ colabsthemes
+msgid "Thank you for your Order!"
+msgstr ""
+
+#: includes/theme-property.php:418
+#@ colabsthemes
+msgid "This property is currently pending and must be approved by an administrator."
+msgstr ""
+
+#: includes/theme-property.php:421
+#@ colabsthemes
+msgid "This is a draft property and must be approved by an administrator."
+msgstr ""
+
+#: includes/theme-property.php:429
+#@ colabsthemes
+msgid "The property has been successfully updated."
+msgstr ""
+
+#: includes/theme-property.php:775
+#@ colabsthemes
+msgid "No Expires"
+msgstr ""
+
+#: includes/theme-property.php:790
+#: includes/theme-property.php:792
+#@ colabsthemes
+msgid "Valid Until"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: includes/theme-property.php:792
+#: includes/admin/admin-panel.php:141
+#: includes/theme-property.php:990
+#@ colabsthemes
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/theme-property.php:1016
+#@ colabsthemes
+msgid "<strong>ERROR</strong>: Cannot update property status. Property ID not found."
+msgstr ""
+
+#: includes/theme-property.php:1051
+#@ colabsthemes
+msgid "Please choose image you want to upload"
+msgstr ""
+
+#: includes/theme-property.php:1066
+#@ colabsthemes
+msgid "Only png, gif and jpg/jpeg files are allowed."
+msgstr ""
+
+#: includes/theme-property.php:1089
+#@ colabsthemes
+msgid "Error uploading file, please try again"
+msgstr ""
+
+#: includes/theme-property.php:1103
+#@ colabsthemes
+msgid "Your application has been sent successfully."
+msgstr ""
+
+#: includes/theme-reports.php:8
+#@ colabsthemes
+msgid "Reports"
+msgstr ""
+
+#: includes/theme-reports.php:335
+#@ colabsthemes
+msgid "Sales by date"
+msgstr ""
+
+#: includes/theme-upgrade.php:47
+#, php-format
+#@ colabsthemes
+msgid "<strong>Warning:</strong> There were errors upgrading the theme to %s - '%s'."
+msgstr ""
+
+#: includes/theme-upgrade.php:54
+#@ colabsthemes
+msgid "<strong>Goodliving Data Update Required</strong> &#8211; It is strongly recommended that you backup your database before proceeding."
+msgstr ""
+
+#: includes/theme-upgrade.php:55
+#@ colabsthemes
+msgid "Run the updater"
+msgstr ""
+
+#: includes/theme-upgrade.php:124
+#@ colabsthemes
+msgid "Database successfully upgraded"
+msgstr ""
+
+#: template-contact.php:52
+#, php-format
+#@ colabsthemes
+msgid ""
+"Name: %s \n"
+"\n"
+"Email: %s \n"
+"\n"
+"Messages: %s"
+msgstr ""
+
+#: template-dashboard.php:33
+#@ colabsthemes
+msgid "Properties"
+msgstr ""
+
+#: template-submit-property.php:35
+#, php-format
+#@ colabsthemes
+msgid "Relisting %s"
+msgstr ""
+

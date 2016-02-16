@@ -1,0 +1,26 @@
+@import 'variables';
+@import 'functions';
+
+.main-content{
+    margin-left:0px;
+}
+
+.post-grid .entry-post {
+  float: left;
+  width: 308px;
+  margin-bottom: 27px;
+}
+
+.search-wrapper{
+    margin-top:rem-calc($rem-base*8);
+    margin-top: $rem-base*8;
+    margin-bottom:rem-calc($rem-base*8);
+    margin-bottom: $rem-base*8;
+    padding: rem-calc($rem-base);
+    padding: $rem-base;
+    background-color: $white;
+}
+
+.header-section.hero-image{
+    padding:0px;
+}

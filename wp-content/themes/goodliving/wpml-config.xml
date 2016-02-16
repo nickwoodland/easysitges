@@ -1,0 +1,47 @@
+<!--=================================================
+Initial colabs_options for integrating with WPML
+Theme : Goodliving
+=====================================================-->
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">property</custom-type>
+    <custom-type translate="1">agent</custom-type>
+  </custom-types>
+
+  <taxonomies>
+    <taxonomy translate="1">property_type</taxonomy>
+    <taxonomy translate="1">property_location</taxonomy>
+    <taxonomy translate="1">property_status</taxonomy>
+    <taxonomy translate="1">property_features</taxonomy>
+  </taxonomies>
+
+  <admin-texts>
+    <key name="colabs_announcement_title" />
+    <key name="colabs_announcement_text" />
+    <key name="colabs_search_header" />
+    <key name="colabs_search_keyword_text" />
+    <key name="colabs_label_locations_dropdown_view_all" />
+    <key name="colabs_label_property_type_dropdown_view_all" />
+    <key name="colabs_label_property_status_dropdown_view_all" />
+    <key name="colabs_label_price" />
+    <key name="colabs_label_advanced_search" />
+    <key name="colabs_label_hide_advanced_search" />
+    <key name="colabs_label_size" />
+    <key name="colabs_label_beds" />
+    <key name="colabs_label_baths_long" />
+    <key name="colabs_label_garages" />
+    <key name="colabs_contact_agent" />
+    <key name="colabs_subscribe_title" />
+    <key name="colabs_subscribe_button" />
+    <key name="colabs_subscribe_desc" />
+    <key name="colabs_bank_instructions" />
+    
+    <key name="colabs_options" >
+      <key name="colabs_og_sitename" />
+      <key name="colabs_og_admins" />
+      <key name="colabs_footer_credit" />
+    </key>
+  </admin-texts>
+</wpml-config>
+
+
