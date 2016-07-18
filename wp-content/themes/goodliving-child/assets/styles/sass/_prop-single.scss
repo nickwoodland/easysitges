@@ -1,0 +1,28 @@
+.property-sidebar{
+
+    .property-id{
+        text-align: center;
+    }
+
+    .property-price{
+        strong{
+            font-size:29px;
+        }
+    }
+
+    .property-price.property-price--holiday{
+        strong{
+            font-size:18px;
+
+            p{
+                margin-bottom:1px;
+                text-transform: capitalize;
+
+                &:not(:last-child):after{
+                    content:", ";
+                }
+            }
+        }
+    }
+
+}

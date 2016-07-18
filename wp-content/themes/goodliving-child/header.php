@@ -15,6 +15,7 @@
 		$site_title = get_bloginfo( 'name' );
 		$site_url = home_url( '/' );
 		$site_description = get_bloginfo( 'description' );
+		$hero_img = get_background_image();
 		wp_head();
 	?>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -23,9 +24,8 @@
 <body <?php body_class(); ?>>
 <div class="main-wrapper">
 <div class="navbar container">
-  <div class="row">
+  <div class="row navbar--inner">
 	<?php /*<a href="<?php echo get_permalink(get_option('colabs_submit_url'));?>" class="button button-green button-bold submit-listing"><i class="icon-cloud-download"></i> <?php _e('Submit Listing','colabsthemes');?></a>*/ ?>
-
     <a class="btn-navbar" href="#top-slide-menu">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
@@ -42,25 +42,33 @@
 	    </nav><!-- .top-menu -->
    	</div><!-- .nav-collapse -->
 
+	<div class="logo-wrapper">
+	  <h1 class="logo">
+		  <a href="<?php echo home_url('/'); ?>">
+			<?php
+					if ( 'logo' == get_option('colabs_logotitle') ) {
+						echo '<img src="' . get_option('colabs_logo') . '" alt="' . $site_title . '" />';
+					} else {
+						echo $site_title;
+					}
+			?>
+			</a>
+		</h1>
+	</div><!-- .logo-wrapper -->
+
+  </div>
+  <div class="row">
+	<?php $phone = of_get_option('contact_telephone'); ?>
+	<?php if($phone): ?>
+		<h2 class="navbar__phone"><a href="tel:<?php echo $phone;?>"><?php echo $phone; ?></a></h2>
+	<?php endif; ?>
+  	<h2 class="navbar__subtitle">
+	  	Make It Easy
+  	</h2>
   </div>
 </div>
 <header class="header-section container hero-image">
       <div class="row">
-        <?php /*<div class="logo-wrapper">
-          <h1 class="logo"><a href="<?php echo home_url('/'); ?>">
-						<?php
-								if ( 'logo' == get_option('colabs_logotitle') ) {
-									echo '<img src="' . get_option('colabs_logo') . '" alt="' . $site_title . '" />';
-								} else {
-									echo $site_title;
-								}
-						?>
-					</a></h1>
-					<?php if( $site_description ) : ?>
-          <div class="site-tagline"><?php echo $site_description; ?></div>
-					<?php endif; ?>
-        </div><!-- .logo-wrapper --> */ ?>
-
           <div class="search-wrapper clearfix">
             <?php if( get_option('colabs_show_advance_search') === false || get_option('colabs_show_advance_search') == 'true' ) : ?>
               <?php if( defined('DSIDXPRESS_OPTION_NAME') ) : ?>

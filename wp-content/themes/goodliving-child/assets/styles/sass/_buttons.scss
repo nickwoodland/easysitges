@@ -1,0 +1,32 @@
+.button, .dsidx-contact-form-submit, .dsidx-search-button .submit{
+    background-color: $pcolor;
+    border: darken($pcolor, 5%);
+    color: $white;
+
+    &:hover{
+        background-color: darken($pcolor, 5%);
+    }
+}
+
+.button-orange{
+    background-color: $scolor;
+
+    &:hover, &:focus{
+        background-color: lighten($scolor, 5%);
+    }
+}
+
+.advance-search-button{
+
+    margin:0px;
+
+    a{
+        box-sizing:border-box;
+        line-height:20px;
+        height:34px;
+        padding: 7px 13px;
+        width:100%;
+        text-align: center;
+        margin-top:16px;
+    }
+}

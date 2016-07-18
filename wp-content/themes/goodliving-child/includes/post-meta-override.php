@@ -214,18 +214,6 @@ function colabs_child_display_meta_box($post) {
 			<th class="colabs_metabox_names"><label for='price_day_high'>Daily Rent - High</label></th>
 			<td><input class="colabs_input_text " value="<?php echo get_post_meta($post->ID,'property_price_day_high',true); ?>" name="property_price_day_high" id="colabsthemes_property_price_day_high" type="text"><span class="colabs_metabox_desc description"></span></td>
 		</tr>
-		<tr class="rent" style="display:none;">
-			<th class="colabs_metabox_names"><label for='price_week_low'>Weekly Rent - Low</label></th>
-			<td><input class="colabs_input_text " value="<?php echo get_post_meta($post->ID,'property_price_week_low',true); ?>" name="property_price_week_low" id="colabsthemes_property_price_week_low" type="text"><span class="colabs_metabox_desc description"></span></td>
-		</tr>
-		<tr class="rent" style="display:none;">
-			<th class="colabs_metabox_names"><label for='price_week_med'>Weekly Rent - Medium</label></th>
-			<td><input class="colabs_input_text " value="<?php echo get_post_meta($post->ID,'property_price_week_med',true); ?>" name="property_price_week_med" id="colabsthemes_property_price_week_med" type="text"><span class="colabs_metabox_desc description"></span></td>
-		</tr>
-		<tr class="rent" style="display:none;border-bottom:1px solid #DDDDDD;">
-			<th class="colabs_metabox_names"><label for='price_week_high'>Weekly Rent - High</label></th>
-			<td><input class="colabs_input_text " value="<?php echo get_post_meta($post->ID,'property_price_week_high',true); ?>" name="property_price_week_high" id="colabsthemes_property_price_week_high" type="text"><span class="colabs_metabox_desc description"></span></td>
-		</tr>
         </tbody>
       </table>
       <?php echo colabs_custom_meta_generator($post,$property_details_child);?>
@@ -258,9 +246,6 @@ function colabs_child_save_meta_box( $post_id ) {
 	  update_post_meta( $post_id, 'property_price_day_low', $_POST['property_price_day_low'] );
 	  update_post_meta( $post_id, 'property_price_day_med', $_POST['property_price_day_med'] );
 	  update_post_meta( $post_id, 'property_price_day_high', $_POST['property_price_day_high'] );
-	  update_post_meta( $post_id, 'property_price_week_low', $_POST['property_price_week_low'] );
-	  update_post_meta( $post_id, 'property_price_week_med', $_POST['property_price_week_med'] );
-	  update_post_meta( $post_id, 'property_price_week_high', $_POST['property_price_week_high'] );
   	}
 
   }

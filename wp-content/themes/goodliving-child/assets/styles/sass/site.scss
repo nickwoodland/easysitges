@@ -1,5 +1,58 @@
 @import 'variables';
 @import 'functions';
+@import 'buttons';
+@import 'prop-listing';
+@import 'prop-single';
+
+.navbar{
+    background-color: #1a171b;
+    border-bottom:none;
+    padding-bottom:12px;
+    padding-top:12px;
+}
+
+.navbar--inner{
+    border-bottom:3px solid $pcolor;
+}
+
+.navbar__subtitle, .navbar__phone{
+    text-align:right;
+    color: $white;
+    font-size: 18px;
+    line-height: 1;
+    margin:3px 0px;
+
+    a{
+        color: $white;
+
+        &:hover{
+            color:$white;
+        }
+    }
+}
+
+.navbar__subtitle{
+    float:right;
+}
+
+.navbar__phone{
+    float:left;
+}
+
+.top-menu a{
+    color: $white;
+    padding:3px 13px;
+    font-size:16px;
+
+    &:hover, &:focus{
+        color: $white;
+        background-color: lighten($black, 20%);
+    }
+}
+
+.top-menu a:hover, .top-menu .sfHover > a, .top-menu .current-menu-item > a, .top-menu .current_page_item > a{
+    background-color: lighten($black, 20%);
+}
 
 .main-content{
     margin-left:0px;
@@ -12,15 +65,49 @@
 }
 
 .search-wrapper{
-    margin-top:rem-calc($rem-base*8);
-    margin-top: $rem-base*8;
-    margin-bottom:rem-calc($rem-base*8);
-    margin-bottom: $rem-base*8;
-    padding: rem-calc($rem-base);
-    padding: $rem-base;
+    margin-top:rem-calc($rem-base*10);
+    margin-top: $rem-base*10;
+    margin-bottom:rem-calc($rem-base*10);
+    margin-bottom: $rem-base*10;
+    padding: rem-calc($rem-base*2);
+    padding: $rem-base*2;
     background-color: $white;
+    box-shadow: 6px 6px 6px RGBA(0, 0, 0, 0.15)
 }
 
 .header-section.hero-image{
     padding:0px;
+}
+
+.property-label, .as-feature{
+    background-color: $scolor;
+}
+
+.nav-collapse{
+    display:inline-block;
+    width:64%;
+    vertical-align:bottom;
+}
+
+.logo-wrapper{
+    margin:0px;
+    text-align:right;
+    display:inline-block;
+    width:35%;
+    margin-left:5px;
+
+    .logo{
+        margin:0px;
+        line-height:0;
+        margin-bottom:-1px;
+    }
+}
+
+.copyrights{
+    background-color: $black;
+    color: $white;
+
+    p,span,a{
+        color: $white;
+    }
 }

@@ -1,3 +1,112 @@
+.button, .dsidx-contact-form-submit, .dsidx-search-button .submit {
+  background-color: #0eb4e6;
+  border: #0da1ce;
+  color: #fff; }
+  .button:hover, .dsidx-contact-form-submit:hover, .dsidx-search-button .submit:hover {
+    background-color: #0da1ce; }
+
+.button-orange {
+  background-color: #e94138; }
+  .button-orange:hover, .button-orange:focus {
+    background-color: #ec574f; }
+
+.advance-search-button {
+  margin: 0px; }
+  .advance-search-button a {
+    box-sizing: border-box;
+    line-height: 20px;
+    height: 34px;
+    padding: 7px 13px;
+    width: 100%;
+    text-align: center;
+    margin-top: 16px; }
+
+article.property .entry-header {
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #e4e4e4; }
+  article.property .entry-header .entry-title {
+    padding-right: 50px; }
+article.property .entry-footer {
+  padding-left: 3px;
+  padding-right: 3px; }
+article.property .property-ref {
+  margin: 2px 0px; }
+article.property .property-details {
+  padding-left: 3px;
+  padding-right: 3px; }
+  article.property .property-details .column:nth-child(2) span {
+    float: right;
+    clear: both; }
+article.property .property-ref, article.property .property-details {
+  font-size: 13px; }
+article.property .property-buttons {
+  margin-top: 13px; }
+article.property .property-bullets {
+  font-size: 13px; }
+article.property .property-cost {
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: 13px;
+  color: #646464; }
+  article.property .property-cost span:not(:last-child):after {
+    content: ", "; }
+article.property .entry-footer--holiday .property-location {
+  float: left; }
+article.property .property-buttons .button {
+  display: block;
+  text-align: center;
+  color: #fff; }
+
+.property-sidebar .property-id {
+  text-align: center; }
+.property-sidebar .property-price strong {
+  font-size: 29px; }
+.property-sidebar .property-price.property-price--holiday strong {
+  font-size: 18px; }
+  .property-sidebar .property-price.property-price--holiday strong p {
+    margin-bottom: 1px;
+    text-transform: capitalize; }
+    .property-sidebar .property-price.property-price--holiday strong p:not(:last-child):after {
+      content: ", "; }
+
+.navbar {
+  background-color: #1a171b;
+  border-bottom: none;
+  padding-bottom: 12px;
+  padding-top: 12px; }
+
+.navbar--inner {
+  border-bottom: 3px solid #0eb4e6; }
+
+.navbar__subtitle, .navbar__phone {
+  text-align: right;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1;
+  margin: 3px 0px; }
+  .navbar__subtitle a, .navbar__phone a {
+    color: #fff; }
+    .navbar__subtitle a:hover, .navbar__phone a:hover {
+      color: #fff; }
+
+.navbar__subtitle {
+  float: right; }
+
+.navbar__phone {
+  float: left; }
+
+.top-menu a {
+  color: #fff;
+  padding: 3px 13px;
+  font-size: 16px; }
+  .top-menu a:hover, .top-menu a:focus {
+    color: #fff;
+    background-color: #333333; }
+
+.top-menu a:hover, .top-menu .sfHover > a, .top-menu .current-menu-item > a, .top-menu .current_page_item > a {
+  background-color: #333333; }
+
 .main-content {
   margin-left: 0px; }
 
@@ -6,16 +115,49 @@
   width: 308px;
   margin-bottom: 27px; }
 
+
+
 .search-wrapper {
-  margin-top: 8rem;
-  margin-top: 112px;
-  margin-bottom: 8rem;
-  margin-bottom: 112px;
-  padding: 1rem;
-  padding: 14px;
-  background-color: #fff; }
+  margin-top: 10rem;
+  margin-top: 140px;
+  margin-bottom: 10rem;
+  margin-bottom: 140px;
+  padding: 2rem;
+  padding: 28px;
+  background-color: #fff;
+  box-shadow: 6px 6px 6px RGBA(0, 0, 0, 0.15);
+}
+
+
 
 .header-section.hero-image {
   padding: 0px; }
+
+.property-label, .as-feature {
+  background-color: #e94138; }
+
+.nav-collapse {
+  display: inline-block;
+  width: 64%;
+  vertical-align: bottom; }
+
+.logo-wrapper {
+  margin: 0px;
+  text-align: right;
+  display: inline-block;
+  width: 35%;
+  margin-left: 5px;
+  margin-bottom:1px;
+}
+  .logo-wrapper .logo {
+    margin: 0px;
+    line-height: 0;
+    margin-bottom: -1px; }
+
+.copyrights {
+  background-color: #000;
+  color: #fff; }
+  .copyrights p, .copyrights span, .copyrights a {
+    color: #fff; }
 
 /*# sourceMappingURL=site.css.map */

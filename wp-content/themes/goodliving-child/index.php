@@ -49,10 +49,6 @@
 	} else {
 		$args = array('post_type' => 'property',
 									'paged'			=> $paged,
-									// -- added by RF, to show only featured properties --
-									'posts_per_page' => 10,
-									'post__in'  => get_option( 'sticky_posts' ),
-									'ignore_sticky_posts' => 1
 									);
 	}
 
@@ -66,7 +62,7 @@
 </div><!-- .post-list -->
 
 <div class="post-loader">
-	<a href="#" class="button button-orange"><?php _e('Load More Properties', 'colabsthemes'); ?></a>
+	<a href="#" class="button button-grey"><?php _e('Load More', 'colabsthemes'); ?></a>
 </div>
 
 <?php colabs_content_nav($latestproperties);?>

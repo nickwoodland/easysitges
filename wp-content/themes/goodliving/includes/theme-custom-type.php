@@ -1,10 +1,10 @@
 <?php
 // Register Custom Post Type
 function colabs_register_post_type() {
-  
+
   // make sure the new roles are added to the DB before registering the post types
 	colabs_init_roles();
-  
+
 	$labels = array(
 		'name'                => _x( 'Properties', 'Post Type General Name', 'colabsthemes' ),
 		'singular_name'       => _x( 'Property', 'Post Type Singular Name', 'colabsthemes' ),
@@ -39,7 +39,7 @@ function colabs_register_post_type() {
 		'capability_type'     => 'post',
 	);
 	register_post_type( 'property', $args );
-  
+
   $agent_labels = array(
 		'name'                => _x( 'Agents', 'Post Type General Name', 'colabsthemes' ),
 		'singular_name'       => _x( 'Agent', 'Post Type Singular Name', 'colabsthemes' ),
@@ -70,7 +70,7 @@ function colabs_register_post_type() {
 		'show_in_admin_bar'   => true,
 		'show_in_nav_menus'   => true,
 		'can_export'          => true,
-		'has_archive'         => true,		
+		'has_archive'         => true,
 		'exclude_from_search' => false,
 		'publicly_queryable'  => true,
 		'capability_type'     => 'page',
@@ -112,7 +112,7 @@ function colabs_taxonomy_register() {
 		'show_tagcloud'              => true,
 	);
 	register_taxonomy( 'property_type', array( 'property' ), $args );
-  
+
   $property_features_labels = array(
 		'name'                       => _x( 'Property Features', 'Taxonomy General Name', 'colabsthemes' ),
 		'singular_name'              => _x( 'Property Feature', 'Taxonomy Singular Name', 'colabsthemes' ),
@@ -140,7 +140,7 @@ function colabs_taxonomy_register() {
 		'show_tagcloud'              => true,
 	);
 	register_taxonomy( 'property_features', array( 'property' ), $property_features_args );
-  
+
   $property_status_labels = array(
 		'name'                       => _x( 'Property Status', 'Taxonomy General Name', 'colabsthemes' ),
 		'singular_name'              => _x( 'Property Status', 'Taxonomy Singular Name', 'colabsthemes' ),
@@ -168,7 +168,7 @@ function colabs_taxonomy_register() {
 		'show_tagcloud'              => false,
 	);
 	register_taxonomy( 'property_status', array( 'property' ), $property_status_args );
-  
+
   $property_location_labels = array(
 		'name'                       => _x( 'Property Locations', 'Taxonomy General Name', 'colabsthemes' ),
 		'singular_name'              => _x( 'Property Location', 'Taxonomy Singular Name', 'colabsthemes' ),
@@ -203,67 +203,76 @@ function colabs_taxonomy_register() {
 add_action( 'init', 'colabs_taxonomy_register', 0 );
 
 add_filter("manage_edit-agent_columns", "agent_edit_columns");
-function agent_edit_columns($columns){  
-  $columns = array(  
-      "cb" => "<input type=\"checkbox\" />", 
-      "photo" => __("","colabsthemes"),
-      "title" => __("Name","colabsthemes"), 
-      "email" => __("Email","colabsthemes"), 
-      "date" => __("Date","colabsthemes"),  
-  );  
-  
-  return $columns;  
-}  
-
-add_action("manage_agent_posts_custom_column",  "agent_custom_columns"); 
-function agent_custom_columns($column){  
-  global $post;  
-  switch ($column){    
-      case "email":  
-        echo get_post_meta($post->ID,'colabs_email_agent',true);  
-        break; 	  
-      case "photo":
-        if(has_post_thumbnail()) the_post_thumbnail(array(50,50));
-        break;	
-  }  
-}
-
-add_filter("manage_edit-property_columns", "property_edit_columns");     
-function property_edit_columns($columns){  
-  $columns = array(  
+function agent_edit_columns($columns){
+  $columns = array(
       "cb" => "<input type=\"checkbox\" />",
       "photo" => __("","colabsthemes"),
-      "title" => __("Property","colabsthemes"), 
-      "property_type" => __("Type","colabsthemes"), 
-      "property_location" => __("Location","colabsthemes"),
-      "property_features" => __("Features","colabsthemes"),
-      "property_status" => __("Status","colabsthemes"), 
-      "date" => __("Date","colabsthemes"),          
-  );  
-  
-  return $columns;  
-}  
+      "title" => __("Name","colabsthemes"),
+      "email" => __("Email","colabsthemes"),
+      "date" => __("Date","colabsthemes"),
+  );
 
-add_action("manage_property_posts_custom_column",  "property_custom_columns"); 
-function property_custom_columns($column){  
-  global $post;  
-  switch ($column){    
-      case "property_type":  
-          echo get_the_term_list($post->ID, 'property_type', '', ', ','');  
-          break; 	  
-      case "property_location":  
-          echo get_the_term_list($post->ID, 'property_location', '', ', ','');  
-          break; 	  
-      case "property_features":  
-          echo get_the_term_list($post->ID, 'property_features', '', ', ','');  
-          break; 	   	
+  return $columns;
+}
+
+add_action("manage_agent_posts_custom_column",  "agent_custom_columns");
+function agent_custom_columns($column){
+  global $post;
+  switch ($column){
+      case "email":
+        echo get_post_meta($post->ID,'colabs_email_agent',true);
+        break;
+      case "photo":
+        if(has_post_thumbnail()) the_post_thumbnail(array(50,50));
+        break;
+  }
+}
+
+add_filter("manage_edit-property_columns", "property_edit_columns");
+function property_edit_columns($columns){
+  $columns = array(
+      "cb" => "<input type=\"checkbox\" />",
+      "photo" => __("","colabsthemes"),
+      "title" => __("Property","colabsthemes"),
+      // -- added by RF --
+      "reference" => "Reference Code",
+      // -- //added by RF --
+      "property_type" => __("Type","colabsthemes"),
+      "property_location" => __("Location","colabsthemes"),
+      // "property_features" => __("Features","colabsthemes"),
+      "property_status" => __("Status","colabsthemes"),
+      "date" => __("Date","colabsthemes"),
+  );
+
+  return $columns;
+}
+
+add_action("manage_property_posts_custom_column",  "property_custom_columns");
+function property_custom_columns($column){
+  global $post;
+  switch ($column){
+      case "property_type":
+          echo get_the_term_list($post->ID, 'property_type', '', ', ','');
+          break;
+      // -- added by RF --
+      case "reference":
+          echo get_post_meta($post->ID, "property_unique_key", true);
+          break;
+      // -- //added by RF --
+      case "property_location":
+          echo get_the_term_list($post->ID, 'property_location', '', ', ','');
+          break;
+      case "property_features":
+          echo get_the_term_list($post->ID, 'property_features', '', ', ','');
+          break;
       case "photo":
           if(has_post_thumbnail()) the_post_thumbnail(array(50,50));
           break;
-      case "property_status":  
-          echo get_the_term_list($post->ID, 'property_status', '', ', ','');  
-          break;	
-  }  
+      case "property_status":
+          echo get_the_term_list($post->ID, 'property_status', '', ', ','');
+          break;
+
+  }
 }
 
 //style for property table
@@ -273,7 +282,7 @@ echo '<style type="text/css">
 		th#photo.column-photo{width:60px;}
 		.attachment-50x50.wp-post-image{-webkit-border-radius: 60px;-moz-border-radius: 60px;-ms-border-radius: 60px;border-radius: 60px;}
 		.attachment-50x50.wp-post-image:hover{width:55px;height:55px;}
-	  </style>';  
+	  </style>';
 }
 
 // action for featured
@@ -350,7 +359,7 @@ function property_type_filter_list() {
 					  'depth' => 3,
 					  'show_count' => false,
 					  'hide_empty' => true,
-			));	
+			));
 		wp_dropdown_categories(array(
 						'show_option_all' => 'Show All Property Features',
 						'taxonomy' => 'property_features',
@@ -374,7 +383,7 @@ function property_type_filter_list() {
 					  'depth' => 3,
 					  'show_count' => false,
 					  'hide_empty' => true,
-			));	
+			));
 	}
 }
 
@@ -428,19 +437,19 @@ function perform_filtering( $query )
  {
     $qv = &$query->query_vars;
     if ( isset( $qv['property_type'] ) && is_numeric( $qv['property_type'] ) ) {
-      $term = get_term_by( 'id', $qv['property_type'], 'property_type' ); 
+      $term = get_term_by( 'id', $qv['property_type'], 'property_type' );
 			$qv['property_type'] = $term->slug;
 		}
 		if ( isset( $qv['property_location'] ) && is_numeric( $qv['property_location'] ) ) {
-      $term = get_term_by( 'id', $qv['property_location'], 'property_location' ); 
+      $term = get_term_by( 'id', $qv['property_location'], 'property_location' );
 			$qv['property_location'] = $term->slug;
 		}
 		if ( isset( $qv['property_features'] ) && is_numeric( $qv['property_features'] ) ) {
-      $term = get_term_by( 'id', $qv['property_features'], 'property_features' ); 
+      $term = get_term_by( 'id', $qv['property_features'], 'property_features' );
 			$qv['property_features'] = $term->slug;
 		}
 		if ( isset( $qv['property_status'] ) && is_numeric( $qv['property_status'] ) ) {
-      $term = get_term_by( 'id', $qv['property_status'], 'property_status' ); 
+      $term = get_term_by( 'id', $qv['property_status'], 'property_status' );
 			$qv['property_status'] = $term->slug;
 		}
 }
@@ -486,7 +495,7 @@ function colabs_taxonomy_matches($term_name, $term_id, $post_id = 0, $keyword_to
 							if ($location_mypost->ID == $post_id) {
 								$success = true;
 	        					$counter++;
-							} 
+							}
 						}
 					}
 				}
@@ -496,54 +505,54 @@ function colabs_taxonomy_matches($term_name, $term_id, $post_id = 0, $keyword_to
 	$return_array['success'] = $success;
 	if ($counter == 0) {
 		$return_array['keywordcount'] = $keyword_count;
-	} else { 
+	} else {
 		$return_array['keywordcount'] = $counter;
 	}
-	
+
 	return $return_array;
 }
 
 
 
 /*-----------------------------------------------------------------------------------*/
-/* Property Search Function 
+/* Property Search Function
 /*-----------------------------------------------------------------------------------*/
 
 function colabs_property_search_result_set($query_args,$keyword_to_search, $location_id, $propertytypes_id, $propertystatus_id, $advanced_search = null, $search_type = '') {
-	
+
 	$search_results = array();
 	$query_args['showposts'] = -1;$query_args['post_type'] = 'property';
 	$the_query = new WP_Query($query_args);
-	
+
 	//Prepare Garages, Beds, Baths variables
-	
-	if ($advanced_search['beds'] == '10+') { 
+
+	if ($advanced_search['beds'] == '10+') {
 		$advanced_beds = 10;
 	} else {
 		$advanced_beds = $advanced_search['beds'];
 	}
-	if ($advanced_search['baths'] == '10+') { 
+	if ($advanced_search['baths'] == '10+') {
 		$advanced_baths = 10;
 	} else {
 		$advanced_baths = $advanced_search['baths'];
 	}
-	if ($advanced_search['garages'] == '10+') { 
+	if ($advanced_search['garages'] == '10+') {
 		$advanced_garages = 10;
 	} else {
 		$advanced_garages = $advanced_search['garages'];
 	}
-	
+
 	//Get matching method
 	$matching_method = get_option('colabs_feature_matching_method');
-	
+
 	if ($the_query->have_posts()) : $count = 0;
 
 	while ($the_query->have_posts()) : $the_query->the_post();
 
 		global $post;
     $post_type = $post->post_type;
-		
-		
+
+
 	  //Check Locations for matches
 	  $location_terms = colabs_taxonomy_matches('property_location', $location_id, $post->ID, $keyword_to_search);
 	  $success_location = $location_terms['success'];
@@ -561,17 +570,17 @@ function colabs_property_search_result_set($query_args,$keyword_to_search, $loca
 						if ($location_mypost->ID == $post->ID) {
 							$success_location = true;
 							$location_keyword_count++;
-						} 
+						}
 					}
 				}
-			} 
+			}
 	  }
-	        
+
 	  //Check Property Types for matches
 	  $propertytypes_terms = colabs_taxonomy_matches('property_type', $propertytypes_id, $post->ID, $keyword_to_search);
 	  $success_propertytype = $propertytypes_terms['success'];
 	  $propertytype_keyword_count = $propertytypes_terms['keywordcount'];
-	  
+
 	  //Secondary Property Type Check
 	  if ( (!$success_propertytype) || ($propertytype_keyword_count == 0) ) {
 	  	$propertytype_tax_names =  get_term_by( 'name', $keyword_to_search, 'property_type' );
@@ -584,17 +593,17 @@ function colabs_property_search_result_set($query_args,$keyword_to_search, $loca
 						if ($propertytype_mypost->ID == $post->ID) {
 							$success_propertytype = true;
 	       			$propertytype_keyword_count++;
-						} 
+						}
 					}
 				}
-			} 
+			}
 	  }
-	  
+
 		//Check Property Status for matches
 	  $propertystatus_terms = colabs_taxonomy_matches('property_status', $propertystatus_id, $post->ID, $keyword_to_search);
 	  $success_propertystatus = $propertystatus_terms['success'];
 	  $propertystatus_keyword_count = $propertystatus_terms['keywordcount'];
-	  
+
 	  //Secondary Property Status Check
 	  if ( (!$success_propertystatus) || ($propertystatus_keyword_count == 0) ) {
 	  	$propertystatus_tax_names =  get_term_by( 'name', $keyword_to_search, 'property_type' );
@@ -607,12 +616,12 @@ function colabs_property_search_result_set($query_args,$keyword_to_search, $loca
 						if ($propertystatus_mypost->ID == $post->ID) {
 							$success_propertystatus = true;
 	       			$propertystatus_keyword_count++;
-						} 
+						}
 					}
 				}
-			} 
-	  }	
-		
+			}
+	  }
+
 	  //Check Additional Features for matches
 	  $propertyfeatures_terms = colabs_taxonomy_matches('property_features', 0, $post->ID, $keyword_to_search);
 	  $success_propertyfeatures = $propertyfeatures_terms['success'];
@@ -659,7 +668,7 @@ function colabs_property_search_result_set($query_args,$keyword_to_search, $loca
 						$property_beds_success = true;
 					} else {
 						$property_beds_success = false;
-						
+
 					}
 				} else {
 					//Exact Matching
@@ -695,12 +704,12 @@ function colabs_property_search_result_set($query_args,$keyword_to_search, $loca
 					}
 				}
 		}
-			
+
 		// SIZE COMPARISON SCENARIO(S)
 	  $property_size = get_post_meta($post->ID,'property_size',true);
 		$property_size_success = false;
 		//scenario 1 - only size min
-		if ( ($advanced_search['size_min'] != '') && ( ($advanced_search['size_max'] == '') || ($advanced_search['size_max'] == 0) ) ) { 
+		if ( ($advanced_search['size_min'] != '') && ( ($advanced_search['size_max'] == '') || ($advanced_search['size_max'] == 0) ) ) {
 				if ( ($property_size >= $advanced_search['size_min']) ) {
 					$property_size_success = true;
 				} else {
@@ -708,7 +717,7 @@ function colabs_property_search_result_set($query_args,$keyword_to_search, $loca
 				}
 		}
 		//scenario 2 - only size max
-		elseif ( ( ($advanced_search['size_max'] != '') || ($advanced_search['size_max'] != 0) ) && ($advanced_search['size_min'] == '') ) { 
+		elseif ( ( ($advanced_search['size_max'] != '') || ($advanced_search['size_max'] != 0) ) && ($advanced_search['size_min'] == '') ) {
 				if ( ($property_size <= $advanced_search['size_max']) ) {
 					$property_size_success = true;
 				} else {
@@ -716,7 +725,7 @@ function colabs_property_search_result_set($query_args,$keyword_to_search, $loca
 				}
 		}
 		//scenario 3 - size min and max are zero
-		elseif ( ($advanced_search['size_min'] == '0') && ($advanced_search['size_max'] == 0) ) { 
+		elseif ( ($advanced_search['size_min'] == '0') && ($advanced_search['size_max'] == 0) ) {
 				$property_size_success = true;
 		}
 		//scenario 4 - both min and max
@@ -727,12 +736,12 @@ function colabs_property_search_result_set($query_args,$keyword_to_search, $loca
 					$property_size_success = false;
 				}
 		}
-			
+
 		// PRICE COMPARISON SCENARIO(S)
 	   $property_price = get_post_meta($post->ID,'property_price',true);
 		$property_price_success = false;
 		//scenario 1 - only price min
-		if ( ($advanced_search['price_min'] != '') && ( ($advanced_search['price_max'] == '') || ($advanced_search['price_max'] == 0) ) ) { 
+		if ( ($advanced_search['price_min'] != '') && ( ($advanced_search['price_max'] == '') || ($advanced_search['price_max'] == 0) ) ) {
 				if ( ($property_price >= $advanced_search['price_min']) ) {
 					$property_price_success = true;
 				} else {
@@ -740,7 +749,7 @@ function colabs_property_search_result_set($query_args,$keyword_to_search, $loca
 				}
 		}
 		//scenario 2 - only price max
-		elseif ( ( ($advanced_search['price_max'] != '') || ($advanced_search['price_max'] != 0) ) && ($advanced_search['price_min'] == '') ) { 
+		elseif ( ( ($advanced_search['price_max'] != '') || ($advanced_search['price_max'] != 0) ) && ($advanced_search['price_min'] == '') ) {
 				if ( ($property_price <= $advanced_search['price_max']) ) {
 					$property_price_success = true;
 				} else {
@@ -748,7 +757,7 @@ function colabs_property_search_result_set($query_args,$keyword_to_search, $loca
 				}
 		}
 		//scenario 3 - price min and max are zero
-		elseif ( ($advanced_search['price_min'] == '0') && ($advanced_search['price_max'] == 0) ) { 
+		elseif ( ($advanced_search['price_min'] == '0') && ($advanced_search['price_max'] == 0) ) {
 				$property_price_success = true;
 		}
 		//scenario 4 - both min and max
@@ -761,8 +770,8 @@ function colabs_property_search_result_set($query_args,$keyword_to_search, $loca
 		}
 		//format price
 		$property_price = number_format($property_price , 0 , '.', ',');
-			
-	  if ( $success_location && $success_propertytype && $success_propertystatus ) {  
+
+	  if ( $success_location && $success_propertytype && $success_propertystatus ) {
 	    //Search against post data
 	    if ( $keyword_to_search != '' ) {
 	    	//Default WordPress Content
@@ -776,82 +785,82 @@ function colabs_property_search_result_set($query_args,$keyword_to_search, $loca
 	    	$property_address_count = substr_count( strtolower( $property_address ) , strtolower( $keyword_to_search ) );
 	    }
 	    //Check for matches or blank keyword
-	    		
+
 	    if ( $keyword_to_search == '') {
-	    			
-	    	if ( ( $location_keyword_count > 0 ) || ( $propertytype_keyword_count > 0 ) || ( $propertystatus_keyword_count > 0 ) || ( $propertyfeatures_keyword_count > 0 ) ) { 
+
+	    	if ( ( $location_keyword_count > 0 ) || ( $propertytype_keyword_count > 0 ) || ( $propertystatus_keyword_count > 0 ) || ( $propertyfeatures_keyword_count > 0 ) ) {
 
 						if ( (count($advanced_search) > 0) && ( ($advanced_search['garages'] != 'all') || ($advanced_search['beds'] != 'all') || ($advanced_search['baths'] != 'all') || ($advanced_search['price_min'] != '0') || ($advanced_search['price_max'] != '0') || ($advanced_search['size_min'] != '0') || ($advanced_search['size_max'] != '0') ) ) {
-								
+
 								if ($property_garages_success && $property_beds_success && $property_baths_success && $property_price_success && $property_size_success ) {
 									//increment post counter
-									
-									$count++; 
+
+									$count++;
 									$has_results = true;
-	    			
+
 									//setup array data here
 									array_push($search_results,$post->ID);
 								}
-							
+
 						} else {
 							//increment post counter
-							$count++; 
+							$count++;
 							$has_results = true;
-	    			
+
 							//setup array data here
 							array_push($search_results,$post->ID);
 						}
-						
-	    	}elseif ( ( $location_keyword_count == 0 ) && ( $propertytype_keyword_count == 0 ) && ( $propertystatus_keyword_count == 0 ) && ( $propertyfeatures_keyword_count == 0 ) ) { 
-						
+
+	    	}elseif ( ( $location_keyword_count == 0 ) && ( $propertytype_keyword_count == 0 ) && ( $propertystatus_keyword_count == 0 ) && ( $propertyfeatures_keyword_count == 0 ) ) {
+
 						if ( (count($advanced_search) > 0) && ( ($advanced_search['garages'] != 'all') || ($advanced_search['beds'] != 'all') || ($advanced_search['baths'] != 'all') || ($advanced_search['price_min'] != '0') || ($advanced_search['price_max'] != '0') || ($advanced_search['size_min'] != '0') || ($advanced_search['size_max'] != '0') ) ) {
-								
+
 								if ($property_garages_success && $property_beds_success && $property_baths_success && $property_price_success && $property_size_success ) {
 									//increment post counter
-									$count++; 
+									$count++;
 									$has_results = true;
-	    			
+
 									//setup array data here
-									array_push($search_results,$post->ID); 
+									array_push($search_results,$post->ID);
 								}
 								$search_results = $property_beds_success;
 						} else {
 							//increment post counter
-							$count++; 
+							$count++;
 							$has_results = true;
-	    			
+
 							//setup array data here
 							array_push($search_results,$post->ID);
 						}
-						
+
 				}
-	    			
+
 	    } else {
-	    		
+
 	    	if ( ( $title_keyword_count > 0 ) || ( $content_keyword_count > 0 ) || ( $excerpt_keyword_count > 0 ) || ( $location_keyword_count > 0 ) || ( $property_address_count > 0 ) || ( $propertytype_keyword_count > 0 ) || ( $propertystatus_keyword_count > 0 ) || ( $propertyfeatures_keyword_count > 0 ) ) {
 	    			if ( (count($advanced_search) > 0) && ( ($advanced_search['garages'] != 'all') || ($advanced_search['beds'] != 'all') || ($advanced_search['baths'] != 'all') || ($advanced_search['price_min'] != '0') || ($advanced_search['price_max'] != '0') || ($advanced_search['size_min'] != '0') || ($advanced_search['size_max'] != '0') ) ) {
-								
+
 								if ($property_garages_success && $property_beds_success && $property_baths_success && $property_price_success && $property_size_success ) {
 									//increment post counter
-									$count++; 
+									$count++;
 									$has_results = true;
-	    			
+
 									//setup array data here
 									array_push($search_results,$post->ID);
 								}
 						} else {
 							//increment post counter
-							$count++; 
+							$count++;
 							$has_results = true;
-	    			
+
 							//setup array data here
 							array_push($search_results,$post->ID);
 						}
-	    	} 			
-	    }   		 		
-	  }		
+	    	}
+	    }
+	  }
 	endwhile; else:
-    	//no posts	    	
+    	//no posts
   endif;
 	return $search_results;
 }
@@ -885,8 +894,8 @@ function colabs_manage_users_custom_column( $r, $column_name, $user_id ) {
 			$r .= 0;
 		}
 	}
-	
-	// get the user registration date	
+
+	// get the user registration date
 	if ('registered' == $column_name) {
 		$user_info = get_userdata($user_id);
 		$r = $user_info->user_registered;
@@ -921,7 +930,7 @@ add_action( 'post_submitbox_misc_actions', 'colabs_add_featured_option_to_submit
 
 function colabs_add_featured_option_to_submitbox(){
   global $post;
-  
+
   if(COLABS_POST_TYPE == $post->post_type):
     ?>
     <style>
@@ -943,7 +952,7 @@ function colabs_add_featured_option_to_submitbox(){
       .curtime .expire-date {
           display: inline !important;
           height: auto !important;
-          padding: 2px 0 1px;  
+          padding: 2px 0 1px;
       }
     </style>
     <?php
@@ -968,7 +977,7 @@ function colabs_add_featured_option_to_submitbox(){
     </div>
     <?php
   endif;
-  
+
   if('page' == $post->post_type):
     ?>
     <div class="misc-pub-section featured-action">
@@ -980,7 +989,7 @@ function colabs_add_featured_option_to_submitbox(){
 
 function colabs_featured_option_to_quickedit() {
 	global $post;
-	
+
 	//if post is a custom post type and only during the first execution of the action quick_edit_custom_box
 	if ($post->post_type == COLABS_POST_TYPE && did_action('bulk_edit_custom_box') === 1): ?>
 	<fieldset class="inline-edit-col-right">
@@ -989,20 +998,20 @@ function colabs_featured_option_to_quickedit() {
 				<input type="checkbox" name="sticky" value="sticky" />
 				<span class="checkbox-title"><?php _e('Featured Property', 'colabsthemes'); ?></span>
 			</label>
-		</div>	
+		</div>
 	</fieldset>
 <?php
 	endif;
-  
+
   if ($post->post_type == 'page' && did_action('bulk_edit_custom_box') === 1): ?>
-	
+
 	<fieldset class="inline-edit-col-right">
 		<div class="inline-edit-col">
 			<label class="alignleft">
 				<input type="checkbox" name="sticky" value="sticky" />
 				<span class="checkbox-title"><?php _e('Featured Page', 'colabsthemes'); ?></span>
 			</label>
-		</div>	
+		</div>
 	</fieldset>
 <?php
 	endif;

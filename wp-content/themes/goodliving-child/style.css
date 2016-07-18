@@ -21,3 +21,136 @@
   width: 308px;
   margin-bottom: 27px;
 }
+
+/*
+OVERRIDES ADDED BY RF MARCH 2016
+*/
+
+a {
+  color: #002288;
+}
+
+.main-content-wrapper {
+  background-color: lightslategray;
+}
+
+.entry-post {
+  background-color: white;
+  /*padding: 10px;*/
+}
+
+.post-blog .entry-inner {
+  /*background-color: white;*/
+  padding: 10px;
+}
+
+.post-blog .entry-media {
+  padding: 0;
+}
+
+
+.property-author-info a {
+  color: midnightblue;
+}
+
+.colabs-breadcrumbs {
+  color: beige;
+}
+
+.widget_property_author p {
+  color: beige;
+}
+
+.results-count {
+  color: beige;
+}
+
+
+.results-count-number {
+  color: gold;
+}
+
+
+.columnL {
+  margin-left: 2.09091%;
+}
+
+.col2L {
+  width: 15%;
+}
+
+
+article.property .property-buttons .button {
+    color: #333333;
+}
+
+article.property .property-buttons .button:hover {
+  color: #666666;
+}
+
+.post-grid .property-price {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.post-grid .entry-post {
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.post-grid .entry-title {
+  padding: 2px;
+}
+
+article.property .property-ref {
+  margin: 2px;
+}
+
+.post-loader a {
+  background: #FFF166;
+  color: #333333;
+}
+
+.post-loader a:hover {
+  color: #999999;
+}
+
+.post-loader a:focus {
+  background: #FFF166;
+}
+
+
+.button-orange {
+  background: #FFF166;
+}
+
+.button-orange:hover {
+  background: #FFF111;
+}
+
+.title-search {
+  margin-bottom: 30px;
+  /*font-weight: normal!important;*/
+  color: white;
+  text-shadow: 2px 2px #666666;
+}
+
+.search-wrapper {
+  background-color: transparent;
+  box-shadow: 0 0 0;
+  padding: 88px;
+}
+
+.input-select {
+  background-color: rgba(255,255,255,1);
+  /*border: 1px solid #555555;*/
+}
+
+.single .social_share > div {
+  margin-right: 0px;
+}
+
+.history-link {
+  font-size: 12px;
+  float: left;
+  margin-left: 50px;
+}

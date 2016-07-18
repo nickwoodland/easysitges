@@ -10,10 +10,9 @@ function custom_property_link( $post_link, $id = 0 ){
     return $post_link;
 }
 add_filter( 'post_type_link', 'custom_property_link', 1, 3 );
-
 /*
 UNTESTED just speculative code to build post title from property ID
-also check http://www.tcbarrett.com/2011/10/generate-post-name-and-slug-from-meta-data/ 
+also check http://www.tcbarrett.com/2011/10/generate-post-name-and-slug-from-meta-data/
 
 add_action('save_post', 'set_slug');
 
@@ -26,3 +25,4 @@ function set_slug($post_id){
 
     wp_update_post($post_args);
 } */
+?>
