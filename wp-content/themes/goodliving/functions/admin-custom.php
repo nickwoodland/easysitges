@@ -30,13 +30,13 @@ function colabsthemes_metabox_create($post,$callback) {
     if(empty($seo_metaboxes) AND 'seo' == $template_to_show){
         return;
     }
-
+      
     if(get_option( 'seo_colabs_hide_fields') != 'true' AND 'seo' == $template_to_show){
         $colabs_metaboxes = $seo_metaboxes;
     }
-
+        
     $output = colabs_custom_meta_generator($post,$colabs_metaboxes,$template_to_show);
-
+    
     echo $output;
 }
 
@@ -72,7 +72,7 @@ function colabsthemes_metabox_handle(){
     global $globals, $post;
 
     $colabs_metaboxes = get_option( 'colabs_custom_template' );
-
+    
     $seo_metaboxes = get_option( 'colabs_custom_seo_template' );
 
     if(!empty($seo_metaboxes) AND get_option( 'seo_colabs_hide_fields') != 'true'){
@@ -97,7 +97,7 @@ function colabsthemes_metabox_handle(){
 
     if ( isset( $_POST['action'] ) && 'editpost' == $_POST['action'] ) {
 
-      colabs_custom_meta_save_handler($post_id,$colabs_metaboxes);
+      colabs_custom_meta_save_handler($post_id,$colabs_metaboxes);  
 
     } // End IF Statement
 
@@ -120,7 +120,7 @@ function colabsthemes_metabox_add() {
 
     $colabs_metabox_settings = get_option('colabs_metabox_settings');
     $colabs_metaboxes = get_option( 'colabs_custom_template' );
-
+    
     if ( function_exists( 'add_meta_box') ) {
 
         if ( function_exists( 'get_post_types') ) {
@@ -128,9 +128,9 @@ function colabsthemes_metabox_add() {
 
           // Get the theme name for use in multiple meta boxes.
           $theme_name = get_option( 'colabs_themename' );
-
+          
           foreach ($custom_post_list as $type){
-
+          
             if ( !empty($colabs_metabox_settings[$type]) && $type != 'attachment' && $type != 'revision' && $type != 'nav_menu_item' && $type != 'colabsframework'){//wordpress.com
               $settings = $colabs_metabox_settings[$type];
             }else{
@@ -144,7 +144,7 @@ function colabsthemes_metabox_add() {
                     'callback_args' => ''
                 );
             }
-
+              
             // Allow child themes/plugins to filter these settings.
             if(isset($settings['id']))
               $settings = apply_filters( 'colabsthemes_metabox_settings', $settings, $type, $settings['id'] );
@@ -152,7 +152,7 @@ function colabsthemes_metabox_add() {
             if ( ! empty( $colabs_metabox_settings[$type] ) ) {
                 add_meta_box( $settings['id'], $settings['title'], $settings['callback'], $settings['page'], $settings['context'], $settings['priority'], $settings['callback_args'] );
             }
-
+            
             //if(!empty($colabs_metaboxes)) Temporarily Removed
             if(array_search($type, $seo_post_types) !== false){
                 if(get_option( 'seo_colabs_hide_fields') != 'true'){
@@ -199,7 +199,7 @@ function colabsthemes_metabox_header(){
             var s = ''; var s2 = '';
             var length = jQuery(this).val().length;
             var w_length = jQuery(this).val().split(/\b[\s,\.-:;]*/).length;
-
+            
             if(length != 1) { s = 's';}
             if(w_length != 1){ s2 = 's';}
             if('' == jQuery(this).val()){ s2 = 's'; w_length = '0';}
@@ -227,9 +227,9 @@ function colabsthemes_metabox_header(){
                 radioWrap   = radio.parents('tr'),
                 radioVal    = checkedRadio.val();
                 radioVal    = '' == radioVal ? 'dummy' : radioVal;
-
+                
                 function hideRadioBox(radioBtn){
-
+                    
                     if( typeof radioBtn == "undefined" ) {
                         radioBtn = radio;
                     } else {
@@ -248,7 +248,7 @@ function colabsthemes_metabox_header(){
                     hideRadioBox( jQuery(this) );
                 });
         });
-
+        
         // Jquery multicheck
         jQuery('.multicheck').each(function(){
             var $el = jQuery(this);
@@ -259,7 +259,7 @@ function colabsthemes_metabox_header(){
                 $el.find(':text').val( values.join(', ') );
             });
         });
-
+        
         jQuery( '.colabs_metaboxes_table th:last, .colabs_metaboxes_table td:last').css( 'border','0' );
         var val = jQuery( 'input#title').attr( 'value' );
         if('' == val){
@@ -359,7 +359,7 @@ function colabs_custom_meta_generator($post,$colabs_metaboxes,$template_to_show 
       $colabs_id = "colabsthemes_" . $colabs_metabox["name"];
       $colabs_name = $colabs_metabox["name"];
       $colabs_class ='';
-
+      
       if (isset($colabs_metabox["class"]) && $colabs_metabox["class"]!='')
       $colabs_class = "class='" .$colabs_metabox["class"]."'";
 
@@ -385,7 +385,7 @@ function colabs_custom_meta_generator($post,$colabs_metaboxes,$template_to_show 
 
           if(
               'text' == $colabs_metabox['type']
-          OR  'info2' == $colabs_metabox['type']
+          OR  'info2' == $colabs_metabox['type']                    
           OR  'select' == $colabs_metabox['type']
           OR  'select2' == $colabs_metabox['type']
           OR  'checkbox' == $colabs_metabox['type']
@@ -401,7 +401,7 @@ function colabs_custom_meta_generator($post,$colabs_metaboxes,$template_to_show 
               if ( '' == $colabs_metaboxvalue && isset( $colabs_metabox['std'] ) ) {
                   $colabs_metaboxvalue = $colabs_metabox['std'];
               }
-
+              
               if('info' == $colabs_metabox['type']){
 
                   $output .= "\t".'<tr style=" border-bottom: 1px solid #DFDFDF; line-height: 1.5em;" '.$colabs_class.'>';
@@ -432,7 +432,7 @@ function colabs_custom_meta_generator($post,$colabs_metaboxes,$template_to_show 
               }
 
               elseif ('textarea' == $colabs_metabox['type']){
-
+          
                   $add_class = ''; $add_counter = '';
                   if( 'seo' == $template_to_show ){ $add_class = 'words-count'; $add_counter = '<span class="counter">0 characters, 0 words</span>'; }
                   $output .= "\t".'<tr '.$colabs_class.'>';
@@ -543,7 +543,7 @@ function colabs_custom_meta_generator($post,$colabs_metaboxes,$template_to_show 
                   $colabs_metaboxvalue_arr = explode(",", $colabs_metaboxvalue);
 
                   foreach ( $array as $id => $option ) {
-
+                  
                       if( in_array( $id,$colabs_metaboxvalue_arr ) ) { $checked = ' checked="checked"';} else {$checked='';}
 
                           $output .= '<input type="checkbox" '.$checked.' value="' . $id . '" class="colabs_input_multicheck"  name="'.$id.'" />';
@@ -553,7 +553,7 @@ function colabs_custom_meta_generator($post,$colabs_metaboxes,$template_to_show 
                       $output .= '<input style="display:none" class="colabs_input_multicheck" type="text" value="'.esc_attr( $colabs_metaboxvalue ).'" name="'.$colabs_name.'" id="'.esc_attr( $colabs_id ).'"/>';
                       $output .= "</td>\t".'</tr>'."\n";
                    }
-
+                  
               }
               elseif ('radio' == $colabs_metabox['type']){
 
@@ -646,13 +646,13 @@ function colabs_custom_meta_generator($post,$colabs_metaboxes,$template_to_show 
   }
 
   $output .= '</table>'."\n\n";
-
+  
   return $output;
 }
 
 function colabs_custom_meta_save_handler($post_id,$colabs_metaboxes){
 
-  $upload_tracking = array();
+  $upload_tracking = array();   
   foreach ($colabs_metaboxes as $colabs_metabox) { // On Save.. this gets looped in the header response and saves the values submitted
     if('text' == $colabs_metabox['type']
     OR 'calendar' == $colabs_metabox['type']
@@ -669,11 +669,11 @@ function colabs_custom_meta_save_handler($post_id,$colabs_metaboxes){
       $var = $colabs_metabox["name"];
 
       if ( isset( $_POST[$var] ) ) {
-
+          
           // Sanitize the input.
           $posted_value = '';
           $posted_value = $_POST[$var];
-
+          
           // Get the current value for checking in the script.
           $current_value = '';
           $current_value = get_post_meta( $post_id, $var, true );
