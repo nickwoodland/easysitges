@@ -15,15 +15,15 @@
 </div><!-- .newsletter-subscribe -->
 <?php endif; */?>
 <?php gravity_form( 4, $display_title = true, $display_description = true, $display_inactive = false, $field_values = null, $ajax = false, $tabindex, $echo = true ); ?>
-<?php get_sidebar( 'footer' );?><!-- .footer-widgets -->
 </div>
 </footer>
 
 <div class="copyrights container">
-        <div class="row">
-        <?php // colabs_credit();?>
+    <div class="row">
+        <?php get_sidebar( 'footer' );?><!-- .footer-widgets -->
+    </div>
+    <div class="row">
         <?php include(locate_template('parts/footer-contact.php')); ?>
-        </div>
     </div>
 </div>
 
