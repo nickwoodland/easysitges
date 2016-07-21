@@ -20,6 +20,8 @@
 		$garage = get_post_meta($id, 'property_garage',true);
 		$furnished= get_post_meta($id, 'property_furnished',true);
 		$mortgage= get_post_meta($id, 'property_mortgage',true);
+        $bullet_1 = get_post_meta($id, $key."_short_desc_bullet_1", true);
+        $bullet_2 = get_post_meta($id, $key."_short_desc_bullet_2", true);
 
 		$maps_active = get_post_meta(get_the_ID(),'colabs_maps_enable',true);
 
@@ -138,6 +140,15 @@
 			</div><!-- .peroperty-info -->
 
 			<div class="property-details">
+
+                <?php if(($bullet_1 && 'NULL' != $bullet_1  ) || ($bullet_2 && 'NULL' != $bullet_2  )): ?>
+                    <div class="property-bullets">
+                        <ul>
+                            <?php echo($bullet_1 && 'NULL' != $bullet_1 ? '<li>'.$bullet_1.'</li>' : ''); ?>
+                            <?php echo($bullet_2 && 'NULL' != $bullet_2 ? '<li>'.$bullet_2.'</li>' : ''); ?>
+                      </ul>
+                    </div>
+                <?php endif; ?>
 
 				<div class="property-details-panel entry-content" id="property-details">
 					<?php the_content();?>
