@@ -25,6 +25,8 @@
 			$args = array(
 				'post_type' => 'property',
 				'meta_key'	=> 'property_price',
+                'meta_value'   => 'NULL',
+            	'meta_compare' => '!=',
 				'orderby'		=> 'meta_value',
 				'order'			=> 'desc',
 				'paged'			=> $paged,

@@ -10,7 +10,9 @@
 	<!--[if lt IE 9]>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/includes/js/html5shiv.js"></script>
 	<![endif]-->
-
+    <?php /* ini_set('display_startup_errors', 1);
+    ini_set('display_errors', 1);
+    error_reporting(-1); */ ?>
 	<?php
 		$site_title = get_bloginfo( 'name' );
 		$site_url = home_url( '/' );
@@ -18,6 +20,7 @@
 		$hero_img = get_background_image();
 		wp_head();
 	?>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
 
