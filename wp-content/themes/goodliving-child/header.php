@@ -10,9 +10,9 @@
 	<!--[if lt IE 9]>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/includes/js/html5shiv.js"></script>
 	<![endif]-->
-    <?php /* ini_set('display_startup_errors', 1);
+    <?php ini_set('display_startup_errors', 1);
     ini_set('display_errors', 1);
-    error_reporting(-1); */ ?>
+    error_reporting(-1);  ?>
 	<?php
 		$site_title = get_bloginfo( 'name' );
 		$site_url = home_url( '/' );
@@ -100,17 +100,23 @@
 						'menu_class' => 'menu'
 			) ); ?>
     </nav><!-- .main-menu -->
-    <?php if ( is_home() ):?>
     <div class="property-ordering">
           <select id="propertyorder" name="propertyorder">
 
             <?php $sortby = array(
-              '' => __('Sort by Latest', 'colabsthemes'),
+              'latest' => __('Sort by Latest', 'colabsthemes'),
               'sort-price_asc' => __('Sort by Price - Low to High', 'colabsthemes'),
               'sort-price_desc' => __('Sort by Price - High to Low', 'colabsthemes'),
               'sort-title' => __('Sort by Title', 'colabsthemes'),
               'sort-popular' => __('Sort by Popular', 'colabsthemes')
             ); ?>
+
+
+            <?php if(is_front_page()):
+                    $sortby = array_reverse($sortby, true);
+                    $sortby[''] = __('Sort by Featured', 'colabsthemes');
+                    $sortby = array_reverse($sortby, true);
+            endif; ?>
 
             <?php foreach( $sortby as $sort_value => $sort_title ) : ?>
               <?php
@@ -123,24 +129,24 @@
             <?php endforeach; ?>
 
           </select>
-					<script type="text/javascript"><!--
-							var dropdown = document.getElementById("propertyorder");
-							function onOrderChange() {
-                if ( dropdown.options[dropdown.selectedIndex].value != '' ) {
-                  // If on search page
-                  if( window.location.search.indexOf('?s=') != -1 ) {
-								    window.location.href = window.location.href + '&propertyorder=' + dropdown.options[dropdown.selectedIndex].value;
-                  } else {
-                    window.location.href = window.location.origin + window.location.pathname + '?propertyorder=' + dropdown.options[dropdown.selectedIndex].value;
-                  }
-                } else if ( dropdown.options[dropdown.selectedIndex].value == '' ) {
-                  window.location.href = window.location.href;
-                }
-							}
-							dropdown.onchange = onOrderChange;
-					--></script>
+			<script type="text/javascript"><!--
+				var dropdown = document.getElementById("propertyorder");
+				function onOrderChange() {
+                    if ( dropdown.options[dropdown.selectedIndex].value != '' ) {
+                      // If on search page
+                      if( window.location.search.indexOf('?s=') != -1 ) {
+    								    window.location.href = window.location.href + '&propertyorder=' + dropdown.options[dropdown.selectedIndex].value;
+                      } else {
+                        window.location.href = window.location.origin + window.location.pathname + '?propertyorder=' + dropdown.options[dropdown.selectedIndex].value;
+                      }
+                    } else if ( dropdown.options[dropdown.selectedIndex].value == '' ) {
+                      var originalUrl = window.location.href.split('?')[0];
+                      window.location.href = originalUrl;
+                    }
+				}
+				dropdown.onchange = onOrderChange;
+		    </script>
     </div><!-- .property-ordering -->
-		<?php endif;?>
   </div>
 </div>
 <!-- .main-menu-wrapper -->

@@ -166,8 +166,8 @@ function colabs_child_display_meta_box($post) {
       $property_status_selector = apply_filters( 'property_status_selector', array(
         'sale' 	=> __( 'For Sale', 'colabsthemes' ),
         'rent' 	=> __( 'For Rent', 'colabsthemes' ),
-        'sold' 	=> __( 'Recently Sold', 'colabsthemes' ),
-        'not-sale'  => __( 'Not for Sale', 'colabsthemes' )
+        /*'sold' 	=> __( 'Recently Sold', 'colabsthemes' ),
+        'not-sale'  => __( 'Not for Sale', 'colabsthemes' )*/
       ), $property_status );
 
       $type_box  = '';
