@@ -91,11 +91,18 @@ if ( isset( $_GET['propertyorder'] ) && $_GET['propertyorder'] != '' ) {
 //append our tax query
 if($term_object):
     $args['tax_query'] =  array(
+        //'relation' => 'AND',
 		array(
 			'taxonomy' => $term_tax,
 			'field'    => 'id',
 			'terms'    => $term_id,
 		),
+      array(
+          'taxonomy' => 'property_status',
+          'field' => 'slug',
+          'terms' => array( 'rented' ),
+          'operator'=> 'NOT IN'
+      )
 	);
 endif;
 
@@ -104,7 +111,7 @@ if ( $latestproperties->have_posts() ) :
 ?>
 
     <div class="results-count">
-        <?php echo $wp_query->found_posts.' properties match your search.'; ?>
+        <?php echo $latestproperties->found_posts.' properties match your search.'; ?>
     </div>
 
     <div class="post-list post-grid loading">

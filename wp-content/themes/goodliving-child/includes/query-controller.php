@@ -43,7 +43,7 @@ function site_query_controller($query) {
 
             // Conditionalise for a CPT Tax/term archive
 
-            if(is_tax('property_type') || is_front_page() || is_post_type_archive('property') ) :
+            if(is_tax('property_type') || is_front_page() || is_home() || is_post_type_archive('property') ) :
 
                 $tax_query = array(
                      array(
@@ -53,7 +53,7 @@ function site_query_controller($query) {
                          'operator'=> 'NOT IN'
                      )
                  );
-                //$query->set('posts_per_page','4');
+                $query->set('posts_per_page','4');
                 $query->set('tax_query',$tax_query);
                 //$query->set('orderby','menu_order title');
             endif;

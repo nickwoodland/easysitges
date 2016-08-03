@@ -70,6 +70,10 @@ article.property .property-buttons .button {
     .property-sidebar .property-price.property-price--holiday strong p:not(:last-child):after {
       content: ", "; }
 
+.property-details .property-reference {
+  font-size: 1.4em;
+  font-weight: 800; }
+
 .navbar {
   background-color: #1a171b;
   border-bottom: none;
@@ -115,8 +119,6 @@ article.property .property-buttons .button {
   width: 308px;
   margin-bottom: 27px; }
 
-
-
 .search-wrapper {
   margin-top: 10rem;
   margin-top: 140px;
@@ -125,10 +127,7 @@ article.property .property-buttons .button {
   padding: 2rem;
   padding: 28px;
   background-color: #fff;
-  box-shadow: 6px 6px 6px RGBA(0, 0, 0, 0.15);
-}
-
-
+  box-shadow: 6px 6px 6px RGBA(0, 0, 0, 0.15); }
 
 .header-section.hero-image {
   padding: 0px; }
@@ -146,9 +145,7 @@ article.property .property-buttons .button {
   text-align: right;
   display: inline-block;
   width: 35%;
-  margin-left: 5px;
-  margin-bottom:1px;
-}
+  margin-left: 5px; }
   .logo-wrapper .logo {
     margin: 0px;
     line-height: 0;

@@ -2,7 +2,7 @@
 function custom_property_link( $post_link, $id = 0 ){
     $post = get_post($id);
     if ( is_object( $post ) ){
-        $terms = wp_get_object_terms( $post->ID, 'property_status' );
+        $terms = wp_get_object_terms( $post->ID, 'property_type' );
         if( $terms ){
             return str_replace( '%property_status%' , $terms[0]->slug , $post_link );
         }

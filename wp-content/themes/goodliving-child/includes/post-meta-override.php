@@ -166,8 +166,8 @@ function colabs_child_display_meta_box($post) {
       $property_status_selector = apply_filters( 'property_status_selector', array(
         'sale' 	=> __( 'For Sale', 'colabsthemes' ),
         'rent' 	=> __( 'For Rent', 'colabsthemes' ),
-        /*'sold' 	=> __( 'Recently Sold', 'colabsthemes' ),
-        'not-sale'  => __( 'Not for Sale', 'colabsthemes' )*/
+        'sold' 	=> __( 'Sold', 'colabsthemes' ),
+        'rented'  => __( 'Currently Rented', 'colabsthemes' )
       ), $property_status );
 
       $type_box  = '';
@@ -241,7 +241,7 @@ function colabs_child_save_meta_box( $post_id ) {
     $property_status = empty( $_POST['property-status'] ) ? 'sale' : sanitize_title( stripslashes( $_POST['property-status'] ) );
     wp_set_object_terms( $post_id, $property_status, COLABS_TAX_STATUS );
 
-    if('rent'==$property_status) {
+    if('rent'==$property_status || 'rented' == $property_status) {
       update_post_meta( $post_id, 'property_price_periode', $_POST['property_price_periode'] );
 	  update_post_meta( $post_id, 'property_price_day_low', $_POST['property_price_day_low'] );
 	  update_post_meta( $post_id, 'property_price_day_med', $_POST['property_price_day_med'] );

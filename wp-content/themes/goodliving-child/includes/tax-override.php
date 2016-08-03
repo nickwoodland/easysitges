@@ -77,14 +77,14 @@ function colabs_child_taxonomy_register() {
 	);
 	$property_status_args = array(
 		'labels'                     => $property_status_labels,
-		'hierarchical'               => false,
+		'hierarchical'               => true,
 		'public'                     => true,
 		'show_ui'                    => true,
 		'show_admin_column'          => false,
 		'show_in_nav_menus'          => true,
 		'show_tagcloud'              => false,
 	);
-	register_taxonomy( 'property_status', array( 'property' ), $property_status_args );
+register_taxonomy( 'property_status', array( 'property' ), $property_status_args );
 
   $property_location_labels = array(
 		'name'                       => _x( 'Property Locations', 'Taxonomy General Name', 'colabsthemes' ),

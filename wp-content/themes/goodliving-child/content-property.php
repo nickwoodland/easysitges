@@ -82,7 +82,12 @@
       <header class="entry-header">
         <h2 class="entry-title"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
         <?php if( get_post_meta($post->ID,'colabs_property_sold',true) != 'true' ) : ?>
-				  <?php echo get_the_term_list($post->ID, 'property_status', '<span class="property-label">', ', ','</span>');?>
+            <?php $terms = wp_get_object_terms( $post->ID, 'property_status' ); ?>
+            <?php if( $terms ){ ?>
+
+                    <?php echo "<span class='property-label'>" . $terms[0]->name . "</span>";
+            } ?>
+				  <?php // echo get_the_term_list($post->ID, 'property_type', '<span class="property-label">', ', ','</span>');?>
         <?php endif; ?>
         <h4 class="property-ref">Reference: <?php echo $property_ref;?> </h4>
       </header>

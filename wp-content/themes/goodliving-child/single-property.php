@@ -12,7 +12,8 @@
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<?php
 		$id = get_the_ID();
-		$address = get_post_meta(get_the_ID(),'colabs_maps_address',true);
+        $property_ref = get_post_meta($id, "property_unique_key", true);
+		$address = get_post_meta($id,'colabs_maps_address',true);
 		$beds = get_post_meta($id, 'property_beds',true);
 		$baths = get_post_meta($id, 'property_baths',true);
 		$size = get_post_meta($id, 'property_size',true);
@@ -134,12 +135,15 @@
 						<?php echo get_the_term_list($post->ID, 'property_features', '<div class="entry-features">'.__("Features","colabsthemes").' : ', ', ','</div>');   ?>
 						<?php echo get_the_term_list($post->ID, 'property_type', '<div class="entry-type">'.__("Type","colabsthemes").' : ', ', ','</div>');   ?>
 						<?php echo get_the_term_list($post->ID, 'property_location', '<div class="entry-location">'.__("Location","colabsthemes").' : ', ', ','</div>');   ?>
-						<?php echo get_the_term_list($post->ID, 'property_status', '<div class="entry-status">'.__("Status","colabsthemes").' : ', ', ','</div>');   ?>
 					</div>
 				</div>
 			</div><!-- .peroperty-info -->
 
 			<div class="property-details">
+
+                <?php if($property_ref): ?>
+                    <span class="property-reference">Reference: <?php echo $property_ref; ?></span>
+                <?php endif; ?>
 
                 <?php if(($bullet_1 && 'NULL' != $bullet_1  ) || ($bullet_2 && 'NULL' != $bullet_2  )): ?>
                     <div class="property-bullets">

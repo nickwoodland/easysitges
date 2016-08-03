@@ -637,9 +637,9 @@ $('#property_status').on('change', function(e){
 function checkPropertyStatusVal( el ) {
   if( el != null ) {
     var value = el.value,
-        $rentPeriode = $('#property_price_periode').closest('.form-builder-input');
+    $rentPeriode = $('#property_price_periode').closest('.form-builder-input');
 
-    if( formbuilder_string.rent_term_id == value ) {
+    if( formbuilder_string.rent_term_id == value || value == 'rented' ) {
       $rentPeriode.show();
     } else {
       $rentPeriode.hide();

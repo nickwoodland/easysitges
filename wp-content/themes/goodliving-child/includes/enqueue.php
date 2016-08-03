@@ -16,7 +16,6 @@ function dequeue_borked_scripts_styles()
     wp_deregister_script( 'scripts' );
     wp_enqueue_script( 'scripts', trailingslashit( get_stylesheet_directory_uri() ) . 'includes/js/scripts.js', array('jquery'), '', true );
 
-
     // -- added by RF --
     wp_enqueue_script( 'pricerange-changer', get_stylesheet_directory_uri().'/includes/js/pricerange-changer.js' );
 }
