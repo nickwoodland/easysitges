@@ -19,14 +19,14 @@
     }
   ],
   "require": {
-      "wpackagist-plugin/cmb2": "2.1.2",
-      "wpackagist-plugin/options-framework": "1.8.5",
-      "wpackagist-plugin/duplicate-post": "2.6",
-      "wpackagist-plugin/regenerate-thumbnails": "2.2.6",
-      "wpackagist-plugin/better-wp-security": "5.2.0",
-      "wpackagist-plugin/redirection": "2.4.3",
-      "wpackagist-plugin/disable-comments": "1.4",
-      "wpackagist-plugin/wordpress-seo": "3.0.7",
-      "wpackagist-plugin/user-role-editor": "4.22"
+      "wpackagist-plugin/cmb2": "2.2.2.1",
+      "wpackagist-plugin/options-framework": "~1.8.5",
+      "wpackagist-plugin/duplicate-post": "~2.6",
+      "wpackagist-plugin/regenerate-thumbnails": "~2.2.6",
+      "wpackagist-plugin/better-wp-security": "~5.6.0",
+      "wpackagist-plugin/redirection": "~2.4.3",
+      "wpackagist-plugin/disable-comments": "~1.5",
+      "wpackagist-plugin/wordpress-seo": "~3.4.0",
+      "wpackagist-plugin/user-role-editor": "~4.22"
   }
 }
