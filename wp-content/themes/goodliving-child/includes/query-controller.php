@@ -6,10 +6,23 @@
 function site_query_controller($query) {
 
     //don't want to affect admin pages!
-
     if(!is_admin()) :
 
+
+
         if($query->is_main_query()) : // don't affect custom queries that we might be running
+
+            //// override the default theme search ordering slighty to order by meta_value_num as the behaves more predictably than the default meta_value
+            if(is_search()):
+                if(null == $query->query_vars['meta_key'] || $query->$query_vars['meta_key'] == ''):
+                    $query->set('orderby', 'meta_value_num');
+                    $query->set('meta_key', 'property_price');
+                endif;
+                if(isset($query->query_vars['meta_key']) && $query->query_vars['meta_key'] == 'property_price'):
+                    $query->set('orderby', 'meta_value_num');
+                endif;
+            endif;
+
 
             //Global params, will affect all querys on the site. Set these to fairly ubiquitous values.
             // We use alphabetical ordering for most post types.
@@ -43,7 +56,7 @@ function site_query_controller($query) {
 
             // Conditionalise for a CPT Tax/term archive
 
-            if(is_tax('property_type') || is_front_page() || is_home() || is_post_type_archive('property') ) :
+            /*if(is_tax('property_type') || is_front_page() || is_home() || is_post_type_archive('property') || is_search()) :
 
                 $tax_query = array(
                      array(
@@ -56,7 +69,8 @@ function site_query_controller($query) {
                 $query->set('posts_per_page','4');
                 $query->set('tax_query',$tax_query);
                 //$query->set('orderby','menu_order title');
-            endif;
+            endif;*/
+
 
 
            // endif; //service archive check
@@ -67,4 +81,4 @@ function site_query_controller($query) {
 
     return $query;
 }
-add_action('pre_get_posts', 'site_query_controller');
+add_action('pre_get_posts', 'site_query_controller',11);

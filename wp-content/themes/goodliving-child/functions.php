@@ -18,6 +18,6 @@ function child_theme_enqueue_styles() {
 <?php require_once('includes/theme-options.php'); ?>
 <?php require_once('includes/post-meta-override.php'); ?>
 <?php require_once('includes/custom-permalink-structure.php'); ?>
-<?php//  require_once('includes/add-meta-box.php'); ?>
+<?php require_once('includes/add-meta-box.php'); ?>
 <?php require_once('includes/manage-admin-columns.php');?>
-<?php // require_once('includes/query-controller.php');?>
+<?php require_once('includes/query-controller.php');?>

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3b5b28fa2cb1df6569a52b8e8d7cfeab",
-    "content-hash": "7e41201c453d4d8d9a75444d6483e6b1",
+    "hash": "da97444f5a120ae8cd02f4f4f1393a5d",
+    "content-hash": "7372df0bcd77c693e3e3ef7371e7c013",
     "packages": [
         {
             "name": "composer/installers",
@@ -111,15 +111,15 @@
         },
         {
             "name": "wpackagist-plugin/better-wp-security",
-            "version": "5.6.0",
+            "version": "5.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/better-wp-security/",
-                "reference": "tags/5.6.0"
+                "reference": "tags/5.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/better-wp-security.5.6.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/better-wp-security.5.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -151,15 +151,15 @@
         },
         {
             "name": "wpackagist-plugin/disable-comments",
-            "version": "1.5",
+            "version": "1.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disable-comments/",
-                "reference": "tags/1.5"
+                "reference": "tags/1.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-comments.1.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-comments.1.5.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -250,6 +250,26 @@
             "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
         },
         {
+            "name": "wpackagist-plugin/transposh-translation-filter-for-wordpress",
+            "version": "0.9.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/transposh-translation-filter-for-wordpress/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/transposh-translation-filter-for-wordpress.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/transposh-translation-filter-for-wordpress/"
+        },
+        {
             "name": "wpackagist-plugin/user-role-editor",
             "version": "4.26.3",
             "source": {
@@ -271,15 +291,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.4.1",
+            "version": "3.4.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.4.1"
+                "reference": "tags/3.4.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.4.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.4.2.zip",
                 "reference": null,
                 "shasum": null
             },

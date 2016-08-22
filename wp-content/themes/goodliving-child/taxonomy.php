@@ -100,7 +100,7 @@ if($term_object):
       array(
           'taxonomy' => 'property_status',
           'field' => 'slug',
-          'terms' => array( 'rented' ),
+          'terms' => array( 'rented', 'sold' ),
           'operator'=> 'NOT IN'
       )
 	);

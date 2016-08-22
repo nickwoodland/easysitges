@@ -71,7 +71,7 @@ $price_panel_form_class = $is_price_panel_shown ? 'active' : '';
     */
     // -- ranges for price drop downs --
     $min_sale_price_options = array("50000","100000","200000","300000","400000","500000","600000","700000","800000","900000","1000000","2000000","3000000","4000000","5000000");
-    $max_sale_price_options = array("100000","200000","300000","400000","500000","600000","700000","800000","900000","1000000","2000000","3000000","4000000","5000000","10000000");
+    $max_sale_price_options = array("100000","200000","300000","400000","500000","600000","700000","800000","900000","1000000","2000000","3000000","4000000","5000000","10000000","50000000","100000000");
 
     $min_longterm_rent_monthly_options = array("250","500","750","1000","1250","1500","2000","2500","3000","4000","5000");
     $max_longterm_rent_monthly_options = array("500","750","1000","1250","1500","2000","2500","3000","4000","5000","10000");
@@ -140,7 +140,7 @@ $price_panel_form_class = $is_price_panel_shown ? 'active' : '';
   <?php endif; ?>
   <input type="hidden" name="s" value="<?php if ( $keyword != '' ) { echo $keyword; } ?>" placeholder="<?php _e(get_option('colabs_search_keyword_text'), 'colabsthemes'); ?>">
   <input type="hidden" name="size_min" value="0">
-  <input type="hidden" name="size_max" value="9999">
+  <input type="hidden" name="size_max" value="99999">
 </form>
 </div><!-- #default-search -->
 

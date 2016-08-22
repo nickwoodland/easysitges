@@ -100,7 +100,7 @@
 						'menu_class' => 'menu'
 			) ); ?>
     </nav><!-- .main-menu -->
-    <?php if(is_front_page() || is_tax('property_type')): ?>
+    <?php if(is_front_page() || is_tax('property_type') || is_search()): ?>
         <div class="property-ordering">
               <select id="propertyorder" name="propertyorder">
 
@@ -135,8 +135,8 @@
     				function onOrderChange() {
                         if ( dropdown.options[dropdown.selectedIndex].value != '' ) {
                           // If on search page
-                          if( window.location.search.indexOf('?s=') != -1 ) {
-        								    window.location.href = window.location.href + '&propertyorder=' + dropdown.options[dropdown.selectedIndex].value;
+                          if( ( window.location.search.indexOf('?property_types=') != -1 ) || ( window.location.search.indexOf('&location_names') != -1 ) ) {
+        						window.location.href = window.location.href + '&propertyorder=' + dropdown.options[dropdown.selectedIndex].value;
                           } else {
                             window.location.href = window.location.origin + window.location.pathname + '?propertyorder=' + dropdown.options[dropdown.selectedIndex].value;
                           }

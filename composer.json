@@ -27,6 +27,8 @@
       "wpackagist-plugin/redirection": "~2.4.3",
       "wpackagist-plugin/disable-comments": "~1.5",
       "wpackagist-plugin/wordpress-seo": "~3.4.0",
-      "wpackagist-plugin/user-role-editor": "~4.22"
+      "wpackagist-plugin/user-role-editor": "~4.22",
+      "wpackagist-plugin/transposh-translation-filter-for-wordpress": "~0.9.6",
+      "wpackagist-plugin/lingotek-translation": "1.2.2"
   }
 }
