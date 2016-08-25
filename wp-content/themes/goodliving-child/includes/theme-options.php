@@ -872,7 +872,7 @@ $colabs_metaboxes[] = array (	"name" => "layout",
 
 if ( ( get_post_type() == 'agent') || ( !get_post_type() ) ) {
 
-$colabs_metaboxes[] = array (  "name"  => "colabs_legcay_id_agent",
+$colabs_metaboxes[] = array (  "name"  => "colabs_legacy_id_agent",
 					            "std"  => "",
 					            "label" => __("Agent LEgacy ID","colabsthemes"),
 					            "type" => "text",

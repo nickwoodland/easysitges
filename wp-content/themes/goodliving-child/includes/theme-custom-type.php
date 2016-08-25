@@ -25,7 +25,7 @@ function colabs_register_post_type() {
 		'description'         => __( 'Property Custom Post Type', 'colabsthemes' ),
 		'labels'              => $labels,
 		'supports'            => array( 'title', 'editor', 'author', 'thumbnail', 'comments', ),
-    'taxonomies'          => array( 'property_type', 'property_location', 'property_status', 'property_features' ),
+        'taxonomies'          => array( 'property_type', 'property_location', 'property_status', 'property_features' ),
 		'hierarchical'        => false,
 		'public'              => true,
 		'show_ui'             => true,
@@ -73,7 +73,7 @@ function colabs_register_post_type() {
 		'has_archive'         => true,
 		'exclude_from_search' => false,
 		'publicly_queryable'  => true,
-		'capability_type'     => 'page',
+		'capability_type'     => 'post',
 	);
 	register_post_type( 'agent', $agent_args );
 

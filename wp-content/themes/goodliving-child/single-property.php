@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <div class="single-prop-top clearfix">
 	<?php colabs_breadcrumbs(array('separator' => '&mdash;', 'before' => ''));?><!-- .colabs-breadcrumbs -->
 	<div class="history-link">

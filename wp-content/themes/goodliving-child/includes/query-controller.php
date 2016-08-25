@@ -14,6 +14,27 @@ function site_query_controller($query) {
 
             //// override the default theme search ordering slighty to order by meta_value_num as the behaves more predictably than the default meta_value
             if(is_search()):
+
+                $tax_query = array(
+                    array(
+                      'taxonomy' => 'property_status',
+                      'field' => 'slug',
+                      'terms' => array( 'rented', 'sold' ),
+                      'operator'=> 'NOT IN'
+                    )
+                );
+
+                //print_r($query->query_vars['tax_query']);
+                $current_tax_q = $query->query_vars['tax_query'];
+
+                if($current_tax_q) :
+                    $tax_query['relation'] = 'AND';
+                    $tax_query[] = $current_tax_q;
+
+                endif;
+
+                $query->set('tax_query', $tax_query);
+
                 if(null == $query->query_vars['meta_key'] || $query->$query_vars['meta_key'] == ''):
                     $query->set('orderby', 'meta_value_num');
                     $query->set('meta_key', 'property_price');

@@ -77,12 +77,12 @@ function colabs_child_taxonomy_register() {
 	);
 	$property_status_args = array(
 		'labels'                     => $property_status_labels,
-		'hierarchical'               => true,
+		'hierarchical'               => false,
 		'public'                     => true,
 		'show_ui'                    => true,
-		'show_admin_column'          => false,
+		'show_admin_column'          => true,
 		'show_in_nav_menus'          => true,
-		'show_tagcloud'              => false,
+		'show_tagcloud'              => true,
 	);
 register_taxonomy( 'property_status', array( 'property' ), $property_status_args );
 

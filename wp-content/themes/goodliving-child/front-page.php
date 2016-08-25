@@ -78,14 +78,14 @@
         );
     }
 
-     $args['tax_query'] = array(
+     /*$args['tax_query'] = array(
           array(
               'taxonomy' => 'property_status',
               'field' => 'slug',
-              'terms' => array( 'rented', 'sold' ),
+              //'terms' => array( 'rented', 'sold' ),
               'operator'=> 'NOT IN'
           )
-      );
+      );*/
 
 	$latestproperties = new WP_Query($args);
 	if ( $latestproperties->have_posts() ) :
