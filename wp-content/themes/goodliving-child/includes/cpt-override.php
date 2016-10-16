@@ -84,6 +84,11 @@ function remove_my_cpt() {
     remove_action( 'init',  'colabs_register_post_type', 0);
 }
 add_action( 'after_setup_theme' , 'remove_my_cpt' );
+function remove_expire_cron(){
+    remove_action( 'init', 'colabs_schedule_properties_prune' );
+}
+add_action( 'after_setup_theme' , 'remove_expire_cron' );
+
 
 // Hook into the 'init' action
 add_action( 'init', 'colabs_child_register_post_type', 0 );
